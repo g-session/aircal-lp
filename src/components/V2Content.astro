@@ -134,36 +134,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </section>
 
   {/* ============================================================
-       5) 取り戻す①: 開かない UX (Widget)
+       5) 取り戻す①: 統合ビュー (Google Calendar)
        ============================================================ */}
   <section class="feature">
     <div class="container feature-inner">
       <div class="feature-copy">
-        <p class="feature-tag">取り戻す ① / 朝の 23 秒</p>
-        <h3 class="feature-h">
-          もう、開かなくていい。
-        </h3>
-        <p class="body">
-          ホーム画面に予定が並ぶウィジェット。
-          ロック画面でも、ちらっと見るだけで今日がわかります。
-        </p>
-        <p class="body feature-body-2">
-          奪われていた年 2 時間が、まず戻ってきます。
-        </p>
-      </div>
-      <div class="feature-image">
-        <img src={`${base}/images/screenshots/05-widget.png`} alt="ホーム画面ウィジェット" />
-      </div>
-    </div>
-  </section>
-
-  {/* ============================================================
-       6) 取り戻す②: 統合ビュー (Google Calendar + 共有)
-       ============================================================ */}
-  <section class="feature feature-reverse">
-    <div class="container feature-inner">
-      <div class="feature-copy">
-        <p class="feature-tag">取り戻す ② / 年 10 回の「忘れてた」</p>
+        <p class="feature-tag">取り戻す ① / 年 10 回の「忘れてた」</p>
         <h3 class="feature-h">
           仕事も家族も、<br />ひとつの画面に。
         </h3>
@@ -182,12 +158,12 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   </section>
 
   {/* ============================================================
-       7) 取り戻す③: 47 テーマ
+       6) 取り戻す②: 47 テーマ
        ============================================================ */}
-  <section class="feature">
+  <section class="feature feature-reverse">
     <div class="container feature-inner">
       <div class="feature-copy">
-        <p class="feature-tag">取り戻す ③ / 年 3,650 回の画面</p>
+        <p class="feature-tag">取り戻す ② / 年 3,650 回の画面</p>
         <h3 class="feature-h">
           開くたび、<br />気分が上がる画面に。
         </h3>
@@ -201,6 +177,30 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
       </div>
       <div class="feature-image">
         <img src={`${base}/images/screenshots/04-themes.png`} alt="カラーテーマ" />
+      </div>
+    </div>
+  </section>
+
+  {/* ============================================================
+       7) 取り戻す③: 開かない UX (Widget) — Hero と接続するクライマックス
+       ============================================================ */}
+  <section class="feature">
+    <div class="container feature-inner">
+      <div class="feature-copy">
+        <p class="feature-tag">取り戻す ③ / 朝の 23 秒</p>
+        <h3 class="feature-h">
+          そして、<br />もう、開かなくていい。
+        </h3>
+        <p class="body">
+          ホーム画面に予定が並ぶウィジェット。
+          ロック画面でも、ちらっと見るだけで今日がわかります。
+        </p>
+        <p class="body feature-body-2">
+          冒頭で描いた、あの朝が、ここで戻ってきます。
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src={`${base}/images/screenshots/05-widget.png`} alt="ホーム画面ウィジェット" />
       </div>
     </div>
   </section>
