@@ -1,0 +1,81 @@
+---
+import type { Locale } from '../i18n';
+import { localeLabels, pathFor } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const otherLocale: Locale = locale === 'ja' ? 'en' : 'ja';
+---
+
+<header class="site-header">
+  <div class="container row">
+    <a class="brand" href={pathFor(locale)} aria-label="aircal">
+      aircal
+    </a>
+
+    <nav class="nav">
+      <a class="lang" href={pathFor(otherLocale)} hreflang={otherLocale}>
+        <span aria-hidden="true">●</span>
+        {localeLabels[otherLocale]}
+      </a>
+    </nav>
+  </div>
+</header>
+
+<style>
+  .site-header {
+    position: sticky;
+    top: 0;
+    z-index: 50;
+    background: color-mix(in srgb, var(--bg) 80%, transparent);
+    backdrop-filter: saturate(160%) blur(12px);
+    -webkit-backdrop-filter: saturate(160%) blur(12px);
+    border-bottom: 1px solid var(--border);
+  }
+
+  .row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+
+  .brand {
+    font-family: var(--font-en);
+    font-weight: 900;
+    font-size: 18px;
+    letter-spacing: -0.02em;
+  }
+
+  .nav {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .lang {
+    display: inline-flex;
+    align-items: center;
+    gap: 8px;
+    padding: 8px 14px;
+    border: 1px solid var(--border);
+    border-radius: 999px;
+    font-size: 13px;
+    font-weight: 500;
+    color: var(--fg);
+    transition: background-color 0.2s ease, border-color 0.2s ease;
+  }
+
+  .lang:hover {
+    background: var(--bg-soft);
+    border-color: var(--fg-faint);
+  }
+
+  .lang span {
+    color: var(--fg-faint);
+    font-size: 10px;
+  }
+</style>

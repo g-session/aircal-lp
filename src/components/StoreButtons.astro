@@ -1,0 +1,123 @@
+---
+import type { Locale } from '../i18n';
+import { getDict, storeLinks } from '../i18n';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const dict = getDict(locale);
+
+const appStoreSubtitle = locale === 'ja' ? 'App Storeで' : 'Download on the';
+const appStoreTitle = locale === 'ja' ? 'ダウンロード' : 'App Store';
+const googleSubtitle = locale === 'ja' ? 'Google Playで手に入れよう' : 'GET IT ON';
+const googleTitle = locale === 'ja' ? 'Google Play' : 'Google Play';
+---
+
+<div class="store-buttons">
+  <a
+    class="store-btn"
+    href={storeLinks.appStore}
+    aria-label={dict.hero.storeAriaApp}
+    target="_blank"
+    rel="noopener"
+  >
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="currentColor"
+        d="M17.05 12.04c-.02-2.13 1.74-3.16 1.82-3.21-.99-1.45-2.54-1.65-3.09-1.68-1.31-.13-2.56.77-3.23.77-.67 0-1.7-.75-2.79-.73-1.44.02-2.76.83-3.5 2.11-1.49 2.59-.38 6.42 1.08 8.53.71 1.03 1.56 2.19 2.66 2.15 1.07-.04 1.48-.69 2.78-.69 1.3 0 1.66.69 2.79.67 1.15-.02 1.88-1.05 2.59-2.09.81-1.2 1.15-2.36 1.17-2.42-.03-.01-2.25-.86-2.28-3.41ZM14.95 5.6c.59-.71.99-1.7.88-2.69-.85.03-1.88.57-2.49 1.28-.55.63-1.03 1.64-.9 2.6.95.07 1.93-.48 2.51-1.19Z"
+      />
+    </svg>
+    <span class="text">
+      <span class="sub">{appStoreSubtitle}</span>
+      <span class="title">{appStoreTitle}</span>
+    </span>
+  </a>
+
+  <a
+    class="store-btn"
+    href={storeLinks.googlePlay}
+    aria-label={dict.hero.storeAriaGoogle}
+    target="_blank"
+    rel="noopener"
+  >
+    <svg class="icon" viewBox="0 0 24 24" aria-hidden="true">
+      <path
+        fill="#34A853"
+        d="M3.6 2.3c-.4.4-.6 1-.6 1.7v16c0 .7.2 1.3.6 1.7l9.2-9.2L3.6 2.3Z"
+      />
+      <path fill="#FBBC05" d="m17.2 8.4-3.6 3.6 3.6 3.6 4.5-2.6c1.3-.7 1.3-2.6 0-3.3l-4.5-2.6Z" />
+      <path fill="#EA4335" d="M3.6 2.3 12.8 11.5l4.4-3-12-7c-.6-.3-1.2-.3-1.6.8Z" />
+      <path fill="#4285F4" d="M3.6 22 12.8 12.8l4.4 3-12 7c-.6.3-1.2.3-1.6-.8Z" />
+    </svg>
+    <span class="text">
+      <span class="sub">{googleSubtitle}</span>
+      <span class="title">{googleTitle}</span>
+    </span>
+  </a>
+</div>
+
+<style>
+  .store-buttons {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 12px;
+    justify-content: center;
+  }
+
+  .store-btn {
+    display: inline-flex;
+    align-items: center;
+    gap: 12px;
+    padding: 12px 22px;
+    background: var(--fg);
+    color: var(--bg);
+    border-radius: 12px;
+    min-width: 200px;
+    transition: transform 0.15s ease, opacity 0.2s ease;
+  }
+
+  .store-btn:hover {
+    transform: translateY(-1px);
+    opacity: 0.92;
+  }
+
+  .icon {
+    width: 28px;
+    height: 28px;
+    flex: 0 0 auto;
+  }
+
+  .text {
+    display: flex;
+    flex-direction: column;
+    line-height: 1.1;
+    text-align: left;
+  }
+
+  .sub {
+    font-family: var(--font-en);
+    font-size: 11px;
+    font-weight: 400;
+    opacity: 0.85;
+  }
+
+  :global(:lang(ja)) .sub {
+    font-family: var(--font-jp);
+    font-size: 10px;
+  }
+
+  .title {
+    font-family: var(--font-en);
+    font-size: 19px;
+    font-weight: 700;
+    letter-spacing: -0.01em;
+    margin-top: 2px;
+  }
+
+  :global(:lang(ja)) .title {
+    font-family: var(--font-jp);
+    font-size: 17px;
+  }
+</style>

@@ -1,0 +1,10 @@
+---
+import Base from '../../layouts/Base.astro';
+import PageContent from '../../components/PageContent.astro';
+
+const locale = 'en' as const;
+---
+
+<Base locale={locale}>
+  <PageContent locale={locale} />
+</Base>
