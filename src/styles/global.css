@@ -1,0 +1,142 @@
+/* =========================================================
+   aircal LP — global styles
+   ========================================================= */
+
+:root {
+  --bg: #ffffff;
+  --bg-soft: #fafafa;
+  --fg: #0f0f10;
+  --fg-muted: #6b6b70;
+  --fg-faint: #b5b5b8;
+  --border: #ececef;
+  --accent: #0f0f10;
+  --max-w: 1080px;
+  --gap-section: clamp(56px, 9vw, 96px);
+  --font-jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
+  --font-en: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+}
+
+@media (prefers-color-scheme: dark) {
+  :root {
+    --bg: #0a0a0b;
+    --bg-soft: #131315;
+    --fg: #f5f5f6;
+    --fg-muted: #9a9aa0;
+    --fg-faint: #525258;
+    --border: #1f1f22;
+    --accent: #f5f5f6;
+  }
+}
+
+*,
+*::before,
+*::after {
+  box-sizing: border-box;
+}
+
+html {
+  -webkit-text-size-adjust: 100%;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  scroll-behavior: smooth;
+}
+
+body {
+  margin: 0;
+  background: var(--bg);
+  color: var(--fg);
+  font-family: var(--font-en), var(--font-jp);
+  font-feature-settings: "palt" 1;
+  line-height: 1.75;
+  font-size: 16px;
+}
+
+:lang(ja) {
+  font-family: var(--font-jp);
+}
+
+img,
+svg {
+  display: block;
+  max-width: 100%;
+  height: auto;
+}
+
+a {
+  color: inherit;
+  text-decoration: none;
+}
+
+button {
+  font: inherit;
+  cursor: pointer;
+}
+
+/* ---------------------------------------------------------
+   Layout container
+   --------------------------------------------------------- */
+.container {
+  width: 100%;
+  max-width: var(--max-w);
+  margin-inline: auto;
+  padding-inline: 24px;
+}
+
+@media (min-width: 768px) {
+  .container {
+    padding-inline: 40px;
+  }
+}
+
+/* ---------------------------------------------------------
+   Section divider
+   --------------------------------------------------------- */
+.divider {
+  height: 1px;
+  width: 100%;
+  background: var(--border);
+  margin: 0;
+}
+
+/* ---------------------------------------------------------
+   Typography helpers
+   --------------------------------------------------------- */
+.eyebrow {
+  font-family: var(--font-en);
+  font-size: 13px;
+  font-weight: 500;
+  letter-spacing: 0.08em;
+  color: var(--fg-muted);
+  text-transform: uppercase;
+}
+
+.h1 {
+  font-size: clamp(48px, 12vw, 128px);
+  font-weight: 500;
+  letter-spacing: -0.02em;
+  line-height: 0.95;
+  margin: 0;
+}
+
+.h2 {
+  font-size: clamp(28px, 4.4vw, 44px);
+  font-weight: 800;
+  letter-spacing: -0.02em;
+  line-height: 1.2;
+  margin: 0;
+}
+
+.lead {
+  font-size: clamp(17px, 1.8vw, 20px);
+  color: var(--fg);
+  line-height: 1.8;
+  margin: 0;
+  white-space: pre-line;
+}
+
+.body {
+  font-size: 16px;
+  color: var(--fg-muted);
+  line-height: 1.85;
+  margin: 0;
+}
