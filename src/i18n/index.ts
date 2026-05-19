@@ -28,9 +28,11 @@ export function externalUrls(locale: Locale) {
 }
 
 type ContactItem = { label: string; value: string; href: string };
+type IntroLink = { text: string; href: string };
+type Intro = string | { before: string; link: IntroLink; after: string };
 type ContactSection = {
   heading: string;
-  intro: string;
+  intro: Intro;
   items: ContactItem[];
 };
 
@@ -136,8 +138,14 @@ const ja: Dict = {
     sections: [
       {
         heading: 'aircal のご利用に関するお問い合わせ',
-        intro:
-          'お問い合わせの前に、まずヘルプをご確認ください。お問い合わせは以下の窓口からお願いいたします。',
+        intro: {
+          before: 'お問い合わせの前に、まず',
+          link: {
+            text: 'ヘルプ',
+            href: 'https://g-session.github.io/aircal-help/ja/',
+          },
+          after: 'をご確認ください。お問い合わせは以下の窓口からお願いいたします。',
+        },
         items: [
           {
             label: 'メール',
@@ -262,8 +270,14 @@ const en: Dict = {
     sections: [
       {
         heading: 'About using aircal',
-        intro:
-          'Before reaching out, please take a look at our help docs. For everything else, the following channels are open:',
+        intro: {
+          before: 'Before reaching out, please take a look at our ',
+          link: {
+            text: 'help docs',
+            href: 'https://g-session.github.io/aircal-help/en/',
+          },
+          after: '. For everything else, the following channels are open:',
+        },
         items: [
           {
             label: 'Email',

@@ -39,7 +39,19 @@ const sectionId = (index: number) => `section-${index + 1}`;
       dict.contact.sections.map((s, i) => (
         <section class="section" id={sectionId(i)}>
           <h2 class="section-heading">{s.heading}</h2>
-          <p class="section-intro">{s.intro}</p>
+          <p class="section-intro">
+            {typeof s.intro === 'string' ? (
+              s.intro
+            ) : (
+              <>
+                {s.intro.before}
+                <a class="inline-link" href={s.intro.link.href} target="_blank" rel="noopener">
+                  {s.intro.link.text}
+                </a>
+                {s.intro.after}
+              </>
+            )}
+          </p>
           <ul class="items">
             {s.items.map((item) => (
               <li>
@@ -152,6 +164,18 @@ const sectionId = (index: number) => `section-${index + 1}`;
     color: var(--fg-muted);
     margin: 0 0 20px;
     line-height: 1.85;
+  }
+
+  .section-intro .inline-link {
+    color: var(--fg);
+    text-decoration: underline;
+    text-underline-offset: 3px;
+    text-decoration-color: var(--fg-faint);
+    transition: text-decoration-color 0.15s ease;
+  }
+
+  .section-intro .inline-link:hover {
+    text-decoration-color: var(--fg);
   }
 
   .items {
