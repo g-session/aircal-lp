@@ -1,0 +1,13 @@
+---
+import Base from '../../layouts/Base.astro';
+import V2Content from '../../components/V2Content.astro';
+
+const locale = 'ja' as const;
+const title = 'aircal — 奪われていた朝を、取り戻す。';
+const description =
+  '標準カレンダーがあなたから奪い続けている、年 2 時間 20 分。10 回の「忘れてた」。3,650 回の無感情。aircal は、それらを取り戻すためにあります。';
+---
+
+<Base locale={locale} title={title} description={description}>
+  <V2Content locale={locale} />
+</Base>

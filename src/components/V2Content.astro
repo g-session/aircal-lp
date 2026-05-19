@@ -1,0 +1,487 @@
+---
+import type { Locale } from '../i18n';
+import Header from './Header.astro';
+import Footer from './Footer.astro';
+import StoreButtons from './StoreButtons.astro';
+
+interface Props {
+  locale: Locale;
+}
+
+const { locale } = Astro.props;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+---
+
+<Header locale={locale} />
+
+<main class="v2">
+  {/* ============================================================
+       1) HERO — 理想を五感の解像度で描写
+       ============================================================ */}
+  <section class="hero">
+    <div class="container inner">
+      <p class="eyebrow">これは、奪われていた朝の話。</p>
+
+      <h1 class="h1 headline">
+        枕元の iPhone を<br />ひと撫でしただけで、<br />今日が、もう、終わっている。
+      </h1>
+
+      <div class="lead-block">
+        <p class="lead">
+          朝 7 時。目覚ましの 3 分前。<br />
+          ベッドの中で iPhone を引き寄せ、ロックも解かずにホーム画面の右下をちらりと見る。
+        </p>
+        <p class="lead">
+          ──「10:00 定例」「14:30 歯医者」「19:00 妻と外食」。
+        </p>
+        <p class="lead">
+          アプリは、まだ、ひとつも開いていない。<br />
+          それでもベッドを出るころには、頭の中で 1 日の輪郭が組み上がっている。<br />
+          今日、迷う時間は、もう、ない。
+        </p>
+      </div>
+
+      <p class="hero-note">
+        この朝は、aircal を使い始めた人が、3 日目で手に入れる景色です。
+      </p>
+    </div>
+  </section>
+
+  <div class="divider" />
+
+  {/* ============================================================
+       2) その理想を、数字ごと奪う
+       ============================================================ */}
+  <section class="strip strip-steal">
+    <div class="container">
+      <p class="eyebrow eyebrow-warn">ただし、</p>
+      <h2 class="h2 steal-title">
+        あなたが今のカレンダーを<br />開き続ける限り、<br />
+        この朝は、来ません。
+      </h2>
+
+      <p class="body steal-body">
+        標準カレンダーを開く。読み込みを待つ。今日に飛ぶ。1 日分の予定をスクロールして確認する。<br />
+        この一連の動作に、毎朝 平均 <strong>23 秒</strong>。
+      </p>
+      <p class="body steal-body">
+        365 日で、<strong>2 時間 20 分</strong>。<br />
+        来年も、再来年も、その先も。<br />
+        あなたは「予定を見るための作業」に、毎年 まる半日を溶かし続けます。
+      </p>
+    </div>
+  </section>
+
+  <div class="divider" />
+
+  {/* ============================================================
+       3) 損失の積み上げ — 3つの軸
+       ============================================================ */}
+  <section class="losses">
+    <div class="container">
+      <p class="eyebrow">奪われ続けているもの</p>
+      <h2 class="h2 losses-title">
+        失っているのは、時間だけではありません。
+      </h2>
+
+      <div class="loss-grid">
+        <article class="loss-card">
+          <p class="loss-num">01</p>
+          <h3 class="loss-h">毎朝の、23 秒。</h3>
+          <p class="loss-body">
+            開く、待つ、スクロールする。1 回の動作はわずかでも、年間で <strong>2 時間以上</strong>。
+            あなたはこの「見るための作業」を、退職するまで、何百時間ぶん、まだ払い続けますか。
+          </p>
+        </article>
+
+        <article class="loss-card">
+          <p class="loss-num">02</p>
+          <h3 class="loss-h">気づけなかった、ダブルブッキング。</h3>
+          <p class="loss-body">
+            仕事用のカレンダーと、家族のカレンダー。別々に開くから、別々のままになる。<br />
+            子どもの参観日に商談を入れた日のことを、覚えていますか。<br />
+            あの「あ、忘れてた」は、年に <strong>10 回以上</strong>、これからも積み上がります。
+          </p>
+        </article>
+
+        <article class="loss-card">
+          <p class="loss-num">03</p>
+          <h3 class="loss-h">1 日 10 回、無感情に開く画面。</h3>
+          <p class="loss-body">
+            あなたが 1 日にカレンダーを開く回数は、平均 10 回前後。<br />
+            年 <strong>3,650 回</strong>。10 年で <strong>36,500 回</strong>。<br />
+            その全てを、無機質な初期設定の灰色で済ませますか。
+          </p>
+        </article>
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" />
+
+  {/* ============================================================
+       4) 奪い返す手段 — aircal
+       ============================================================ */}
+  <section class="reclaim">
+    <div class="container">
+      <p class="eyebrow">取り戻す手段</p>
+      <h2 class="h2 reclaim-title">
+        奪われていた朝を、<br />
+        明日から、自分の手に取り戻す。
+      </h2>
+      <p class="body reclaim-body">
+        aircal は「新しい機能を足すアプリ」ではありません。<br />
+        他のカレンダーがあなたから奪っていた <strong>時間・見落とし・気分</strong> を、ひとつずつ取り戻す装置です。
+      </p>
+    </div>
+  </section>
+
+  {/* ============================================================
+       5) 取り戻す①: 開かない UX (Widget)
+       ============================================================ */}
+  <section class="feature">
+    <div class="container feature-inner">
+      <div class="feature-copy">
+        <p class="feature-tag">取り戻す ① / 朝の 23 秒</p>
+        <h3 class="feature-h">
+          ホーム画面の窓だけで、<br />今日が終わる。
+        </h3>
+        <p class="body">
+          日・週・月のウィジェットを置いた瞬間から、あなたはもう、カレンダーアプリを「開く」必要がありません。
+          ロック画面のひと目、ホーム画面のひと撫で。それで完了する朝が、明日から始まります。
+        </p>
+        <p class="body feature-body-2">
+          奪われていた年 2 時間。これが、最初に戻ってくるものです。
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src={`${base}/images/screenshots/05-widget.png`} alt="ホーム画面ウィジェット" />
+      </div>
+    </div>
+  </section>
+
+  {/* ============================================================
+       6) 取り戻す②: 統合ビュー (Google Calendar + 共有)
+       ============================================================ */}
+  <section class="feature feature-reverse">
+    <div class="container feature-inner">
+      <div class="feature-copy">
+        <p class="feature-tag">取り戻す ② / 年 10 回の「忘れてた」</p>
+        <h3 class="feature-h">
+          仕事と家族を、<br />ひとつの画面に、戻す。
+        </h3>
+        <p class="body">
+          Google カレンダーと双方向で同期し、複数アカウントをそのまま重ね合わせます。<br />
+          仕事の打ち合わせと、子どもの試合と、妻との外食が、同じ月の中に並ぶ。<br />
+          「あ、忘れてた」が、構造的に起きません。
+        </p>
+        <p class="body feature-body-2">
+          ダブルブッキングという概念ごと、あなたの暮らしから消えます。
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src={`${base}/images/screenshots/02-google.png`} alt="Google カレンダー連携" />
+      </div>
+    </div>
+  </section>
+
+  {/* ============================================================
+       7) 取り戻す③: 47 テーマ
+       ============================================================ */}
+  <section class="feature">
+    <div class="container feature-inner">
+      <div class="feature-copy">
+        <p class="feature-tag">取り戻す ③ / 年 3,650 回の無感情</p>
+        <h3 class="feature-h">
+          開くたび、<br />気分の上がる画面に、変える。
+        </h3>
+        <p class="body">
+          47 種類のカラーテーマ、ダークモード、曜日と週始まりの切り替え。<br />
+          あなたが今日選んだ色が、これから 3,650 回、目に飛び込んできます。
+        </p>
+        <p class="body feature-body-2">
+          毎日 10 回開くものを、「見たい画面」に置き換える。<br />これは、贅沢ではなく、損失の回復です。
+        </p>
+      </div>
+      <div class="feature-image">
+        <img src={`${base}/images/screenshots/04-themes.png`} alt="カラーテーマ" />
+      </div>
+    </div>
+  </section>
+
+  <div class="divider" />
+
+  {/* ============================================================
+       8) 最後のひと押し — 失う側に立たせる
+       ============================================================ */}
+  <section class="final">
+    <div class="container final-inner">
+      <h2 class="h2 final-title">
+        この朝を、<br />明日も手に入れないまま、<br />スクロールを閉じますか。
+      </h2>
+
+      <p class="lead final-lead">
+        ダウンロードは無料です。<br />
+        失うのは、奪われていた時間と見落としと、無感情に過ぎていく 3,650 回だけです。
+      </p>
+
+      <div class="cta-wrap">
+        <StoreButtons locale={locale} />
+      </div>
+
+      <p class="final-foot">
+        ── aircal は今日、自分の手に取り戻すために、ある。
+      </p>
+    </div>
+  </section>
+</main>
+
+<Footer locale={locale} />
+
+<style>
+  /* =========================================================
+     V2 — 「未来の強奪」フレーム LP
+     既存トーン (静かな黒/白) を踏襲しつつ、コピー構造で差別化
+     ========================================================= */
+
+  .v2 {
+    /* 全体の余白感を index と揃える */
+  }
+
+  /* ---------- Hero ---------- */
+  .hero {
+    padding: clamp(56px, 9vw, 112px) 0 clamp(48px, 8vw, 88px);
+  }
+
+  .inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 28px;
+    max-width: 820px;
+  }
+
+  .headline {
+    font-size: clamp(32px, 5.6vw, 64px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.18;
+    margin: 0;
+  }
+
+  .lead-block {
+    display: flex;
+    flex-direction: column;
+    gap: 14px;
+    max-width: 720px;
+  }
+
+  .hero-note {
+    font-size: 14px;
+    color: var(--fg-faint);
+    margin: 12px 0 0;
+    border-left: 2px solid var(--border);
+    padding-left: 14px;
+  }
+
+  /* ---------- Strip: 引き剥がし ---------- */
+  .strip-steal {
+    padding: clamp(56px, 8vw, 96px) 0;
+    background: var(--bg-soft);
+  }
+
+  .eyebrow-warn {
+    color: var(--fg);
+    font-weight: 700;
+  }
+
+  .steal-title {
+    margin: 12px 0 24px;
+    max-width: 820px;
+  }
+
+  .steal-body {
+    max-width: 720px;
+    margin-top: 16px;
+  }
+
+  .steal-body strong {
+    color: var(--fg);
+    font-weight: 800;
+    border-bottom: 2px solid var(--fg);
+    padding-bottom: 1px;
+  }
+
+  /* ---------- Losses (3 cards) ---------- */
+  .losses {
+    padding: clamp(56px, 8vw, 96px) 0;
+  }
+
+  .losses-title {
+    margin: 12px 0 40px;
+    max-width: 720px;
+  }
+
+  .loss-grid {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 24px;
+  }
+
+  @media (min-width: 860px) {
+    .loss-grid {
+      grid-template-columns: repeat(3, 1fr);
+      gap: 28px;
+    }
+  }
+
+  .loss-card {
+    border: 1px solid var(--border);
+    border-radius: 16px;
+    padding: 28px 24px;
+    background: var(--bg);
+  }
+
+  .loss-num {
+    font-family: var(--font-en);
+    font-weight: 800;
+    font-size: 13px;
+    letter-spacing: 0.08em;
+    color: var(--fg-faint);
+    margin: 0 0 16px;
+  }
+
+  .loss-h {
+    font-size: clamp(18px, 2.2vw, 22px);
+    font-weight: 800;
+    letter-spacing: -0.01em;
+    line-height: 1.4;
+    margin: 0 0 14px;
+  }
+
+  .loss-body {
+    font-size: 15px;
+    color: var(--fg-muted);
+    line-height: 1.85;
+    margin: 0;
+  }
+
+  .loss-body strong {
+    color: var(--fg);
+    font-weight: 800;
+  }
+
+  /* ---------- Reclaim intro ---------- */
+  .reclaim {
+    padding: clamp(56px, 8vw, 96px) 0 clamp(32px, 5vw, 48px);
+  }
+
+  .reclaim-title {
+    margin: 12px 0 20px;
+    max-width: 820px;
+  }
+
+  .reclaim-body {
+    max-width: 720px;
+  }
+
+  .reclaim-body strong {
+    color: var(--fg);
+    font-weight: 700;
+  }
+
+  /* ---------- Feature sections ---------- */
+  .feature {
+    padding: clamp(40px, 6vw, 72px) 0;
+  }
+
+  .feature-inner {
+    display: grid;
+    grid-template-columns: 1fr;
+    gap: 32px;
+    align-items: center;
+  }
+
+  @media (min-width: 860px) {
+    .feature-inner {
+      grid-template-columns: 1.05fr 1fr;
+      gap: 56px;
+    }
+    .feature-reverse .feature-inner {
+      grid-template-columns: 1fr 1.05fr;
+    }
+    .feature-reverse .feature-copy {
+      order: 2;
+    }
+    .feature-reverse .feature-image {
+      order: 1;
+    }
+  }
+
+  .feature-tag {
+    font-family: var(--font-en);
+    font-size: 12px;
+    font-weight: 700;
+    letter-spacing: 0.08em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin: 0 0 12px;
+  }
+
+  .feature-h {
+    font-size: clamp(24px, 3.4vw, 36px);
+    font-weight: 800;
+    letter-spacing: -0.02em;
+    line-height: 1.25;
+    margin: 0 0 18px;
+  }
+
+  .feature-body-2 {
+    margin-top: 14px;
+    color: var(--fg);
+  }
+
+  .feature-image img {
+    width: 100%;
+    border-radius: 18px;
+    box-shadow:
+      0 30px 60px -28px rgba(0, 0, 0, 0.25),
+      0 8px 20px -10px rgba(0, 0, 0, 0.08);
+  }
+
+  /* ---------- Final ---------- */
+  .final {
+    padding: clamp(72px, 11vw, 128px) 0 clamp(56px, 9vw, 96px);
+    background: var(--bg-soft);
+  }
+
+  .final-inner {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    gap: 24px;
+    max-width: 820px;
+  }
+
+  .final-title {
+    font-size: clamp(28px, 4.6vw, 48px);
+    line-height: 1.22;
+    margin: 0;
+  }
+
+  .final-lead {
+    max-width: 680px;
+    color: var(--fg-muted);
+  }
+
+  .cta-wrap {
+    margin-top: 12px;
+  }
+
+  .final-foot {
+    margin-top: 12px;
+    font-size: 14px;
+    color: var(--fg-faint);
+    letter-spacing: 0.02em;
+  }
+</style>
