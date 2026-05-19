@@ -1,0 +1,12 @@
+---
+import Base from '../../layouts/Base.astro';
+import ContactContent from '../../components/ContactContent.astro';
+import { getDict } from '../../i18n';
+
+const locale = 'en' as const;
+const dict = getDict(locale);
+---
+
+<Base locale={locale} title={dict.contact.meta.title} description={dict.contact.meta.description}>
+  <ContactContent locale={locale} />
+</Base>
