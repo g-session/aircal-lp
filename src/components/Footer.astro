@@ -1,6 +1,6 @@
 ---
 import type { Locale } from '../i18n';
-import { getDict, socialLinks } from '../i18n';
+import { getDict, socialLinks, externalUrls } from '../i18n';
 
 interface Props {
   locale: Locale;
@@ -8,11 +8,7 @@ interface Props {
 
 const { locale } = Astro.props;
 const dict = getDict(locale);
-
-const helpUrl = 'https://aircal-help.pages.dev'; // TODO: 既存 g-session/aircal-help の公開URLに置換
-const contactUrl = 'mailto:contact@nexus-inc.net';
-const termsUrl = 'https://aquamarine-trawler-f24.notion.site/27f5376deff080c8ae43e750fd23d4d8';
-const privacyUrl = 'https://aquamarine-trawler-f24.notion.site/27f5376deff0803b833ff13508b75265';
+const urls = externalUrls(locale);
 ---
 
 <footer class="footer">
@@ -57,15 +53,15 @@ const privacyUrl = 'https://aquamarine-trawler-f24.notion.site/27f5376deff0803b8
       <div class="group">
         <p class="heading">{dict.footer.supportHeading}</p>
         <ul>
-          <li><a href={helpUrl} target="_blank" rel="noopener">{dict.footer.help}</a></li>
-          <li><a href={contactUrl}>{dict.footer.contact}</a></li>
+          <li><a href={urls.help} target="_blank" rel="noopener">{dict.footer.help}</a></li>
+          <li><a href={urls.contact}>{dict.footer.contact}</a></li>
         </ul>
       </div>
       <div class="group">
         <p class="heading">{dict.footer.aboutHeading}</p>
         <ul>
-          <li><a href={termsUrl} target="_blank" rel="noopener">{dict.footer.terms}</a></li>
-          <li><a href={privacyUrl} target="_blank" rel="noopener">{dict.footer.privacy}</a></li>
+          <li><a href={urls.terms} target="_blank" rel="noopener">{dict.footer.terms}</a></li>
+          <li><a href={urls.privacy} target="_blank" rel="noopener">{dict.footer.privacy}</a></li>
         </ul>
       </div>
     </div>

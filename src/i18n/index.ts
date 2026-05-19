@@ -18,6 +18,15 @@ export const socialLinks = {
   tiktok: 'https://www.tiktok.com/@aircal_calender_app',
 } as const;
 
+export function externalUrls(locale: Locale) {
+  return {
+    help: `https://g-session.github.io/aircal-help/${locale}/`,
+    privacy: `https://g-session.github.io/aircal-privacy/privacy/${locale}/`,
+    terms: `https://g-session.github.io/aircal-privacy/terms/${locale}/`,
+    contact: 'mailto:contact@nexus-inc.net',
+  };
+}
+
 type Dict = {
   meta: { title: string; description: string };
   nav: { langSwitch: string };
