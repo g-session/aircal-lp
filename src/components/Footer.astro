@@ -9,6 +9,8 @@ interface Props {
 const { locale } = Astro.props;
 const dict = getDict(locale);
 const urls = externalUrls(locale);
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const contactPath = locale === 'ja' ? `${base}/contact/` : `${base}/${locale}/contact/`;
 ---
 
 <footer class="footer">
@@ -54,7 +56,7 @@ const urls = externalUrls(locale);
         <p class="heading">{dict.footer.supportHeading}</p>
         <ul>
           <li><a href={urls.help} target="_blank" rel="noopener">{dict.footer.help}</a></li>
-          <li><a href={urls.contact}>{dict.footer.contact}</a></li>
+          <li><a href={contactPath}>{dict.footer.contact}</a></li>
         </ul>
       </div>
       <div class="group">
@@ -132,11 +134,12 @@ const urls = externalUrls(locale);
 
   .heading {
     font-family: var(--font-en);
-    font-size: 13px;
-    font-weight: 700;
-    letter-spacing: 0.04em;
-    color: var(--fg);
-    margin: 0 0 14px;
+    font-size: 11px;
+    font-weight: 600;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: var(--fg-faint);
+    margin: 0 0 18px;
   }
 
   .group ul {

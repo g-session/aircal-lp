@@ -27,6 +27,13 @@ export function externalUrls(locale: Locale) {
   };
 }
 
+type ContactItem = { label: string; value: string; href: string };
+type ContactSection = {
+  heading: string;
+  intro: string;
+  items: ContactItem[];
+};
+
 type Dict = {
   meta: { title: string; description: string };
   nav: { langSwitch: string };
@@ -47,6 +54,13 @@ type Dict = {
     terms: string;
     privacy: string;
     copyright: string;
+  };
+  contact: {
+    meta: { title: string; description: string };
+    heading: string;
+    subheading: string;
+    tocTitle: string;
+    sections: ContactSection[];
   };
 };
 
@@ -110,6 +124,70 @@ const ja: Dict = {
     privacy: 'プライバシーポリシー',
     copyright: '© 2026 aircal',
   },
+  contact: {
+    meta: {
+      title: 'お問い合わせ — aircal',
+      description:
+        'aircal のご利用に関するお問い合わせ・各種サポート窓口のご案内。',
+    },
+    heading: 'Contact',
+    subheading: 'お問い合わせ',
+    tocTitle: '目次',
+    sections: [
+      {
+        heading: 'aircal のご利用に関するお問い合わせ',
+        intro:
+          'お問い合わせの前に、まずヘルプをご確認ください。お問い合わせは以下の窓口からお願いいたします。',
+        items: [
+          {
+            label: 'メール',
+            value: 'contact@nexus-inc.net',
+            href: 'mailto:contact@nexus-inc.net',
+          },
+          { label: 'X', value: '@aircal_app', href: 'https://x.com/aircal_app' },
+          {
+            label: 'Instagram',
+            value: '@aircal.app',
+            href: 'https://www.instagram.com/aircal.app/',
+          },
+          {
+            label: 'TikTok',
+            value: '@aircal_calender_app',
+            href: 'https://www.tiktok.com/@aircal_calender_app',
+          },
+        ],
+      },
+      {
+        heading: 'Google カレンダーに関するお問い合わせ',
+        intro:
+          'aircal は Google カレンダーと連携しています。同期や予定の表示について不明な点があれば、Google カレンダー ヘルプもあわせてご確認ください。',
+        items: [
+          {
+            label: 'Google カレンダー ヘルプ',
+            value: 'support.google.com/calendar',
+            href: 'https://support.google.com/calendar',
+          },
+        ],
+      },
+      {
+        heading: 'デバイスに関するお問い合わせ',
+        intro:
+          'iPhone / iPad / Mac の動作や iCloud に関するご質問は Apple サポート、Android の動作に関するご質問は Google サポートにて対応いただけます。',
+        items: [
+          {
+            label: 'Apple サポート',
+            value: 'support.apple.com',
+            href: 'https://support.apple.com',
+          },
+          {
+            label: 'Google サポート',
+            value: 'support.google.com',
+            href: 'https://support.google.com',
+          },
+        ],
+      },
+    ],
+  },
 };
 
 const en: Dict = {
@@ -171,6 +249,70 @@ const en: Dict = {
     terms: 'Terms of Service',
     privacy: 'Privacy Policy',
     copyright: '© 2026 aircal',
+  },
+  contact: {
+    meta: {
+      title: 'Contact — aircal',
+      description:
+        'Get in touch with the aircal team and find the right support channel.',
+    },
+    heading: 'Contact',
+    subheading: 'Get in touch',
+    tocTitle: 'Contents',
+    sections: [
+      {
+        heading: 'About using aircal',
+        intro:
+          'Before reaching out, please take a look at our help docs. For everything else, the following channels are open:',
+        items: [
+          {
+            label: 'Email',
+            value: 'contact@nexus-inc.net',
+            href: 'mailto:contact@nexus-inc.net',
+          },
+          { label: 'X', value: '@aircal_app', href: 'https://x.com/aircal_app' },
+          {
+            label: 'Instagram',
+            value: '@aircal.app',
+            href: 'https://www.instagram.com/aircal.app/',
+          },
+          {
+            label: 'TikTok',
+            value: '@aircal_calender_app',
+            href: 'https://www.tiktok.com/@aircal_calender_app',
+          },
+        ],
+      },
+      {
+        heading: 'About Google Calendar',
+        intro:
+          'aircal is built around Google Calendar. If something looks off with syncing or event display, the official Google Calendar Help is a good place to check first.',
+        items: [
+          {
+            label: 'Google Calendar Help',
+            value: 'support.google.com/calendar',
+            href: 'https://support.google.com/calendar',
+          },
+        ],
+      },
+      {
+        heading: 'About your device',
+        intro:
+          'For questions about iPhone / iPad / Mac behavior or iCloud, Apple Support can help. For Android-side questions, please reach out to Google Support.',
+        items: [
+          {
+            label: 'Apple Support',
+            value: 'support.apple.com',
+            href: 'https://support.apple.com',
+          },
+          {
+            label: 'Google Support',
+            value: 'support.google.com',
+            href: 'https://support.google.com',
+          },
+        ],
+      },
+    ],
   },
 };
 
