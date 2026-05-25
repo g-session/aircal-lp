@@ -1,0 +1,439 @@
+---
+import Base from '../layouts/Base.astro';
+import StoreButtons from '../components/StoreButtons.astro';
+import Footer from '../components/Footer.astro';
+
+const locale = 'ja' as const;
+const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const pageTitle = 'FIFA World Cup 2026 ウィジェット - aircal';
+const pageDescription =
+  'FIFA World Cup 2026 の試合日程をホーム画面から確認。日本代表の次の試合、カウントダウン、全試合日程をaircalのウィジェットで。';
+---
+
+<Base locale={locale} title={pageTitle} description={pageDescription}>
+  <div class="worldcup-shell" style={`--worldcup-image: url('${base}/images/worldcup2026/worldcupwidget.png')`}>
+    <header class="campaign-header">
+      <div class="container header-row">
+        <a class="brand" href={`${base}/`} aria-label="aircal">aircal</a>
+        <a class="header-link" href="#download">ダウンロード</a>
+      </div>
+    </header>
+    <main class="worldcup-page">
+    <section class="hero-section">
+      <div class="hero-bg" aria-hidden="true"></div>
+      <div class="container hero-inner">
+        <div class="hero-copy">
+          <p class="eyebrow">FIFA World Cup 2026</p>
+          <h1>
+            W杯の次戦を、<br />
+            ホーム画面で。
+          </h1>
+          <p class="hero-lead">
+            日本代表の試合開始までのカウントダウンも、全104試合の日程も、aircalのウィジェットでひと目で確認できます。
+          </p>
+          <div class="hero-actions">
+            <StoreButtons locale={locale} />
+          </div>
+        </div>
+
+        <div class="hero-visual">
+          <img
+            src={`${base}/images/worldcup2026/worldcupwidget.png`}
+            alt="FIFA World Cup 2026 の試合日程とカウントダウンを表示した aircal のホーム画面ウィジェット"
+            width="800"
+            height="1738"
+            loading="eager"
+            decoding="async"
+          />
+        </div>
+      </div>
+    </section>
+
+    <section class="feature-band">
+      <div class="container feature-grid">
+        <div>
+          <p class="section-label">Next Match</p>
+          <h2>推しチームの次の試合に、すぐ気づける。</h2>
+        </div>
+        <p>
+          デフォルトは日本代表。ウィジェットを長押しして推しチームを選ぶだけで、次の試合、試合開始までの時間、現在試合中の状態をホーム画面に表示します。
+        </p>
+      </div>
+    </section>
+
+    <section class="feature-band app-section light">
+      <div class="container app-feature">
+        <div class="feature-copy">
+          <p class="section-label">Calendar</p>
+          <h2>普段の予定も、すっきり見やすく。</h2>
+          <p>
+            月の予定をひと目で把握できる、静かで読みやすいカレンダー。仕事、家族、プライベートの予定を、余白のある画面で自然に確認できます。
+          </p>
+        </div>
+        <figure class="app-shot">
+          <img
+            src={`${base}/images/screenshots/01-month.png`}
+            alt="aircal の月表示画面"
+            width="390"
+            height="844"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature-band app-section">
+      <div class="container app-feature reverse">
+        <div class="feature-copy">
+          <p class="section-label">Google Calendar</p>
+          <h2>Googleカレンダーと、いつものように同期。</h2>
+          <p>
+            すでに使っているGoogleカレンダーをそのまま活用。複数のカレンダーをまとめて見られるので、予定の置き場所を変えずに使い始められます。
+          </p>
+        </div>
+        <figure class="app-shot">
+          <img
+            src={`${base}/images/screenshots/02-google.png`}
+            alt="aircal のGoogleカレンダー連携画面"
+            width="390"
+            height="844"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="feature-band app-section light">
+      <div class="container app-feature">
+        <div class="feature-copy">
+          <p class="section-label">Widgets</p>
+          <h2>開かなくても、次の予定がわかる。</h2>
+          <p>
+            ホーム画面のウィジェットで、今日の予定や次の予定をさっと確認。アプリを開く前に必要な情報へたどり着けます。
+          </p>
+        </div>
+        <figure class="app-shot wide">
+          <img
+            src={`${base}/images/screenshots/05-widget.png`}
+            alt="aircal のホーム画面ウィジェット"
+            width="390"
+            height="844"
+            loading="lazy"
+            decoding="async"
+          />
+        </figure>
+      </div>
+    </section>
+
+    <section class="cta-section" id="download">
+      <div class="container cta-inner">
+        <p class="section-label">aircal</p>
+        <h2>特別なイベントも、いつもの予定も、ひとつの画面に。</h2>
+        <StoreButtons locale={locale} />
+      </div>
+    </section>
+    </main>
+    <Footer locale={locale} />
+  </div>
+</Base>
+
+<style>
+  :global(body),
+  .worldcup-shell {
+    background: #020202;
+  }
+
+  .worldcup-shell {
+    --bg: #020202;
+    --bg-soft: #121214;
+    --fg: #ffffff;
+    --fg-muted: rgba(255, 255, 255, 0.68);
+    --fg-faint: rgba(255, 255, 255, 0.42);
+    --border: rgba(255, 255, 255, 0.14);
+    --accent: #ffffff;
+    min-height: 100svh;
+    color: #ffffff;
+  }
+
+  .campaign-header {
+    position: sticky;
+    top: 0;
+    z-index: 20;
+    background: rgba(2, 2, 2, 0.72);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
+    backdrop-filter: saturate(160%) blur(14px);
+    -webkit-backdrop-filter: saturate(160%) blur(14px);
+  }
+
+  .header-row {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    height: 64px;
+  }
+
+  .brand {
+    font-family: var(--font-en);
+    font-size: 17px;
+    font-weight: 900;
+    letter-spacing: 0;
+  }
+
+  .header-link {
+    display: inline-flex;
+    align-items: center;
+    justify-content: center;
+    min-height: 38px;
+    padding: 0 16px;
+    border: 1px solid rgba(255, 255, 255, 0.18);
+    border-radius: 999px;
+    color: rgba(255, 255, 255, 0.88);
+    font-size: 12px;
+    font-weight: 700;
+  }
+
+  .worldcup-page {
+    background: #020202;
+    color: #ffffff;
+    overflow: hidden;
+  }
+
+  .hero-section {
+    position: relative;
+    min-height: calc(100svh - 64px);
+    display: grid;
+    align-items: center;
+    padding: clamp(40px, 7vw, 88px) 0 clamp(32px, 6vw, 72px);
+  }
+
+  .hero-bg {
+    position: absolute;
+    inset: 0;
+    background:
+      linear-gradient(120deg, rgba(0, 0, 0, 0.94), rgba(0, 0, 0, 0.62) 52%, rgba(0, 0, 0, 0.9)),
+      var(--worldcup-image) center / cover;
+    opacity: 0.62;
+    transform: scale(1.04);
+  }
+
+  .hero-bg::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: linear-gradient(180deg, transparent 0%, #020202 96%);
+  }
+
+  .hero-inner {
+    position: relative;
+    display: grid;
+    grid-template-columns: minmax(0, 1fr);
+    align-items: center;
+    gap: clamp(32px, 7vw, 80px);
+  }
+
+  @media (min-width: 900px) {
+    .hero-inner {
+      grid-template-columns: minmax(420px, 0.95fr) minmax(320px, 0.72fr);
+    }
+  }
+
+  .hero-copy {
+    max-width: 680px;
+  }
+
+  .eyebrow,
+  .section-label {
+    margin: 0;
+    font-family: var(--font-en);
+    font-size: 12px;
+    font-weight: 800;
+    letter-spacing: 0.14em;
+    text-transform: uppercase;
+    color: #9dd8ff;
+  }
+
+  h1,
+  h2 {
+    margin: 0;
+    letter-spacing: 0;
+    line-height: 1.08;
+    max-width: 100%;
+    overflow-wrap: anywhere;
+  }
+
+  h1 {
+    margin-top: 18px;
+    font-size: clamp(38px, 7.4vw, 76px);
+    font-weight: 900;
+    max-width: 760px;
+  }
+
+  .hero-lead {
+    max-width: 620px;
+    margin: 28px 0 0;
+    color: rgba(255, 255, 255, 0.82);
+    font-size: clamp(16px, 1.8vw, 20px);
+    line-height: 1.9;
+    overflow-wrap: anywhere;
+  }
+
+  .hero-actions {
+    margin-top: 34px;
+  }
+
+  .hero-actions :global(.store-buttons),
+  .cta-inner :global(.store-buttons) {
+    justify-content: flex-start;
+  }
+
+  .hero-actions :global(.store-btn),
+  .cta-inner :global(.store-btn) {
+    background: #ffffff;
+    color: #050505;
+  }
+
+  .hero-actions :global(.title),
+  .cta-inner :global(.title) {
+    font-size: 16px;
+  }
+
+  .hero-actions :global(.sub),
+  .cta-inner :global(.sub) {
+    font-size: 9px;
+  }
+
+  .hero-visual {
+    justify-self: center;
+    width: min(100%, 390px);
+  }
+
+  .hero-visual img {
+    width: 100%;
+    border-radius: 34px;
+    box-shadow: 0 40px 90px rgba(0, 0, 0, 0.45);
+  }
+
+  .feature-band {
+    padding: clamp(64px, 10vw, 116px) 0;
+    background: #020202;
+  }
+
+  .feature-grid,
+  .app-feature {
+    display: grid;
+    gap: clamp(28px, 6vw, 72px);
+  }
+
+  @media (min-width: 820px) {
+    .feature-grid,
+    .app-feature {
+      grid-template-columns: minmax(0, 0.9fr) minmax(0, 1fr);
+      align-items: center;
+    }
+
+    .app-feature.reverse .feature-copy {
+      order: 2;
+    }
+  }
+
+  .feature-band h2,
+  .cta-section h2 {
+    margin-top: 14px;
+    font-size: clamp(28px, 4.6vw, 50px);
+    font-weight: 900;
+  }
+
+  .feature-band p:not(.section-label),
+  .feature-copy p {
+    margin: 0;
+    color: rgba(255, 255, 255, 0.76);
+    font-size: clamp(15px, 1.65vw, 18px);
+    line-height: 1.95;
+    overflow-wrap: anywhere;
+  }
+
+  .feature-copy p:not(.section-label) {
+    margin-top: 24px;
+  }
+
+  .feature-band.light {
+    background: #f5f7fb;
+    color: #080808;
+  }
+
+  .feature-band.light .section-label {
+    color: #1852c9;
+  }
+
+  .feature-band.light p,
+  .feature-band.light .feature-copy p {
+    color: rgba(8, 8, 8, 0.68);
+  }
+
+  .app-shot {
+    margin: 0;
+    justify-self: center;
+    width: min(100%, 360px);
+  }
+
+  .app-shot.wide {
+    width: min(100%, 430px);
+  }
+
+  .app-shot img {
+    width: 100%;
+    border-radius: 30px;
+    box-shadow: 0 34px 88px rgba(0, 0, 0, 0.24);
+  }
+
+  .app-section:not(.light) .app-shot img {
+    box-shadow: 0 34px 88px rgba(0, 0, 0, 0.46);
+  }
+
+  .cta-section {
+    padding: clamp(72px, 11vw, 132px) 0;
+    background:
+      linear-gradient(rgba(0, 0, 0, 0.68), rgba(0, 0, 0, 0.86)),
+      var(--worldcup-image) center 38% / cover;
+  }
+
+  .cta-inner {
+    max-width: 760px;
+  }
+
+  .cta-inner h2 {
+    margin-bottom: 34px;
+  }
+
+  @media (max-width: 640px) {
+    .hero-section {
+      align-items: start;
+    }
+
+    h1 {
+      font-size: clamp(34px, 11vw, 43px);
+    }
+
+    .hero-actions :global(.store-buttons),
+    .cta-inner :global(.store-buttons) {
+      justify-content: stretch;
+    }
+
+    .hero-actions :global(.store-btn),
+    .cta-inner :global(.store-btn) {
+      width: 100%;
+      justify-content: center;
+    }
+
+    .hero-visual {
+      width: min(100%, 320px);
+    }
+
+    .app-shot,
+    .app-shot.wide {
+      width: min(100%, 310px);
+    }
+  }
+</style>
