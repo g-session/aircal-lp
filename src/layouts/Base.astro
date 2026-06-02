@@ -7,13 +7,21 @@ interface Props {
   locale: Locale;
   title?: string;
   description?: string;
+  /** OGP画像のパス（base からの相対）。省略時はサイト共通の OGP 画像 */
+  ogImage?: string;
 }
 
-const { locale, title, description } = Astro.props;
+const { locale, title, description, ogImage } = Astro.props;
 const dict = getDict(locale);
 const pageTitle = title ?? dict.meta.title;
 const pageDescription = description ?? dict.meta.description;
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+
+// OGP / canonical は絶対 URL が必須（Astro.site = https://g-session.github.io）
+const ogImagePath = ogImage ?? `${base}/images/ogp.png`;
+const ogImageUrl = new URL(ogImagePath, Astro.site).href;
+const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
+const ogLocale = locale === 'ja' ? 'ja_JP' : 'en_US';
 ---
 
 <!doctype html>
@@ -23,10 +31,27 @@ const base = import.meta.env.BASE_URL.replace(/\/$/, '');
     <meta name="viewport" content="width=device-width, initial-scale=1" />
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
+    <link rel="canonical" href={canonicalUrl} />
 
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />
     <meta property="og:type" content="website" />
+    <meta property="og:url" content={canonicalUrl} />
+    <meta property="og:site_name" content="aircal" />
+    <meta property="og:locale" content={ogLocale} />
+    <meta property="og:image" content={ogImageUrl} />
+    <meta property="og:image:secure_url" content={ogImageUrl} />
+    <meta property="og:image:type" content="image/png" />
+    <meta property="og:image:width" content="1200" />
+    <meta property="og:image:height" content="630" />
+    <meta property="og:image:alt" content={pageTitle} />
+
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:site" content="@aircal_app" />
+    <meta name="twitter:title" content={pageTitle} />
+    <meta name="twitter:description" content={pageDescription} />
+    <meta name="twitter:image" content={ogImageUrl} />
+    <meta name="twitter:image:alt" content={pageTitle} />
 
     <link rel="icon" type="image/svg+xml" href={`${base}/favicon.svg`} />
 
