@@ -1,10 +1,17 @@
-export const locales = ['ja', 'en'] as const;
-export type Locale = (typeof locales)[number];
+import localeConfigData from './locales.json';
+import translations from './translations.json';
 
-export const localeLabels: Record<Locale, string> = {
-  ja: '日本語',
-  en: 'English',
-};
+export type Locale = (typeof localeConfigData)[number]['code'];
+
+export const localeConfig = localeConfigData as Array<{
+  code: Locale;
+  label: string;
+  supportLocale: string;
+}>;
+export const locales: Locale[] = localeConfig.map(({ code }) => code);
+export const localeLabels = Object.fromEntries(
+  localeConfig.map(({ code, label }) => [code, label]),
+) as Record<Locale, string>;
 
 export const storeLinks = {
   appStore: 'https://apps.apple.com/app/id6746650150',
@@ -19,10 +26,15 @@ export const socialLinks = {
 } as const;
 
 export function externalUrls(locale: Locale) {
+  const supportLocale = localeConfig.find(({ code }) => code === locale)?.supportLocale;
+  if (!supportLocale) {
+    throw new Error(`Missing support locale for ${locale}.`);
+  }
+
   return {
-    help: `https://g-session.github.io/aircal-help/${locale}/`,
-    privacy: `https://g-session.github.io/aircal-privacy/privacy/${locale}/`,
-    terms: `https://g-session.github.io/aircal-privacy/terms/${locale}/`,
+    help: `https://g-session.github.io/aircal-help/${supportLocale}/`,
+    privacy: `https://g-session.github.io/aircal-privacy/privacy/${supportLocale}/`,
+    terms: `https://g-session.github.io/aircal-privacy/terms/${supportLocale}/`,
     contact: 'mailto:contact@nexus-inc.net',
   };
 }
@@ -36,7 +48,7 @@ type ContactSection = {
   items: ContactItem[];
 };
 
-type Dict = {
+export type Dict = {
   meta: { title: string; description: string };
   nav: { langSwitch: string };
   hero: {
@@ -330,15 +342,66 @@ const en: Dict = {
   },
 };
 
-export const dictionaries: Record<Locale, Dict> = { ja, en };
+function regionalEnglishDictionary(
+  colourSpelling: 'color' | 'colour',
+  customisableSpelling: 'customizable' | 'customisable',
+): Dict {
+  const features = en.features.map((feature, index) => {
+    if (index !== 3) return feature;
+    return {
+      ...feature,
+      body: feature.body
+        .replace('47 color themes', `47 ${colourSpelling} themes`)
+        .replace('quietly customizable', `quietly ${customisableSpelling}`),
+    };
+  });
+
+  return { ...en, features };
+}
+
+const regionalEnglish = {
+  'en-AU': regionalEnglishDictionary('colour', 'customisable'),
+  'en-CA': regionalEnglishDictionary('colour', 'customizable'),
+  'en-GB': regionalEnglishDictionary('colour', 'customisable'),
+} satisfies Partial<Record<Locale, Dict>>;
+
+const translated = translations as Partial<Record<Locale, Dict>>;
+export const dictionaries = {
+  ja,
+  en,
+  ...regionalEnglish,
+  ...translated,
+} as Record<Locale, Dict>;
 
 export function getDict(locale: Locale): Dict {
-  return dictionaries[locale];
+  const dict = dictionaries[locale];
+  if (!dict) {
+    throw new Error(`Missing dictionary for ${locale}.`);
+  }
+
+  const helpUrl = externalUrls(locale).help;
+  return {
+    ...dict,
+    contact: {
+      ...dict.contact,
+      sections: dict.contact.sections.map((section) => {
+        if (typeof section.intro === 'string') return section;
+        return {
+          ...section,
+          intro: {
+            ...section.intro,
+            link: { ...section.intro.link, href: helpUrl },
+          },
+        };
+      }),
+    },
+  };
 }
 
 export function pathFor(locale: Locale, path = ''): string {
   const base = import.meta.env.BASE_URL.replace(/\/$/, '');
   const localePart = locale === 'ja' ? '' : `/${locale}`;
-  const rest = path ? (path.startsWith('/') ? path : `/${path}`) : '';
+  const normalizedPath = path.replace(/^\/+|\/+$/g, '');
+  const rest = normalizedPath ? `/${normalizedPath}/` : '/';
   return `${base}${localePart}${rest}` || '/';
 }

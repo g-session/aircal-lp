@@ -1,6 +1,7 @@
 ---
 import type { Locale } from '../i18n';
 import { getDict } from '../i18n';
+import { imageDimensions, imagePath } from '../i18n/assets';
 
 interface Props {
   locale: Locale;
@@ -9,30 +10,31 @@ interface Props {
 const { locale } = Astro.props;
 const dict = getDict(locale);
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
+const dimensions = imageDimensions(locale);
 
 const shots = [
   {
-    src: `${base}/images/cover-left.png`,
-    alt: locale === 'ja' ? 'aircal キービジュアル' : 'aircal key visual',
-    eager: true,
-  },
-  {
-    src: `${base}/images/cover-right.png`,
+    src: imagePath(locale, 'cover-left', base),
     alt: dict.features[0].alt,
     eager: true,
   },
   {
-    src: `${base}/images/screenshots/03-share.png`,
+    src: imagePath(locale, 'cover-right', base),
+    alt: dict.features[0].alt,
+    eager: true,
+  },
+  {
+    src: imagePath(locale, '03-share', base),
     alt: dict.features[2].alt,
     eager: false,
   },
   {
-    src: `${base}/images/screenshots/04-themes.png`,
+    src: imagePath(locale, '04-themes', base),
     alt: dict.features[3].alt,
     eager: false,
   },
   {
-    src: `${base}/images/screenshots/05-widget.png`,
+    src: imagePath(locale, '05-widget', base),
     alt: dict.features[4].alt,
     eager: false,
   },
@@ -47,7 +49,10 @@ const shots = [
           class="phone"
           src={s.src}
           alt={s.alt}
+          width={dimensions.width}
+          height={dimensions.height}
           loading={s.eager ? 'eager' : 'lazy'}
+          decoding="async"
         />
       ))
     }
@@ -85,8 +90,8 @@ const shots = [
 
   @media (min-width: 1024px) {
     .track {
-      justify-content: center;
-      overflow: visible;
+      justify-content: safe center;
+      overflow-x: auto;
     }
   }
 </style>
