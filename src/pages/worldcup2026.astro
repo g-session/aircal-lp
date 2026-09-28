@@ -10,7 +10,12 @@ const pageDescription =
   'FIFA World Cup 2026 の試合日程をホーム画面から確認。日本代表の次の試合、カウントダウン、全試合日程をaircalのウィジェットで。';
 ---
 
-<Base locale={locale} title={pageTitle} description={pageDescription}>
+<Base
+  locale={locale}
+  title={pageTitle}
+  description={pageDescription}
+  ogImage={`${base}/images/worldcup2026/ogp.png`}
+>
   <div class="worldcup-shell" style={`--worldcup-image: url('${base}/images/worldcup2026/worldcupwidget.png')`}>
     <header class="campaign-header">
       <div class="container header-row">

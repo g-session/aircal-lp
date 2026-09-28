@@ -1,0 +1,277 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>全国の花火カレンダー2026 | aircal</title>
+<meta name="description" content="全国955大会・47都道府県の花火大会2026を、ひとつのカレンダーに。開催日時・打上数・有料席の予約情報まで。無料アプリ aircal。">
+<link rel="canonical" href="https://g-session.github.io/aircal-lp/hanabi/">
+<meta property="og:type" content="website">
+<meta property="og:site_name" content="aircal">
+<meta property="og:title" content="全国の花火カレンダー2026 | aircal">
+<meta property="og:description" content="全国955大会・47都道府県の花火大会2026を、ひとつのカレンダーに。開催日時・打上数・有料席の予約情報まで。">
+<meta property="og:url" content="https://g-session.github.io/aircal-lp/hanabi/">
+<meta property="og:image" content="https://g-session.github.io/aircal-lp/hanabi/ogp.png">
+<meta property="og:image:width" content="1200">
+<meta property="og:image:height" content="630">
+<meta name="twitter:card" content="summary_large_image">
+<meta name="twitter:title" content="全国の花火カレンダー2026 | aircal">
+<meta name="twitter:description" content="全国955大会・47都道府県の花火大会2026を、ひとつのカレンダーに。">
+<meta name="twitter:image" content="https://g-session.github.io/aircal-lp/hanabi/ogp.png">
+<style>
+  *{ margin:0; padding:0; box-sizing:border-box; }
+  :root{
+    --bg:#ffffff; --page:#f3f3f4; --fg:#1a1815; --sub:#5f5b54; --faint:#9a958c;
+    --line:#e6e4df; --line2:#efedea; --accent:#1668c4; --accent-soft:#eaf1fb;
+  }
+  html{ scroll-behavior:smooth; }
+  body{ background:var(--page); color:var(--fg);
+    font-family:'Inter','Noto Sans JP','Hiragino Sans',system-ui,sans-serif;
+    -webkit-font-smoothing:antialiased; line-height:1.7; }
+  .wrap{ max-width:460px; margin:0 auto; background:var(--bg); }
+  a{ color:inherit; text-decoration:none; }
+
+  /* トップバー */
+  .topbar{ display:flex; align-items:center; justify-content:space-between; padding:11px 16px; border-bottom:1px solid var(--line); position:sticky; top:0; background:rgba(255,255,255,.96); backdrop-filter:blur(6px); z-index:20; }
+  .topbar .lg{ font-weight:300; font-size:17px; letter-spacing:3px; }
+  .topbar .mini{ font-size:12px; font-weight:600; color:#fff; background:var(--fg); padding:7px 13px; border-radius:8px; letter-spacing:.5px; }
+
+  /* ヒーロー */
+  .hero{ position:relative; overflow:hidden; color:#fff; padding:22px 18px 24px; }
+  .hero .ph{ position:absolute; inset:0; background:url("hanabi-river.png") center 30% / cover no-repeat; z-index:0; }
+  .hero .sc{ position:absolute; inset:0; z-index:1; background:linear-gradient(180deg,rgba(6,10,24,.55),rgba(6,10,24,.28) 45%,rgba(6,10,24,.9)); }
+  .hero>*{ position:relative; z-index:2; }
+  .hero .lbl{ font-size:10px; letter-spacing:3px; color:rgba(255,255,255,.7); margin-bottom:8px; }
+  .hero h1{ font-weight:600; font-size:27px; line-height:1.42; letter-spacing:1px; text-shadow:0 2px 18px rgba(0,0,0,.4); }
+  .hero .htag{ font-size:13px; color:rgba(255,255,255,.85); margin-top:10px; }
+  .cta{ display:flex; flex-direction:column; gap:9px; margin-top:18px; }
+
+  /* ストアボタン(公式LP準拠) */
+  .store-btn{ display:inline-flex; align-items:center; justify-content:center; gap:11px; padding:12px 20px; background:#fff; color:#050505; border-radius:11px; }
+  .store-btn .sicon{ width:26px; height:26px; flex:0 0 auto; }
+  .store-btn .stext{ display:flex; flex-direction:column; line-height:1.1; text-align:left; }
+  .store-btn .ssub{ font-size:9.5px; font-weight:400; opacity:.82; }
+  .store-btn .stitle{ font-size:16px; font-weight:700; letter-spacing:-.01em; margin-top:2px; }
+
+  /* 数字帯 */
+  .stats{ display:flex; }
+  .stat{ flex:1; text-align:center; padding:16px 4px; border-right:1px solid var(--line2); }
+  .stat:last-child{ border-right:none; }
+  .stat .n{ font-size:22px; font-weight:700; }
+  .stat .l{ font-size:10px; color:var(--faint); letter-spacing:1px; margin-top:2px; }
+
+  /* クイックチップ */
+  .quick{ display:flex; gap:8px; padding:14px 16px; border-top:1px solid var(--line); border-bottom:1px solid var(--line); overflow-x:auto; }
+  .chip{ flex:none; font-size:12.5px; font-weight:600; padding:8px 14px; border:1px solid var(--line); border-radius:20px; color:var(--fg); }
+  .chip.on{ background:var(--fg); color:#fff; border-color:var(--fg); }
+
+  .sec{ padding:24px 16px; border-bottom:8px solid var(--page); }
+  .sec-h{ display:flex; align-items:baseline; justify-content:space-between; margin-bottom:14px; }
+  .sec-h h2{ font-size:16px; font-weight:700; letter-spacing:.5px; }
+  .sec-h .more{ font-size:11px; color:var(--accent); font-weight:600; }
+
+  /* エリア */
+  .areas{ display:grid; grid-template-columns:1fr 1fr; gap:8px; }
+  .area{ display:flex; align-items:center; justify-content:space-between; border:1px solid var(--line); border-radius:9px; padding:11px 13px; font-size:13.5px; font-weight:500; cursor:pointer; }
+  .area .c{ font-size:12px; color:var(--accent); font-weight:700; }
+  .area.on{ border-color:var(--accent); }
+  .area.on span:first-child{ color:var(--accent); font-weight:700; }
+  .areasel{ display:flex; align-items:center; gap:6px; border:1px solid var(--accent); border-radius:9px; padding:9px 13px; font-size:13px; color:var(--fg); margin-bottom:14px; }
+  .areasel b{ color:var(--accent); font-weight:700; }
+  .areasel .cav{ margin-left:auto; font-size:11.5px; color:var(--accent); }
+  .areachips{ display:flex; gap:8px; overflow-x:auto; padding-bottom:4px; margin-bottom:16px; scrollbar-width:none; }
+  .areachips::-webkit-scrollbar{ display:none; }
+  .ac{ flex:none; border:1px solid var(--line); border-radius:999px; padding:7px 15px; font-size:13px; font-weight:600; color:var(--sub); cursor:pointer; white-space:nowrap; }
+  .ac.on{ background:var(--accent); border-color:var(--accent); color:#fff; }
+  .ev .hl{ font-size:12.5px; color:#41434a; margin-top:4px; line-height:1.45; }
+  .ev .pl .tm{ color:var(--fg); font-weight:600; }
+  .nudge{ font-size:12.5px; color:var(--sub); border-left:2px solid var(--accent); padding-left:11px; margin-bottom:16px; line-height:1.55; }
+
+
+
+  /* 大会リスト */
+  .ev{ display:flex; gap:13px; padding:14px 0; border-top:1px solid var(--line2); }
+  .ev:first-child{ border-top:none; }
+  .ev .date{ width:46px; flex:none; text-align:center; }
+  .ev .date .d{ font-size:20px; font-weight:700; line-height:1; }
+  .ev .date .m{ font-size:10px; color:var(--faint); margin-top:2px; }
+  .ev .date .w{ font-size:9px; color:var(--faint); }
+  .ev .info{ flex:1; min-width:0; }
+  .ev .info .nm{ font-size:14px; font-weight:600; letter-spacing:.3px; }
+  .ev .info .pl{ font-size:11px; color:var(--faint); margin-top:3px; }
+  .ev .meta{ display:flex; gap:7px; margin-top:7px; flex-wrap:wrap; }
+  .tag{ font-size:10px; padding:2px 7px; border-radius:4px; border:1px solid var(--line); color:var(--sub); }
+  .tag.pay{ color:var(--accent); border-color:#cfe0f6; background:var(--accent-soft); }
+  /* 予定登録ボタン(押すとストアへ) */
+  .ev .reg{ align-self:center; flex:none; margin-left:8px; font-size:11.5px; font-weight:700; color:#fff; background:var(--accent); border:none; border-radius:8px; padding:9px 12px; cursor:pointer; letter-spacing:.5px; white-space:nowrap; }
+  .ev .reg:active{ opacity:.85; }
+
+  /* インラインDL誘導 */
+  .lure{ margin-top:16px; text-align:center; background:var(--page); border-radius:12px; padding:18px 16px; }
+  .lure .t{ font-size:14px; font-weight:700; }
+  .lure .s{ font-size:11.5px; color:var(--sub); margin:5px 0 13px; }
+  .lure .cta{ margin-top:0; }
+  .lure .store-btn{ border:1px solid var(--line); }
+
+  /* ランキング */
+  .rank{ display:flex; align-items:center; gap:13px; padding:12px 0; border-top:1px solid var(--line2); }
+  .rank:first-child{ border-top:none; }
+  .rank .no{ width:24px; flex:none; text-align:center; font-size:17px; font-weight:700; color:var(--faint); }
+  .rank .no.top{ color:var(--accent); }
+  .rank .nm{ flex:1; font-size:13.5px; font-weight:600; }
+  .rank .nm small{ display:block; font-size:10.5px; color:var(--faint); font-weight:400; margin-top:2px; }
+  .rank .val{ font-size:13px; font-weight:700; }
+
+  /* コンバージョン(実アプリ画面) */
+  .conv{ background:var(--fg); color:#fff; text-align:center; padding:34px 20px; border-bottom:none; }
+  .conv h2{ font-size:20px; font-weight:700; line-height:1.5; }
+  .conv p{ font-size:12.5px; color:rgba(255,255,255,.72); margin:8px 0 18px; }
+  .conv .shot{ width:190px; border-radius:24px; margin:6px auto 22px; display:block; }
+  .conv .pts{ display:flex; flex-direction:column; gap:9px; margin:0 auto 22px; max-width:300px; text-align:left; }
+  .conv .pt{ font-size:12.5px; color:rgba(255,255,255,.9); display:flex; gap:9px; }
+  .conv .pt::before{ content:""; width:5px; height:5px; border-radius:50%; background:#fff; margin-top:7px; flex:none; }
+  .conv .store-btn{ background:#fff; }
+  .conv .convrate{ display:inline-flex; align-items:center; gap:14px; font-size:13px; color:rgba(255,255,255,.72); letter-spacing:.4px; margin-bottom:18px; border:1px solid rgba(255,255,255,.22); border-radius:10px; padding:9px 16px; }
+  .conv .convrate b{ color:#fff; font-weight:700; font-size:16px; margin-right:3px; }
+
+  /* Reviews */
+  .revs{ display:flex; gap:12px; }
+  .rev{ flex:1; border:1px solid var(--line); border-radius:11px; padding:16px 12px; text-align:center; }
+  .rev .sc{ font-size:24px; font-weight:700; }
+  .rev .st{ font-size:10.5px; color:var(--faint); margin-top:2px; }
+  .rev .ct{ font-size:10.5px; color:var(--sub); margin-top:6px; }
+
+  footer{ padding:26px 16px 40px; text-align:center; font-size:10.5px; color:var(--faint); line-height:2; }
+  footer .co{ font-weight:700; color:var(--sub); font-size:11.5px; margin-bottom:6px; }
+  footer a{ color:var(--sub); }
+</style>
+</head>
+<body>
+<div class="wrap">
+
+  <div class="topbar">
+    <span class="lg">aircal</span>
+    <a class="mini" href="#dl" onclick="goStore();return false;">アプリで見る</a>
+  </div>
+
+  <!-- Hero -->
+  <div class="hero">
+    <div class="ph"></div><div class="sc"></div>
+    <div class="lbl">HANABI CALENDAR 2026</div>
+    <h1>今年の花火は、<br>もう見逃さない。</h1>
+    <div class="htag">「気づいたら終わってた」は、今年で終わり。<br>エリアを選ぶだけで、地元の花火が予定に並ぶ。</div>
+    <div class="cta">
+      <a class="store-btn" href="https://apps.apple.com/jp/app/%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E4%BA%88%E5%AE%9A%E8%A1%A8-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/id6746650150" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="currentColor" d="M17.05 12.04c-.02-2.13 1.74-3.16 1.82-3.21-.99-1.45-2.54-1.65-3.09-1.68-1.31-.13-2.56.77-3.23.77-.67 0-1.7-.75-2.79-.73-1.44.02-2.76.83-3.5 2.11-1.49 2.59-.38 6.42 1.08 8.53.71 1.03 1.56 2.19 2.66 2.15 1.07-.04 1.48-.69 2.78-.69 1.3 0 1.66.69 2.79.67 1.15-.02 1.88-1.05 2.59-2.09.81-1.2 1.15-2.36 1.17-2.42-.03-.01-2.25-.86-2.28-3.41ZM14.95 5.6c.59-.71.99-1.7.88-2.69-.85.03-1.88.57-2.49 1.28-.55.63-1.03 1.64-.9 2.6.95.07 1.93-.48 2.51-1.19Z"/></svg><span class="stext"><span class="ssub">App Storeで</span><span class="stitle">ダウンロード</span></span></a>
+      <a class="store-btn" href="https://play.google.com/store/apps/details?id=net.nexus_inc.calendar" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="#34A853" d="M3.6 2.3c-.4.4-.6 1-.6 1.7v16c0 .7.2 1.3.6 1.7l9.2-9.2L3.6 2.3Z"/><path fill="#FBBC05" d="m17.2 8.4-3.6 3.6 3.6 3.6 4.5-2.6c1.3-.7 1.3-2.6 0-3.3l-4.5-2.6Z"/><path fill="#EA4335" d="M3.6 2.3 12.8 11.5l4.4-3-12-7c-.6-.3-1.2-.3-1.6.8Z"/><path fill="#4285F4" d="M3.6 22 12.8 12.8l4.4 3-12 7c-.6.3-1.2.3-1.6-.8Z"/></svg><span class="stext"><span class="ssub">Google Playで手に入れよう</span><span class="stitle">Google Play</span></span></a>
+    </div>
+  </div>
+
+  <div class="stats">
+    <div class="stat"><div class="n">955</div><div class="l">大会</div></div>
+    <div class="stat"><div class="n">47</div><div class="l">都道府県</div></div>
+  </div>
+
+  <div class="quick">
+    <a class="chip on" href="#list">開催日順</a>
+    <a class="chip" href="#rank">打上数ランキング</a>
+    <a class="chip" href="#list">有料席あり</a>
+  </div>
+
+  <!-- 大会一覧（デフォルト＝首都圏・開催日順） -->
+  <div class="sec" id="list">
+    <div class="sec-h"><h2>開催日順の花火大会</h2></div>
+    <div class="areachips">
+      <span class="ac on" data-k="shutoken">首都圏</span>
+      <span class="ac" data-k="hokkaido">北海道・東北</span>
+      <span class="ac" data-k="kitakanto">北関東</span>
+      <span class="ac" data-k="koshinetsu">甲信越・北陸</span>
+      <span class="ac" data-k="tokai">東海</span>
+      <span class="ac" data-k="kansai">関西</span>
+      <span class="ac" data-k="chugoku">中国・四国</span>
+      <span class="ac" data-k="kyushu">九州・沖縄</span>
+    </div>
+
+    <div class="nudge">気になる大会は「＋登録」→ あなたのカレンダーへ。当日は通知でお知らせ、もう見逃さない。</div>
+
+    <div id="evlist"></div>
+
+    <div class="lure">
+      <div class="t">続きは、全部アプリで。</div>
+      <div class="s">地元の花火、ひとつも見逃さない。全国955大会。</div>
+      <div class="cta">
+        <a class="store-btn" href="https://apps.apple.com/jp/app/%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E4%BA%88%E5%AE%9A%E8%A1%A8-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/id6746650150" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="currentColor" d="M17.05 12.04c-.02-2.13 1.74-3.16 1.82-3.21-.99-1.45-2.54-1.65-3.09-1.68-1.31-.13-2.56.77-3.23.77-.67 0-1.7-.75-2.79-.73-1.44.02-2.76.83-3.5 2.11-1.49 2.59-.38 6.42 1.08 8.53.71 1.03 1.56 2.19 2.66 2.15 1.07-.04 1.48-.69 2.78-.69 1.3 0 1.66.69 2.79.67 1.15-.02 1.88-1.05 2.59-2.09.81-1.2 1.15-2.36 1.17-2.42-.03-.01-2.25-.86-2.28-3.41ZM14.95 5.6c.59-.71.99-1.7.88-2.69-.85.03-1.88.57-2.49 1.28-.55.63-1.03 1.64-.9 2.6.95.07 1.93-.48 2.51-1.19Z"/></svg><span class="stext"><span class="ssub">App Storeで</span><span class="stitle">ダウンロード</span></span></a>
+        <a class="store-btn" href="https://play.google.com/store/apps/details?id=net.nexus_inc.calendar" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="#34A853" d="M3.6 2.3c-.4.4-.6 1-.6 1.7v16c0 .7.2 1.3.6 1.7l9.2-9.2L3.6 2.3Z"/><path fill="#FBBC05" d="m17.2 8.4-3.6 3.6 3.6 3.6 4.5-2.6c1.3-.7 1.3-2.6 0-3.3l-4.5-2.6Z"/><path fill="#EA4335" d="M3.6 2.3 12.8 11.5l4.4-3-12-7c-.6-.3-1.2-.3-1.6.8Z"/><path fill="#4285F4" d="M3.6 22 12.8 12.8l4.4 3-12 7c-.6.3-1.2.3-1.6-.8Z"/></svg><span class="stext"><span class="ssub">Google Playで手に入れよう</span><span class="stitle">Google Play</span></span></a>
+      </div>
+    </div>
+  </div>
+
+  <!-- ランキング -->
+  <div class="sec" id="rank">
+    <div class="sec-h"><h2>打上数ランキング</h2><a class="more" href="#dl">アプリで全部 ›</a></div>
+    <div class="rank"><span class="no top">1</span><span class="nm">北海道真駒内花火大会<small>北海道札幌市南区 ・ 7/11</small></span><span class="val">22,000発</span></div>
+    <div class="rank"><span class="no top">2</span><span class="nm">土浦全国花火競技大会<small>茨城県土浦市 ・ 11/7</small></span><span class="val">20,000発</span></div>
+    <div class="rank"><span class="no top">3</span><span class="nm">なにわ淀川花火大会<small>大阪府大阪市 ・ 10/17</small></span><span class="val">20,000発</span></div>
+    <div class="rank"><span class="no">4</span><span class="nm">みなとみらいスマートフェスティバル<small>神奈川県横浜市 ・ 8/24</small></span><span class="val">20,000発</span></div>
+    <div class="rank"><span class="no">5</span><span class="nm">隅田川花火大会<small>東京都墨田区・台東区 ・ 7/25</small></span><span class="val">20,000発</span></div>
+  </div>
+
+  <!-- コンバージョン：実アプリ画面 -->
+  <div class="conv" id="dl">
+    <h2>花火も、いつもの予定も、<br>ひとつのカレンダーに。</h2>
+    <p>行きたい花火を、予定に。当日は通知でお知らせ。<br>この夏を、見逃さず楽しむ。</p>
+    <img class="shot" src="app-screen.png" alt="aircal アプリのカレンダー画面">
+    <div class="pts">
+      <div class="pt">全国955大会・47都道府県。エリアを選ぶだけ</div>
+      <div class="pt">いい席は早い者勝ち。予約開始日・価格・購入先まで</div>
+      <div class="pt">お使いのカレンダーにワンタップで追加</div>
+    </div>
+    <div class="convrate"><span><b>4.8</b>App Store</span><span><b>5.0</b>Google Play</span></div>
+    <div class="cta">
+      <a class="store-btn" href="https://apps.apple.com/jp/app/%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E4%BA%88%E5%AE%9A%E8%A1%A8-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/id6746650150" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="currentColor" d="M17.05 12.04c-.02-2.13 1.74-3.16 1.82-3.21-.99-1.45-2.54-1.65-3.09-1.68-1.31-.13-2.56.77-3.23.77-.67 0-1.7-.75-2.79-.73-1.44.02-2.76.83-3.5 2.11-1.49 2.59-.38 6.42 1.08 8.53.71 1.03 1.56 2.19 2.66 2.15 1.07-.04 1.48-.69 2.78-.69 1.3 0 1.66.69 2.79.67 1.15-.02 1.88-1.05 2.59-2.09.81-1.2 1.15-2.36 1.17-2.42-.03-.01-2.25-.86-2.28-3.41ZM14.95 5.6c.59-.71.99-1.7.88-2.69-.85.03-1.88.57-2.49 1.28-.55.63-1.03 1.64-.9 2.6.95.07 1.93-.48 2.51-1.19Z"/></svg><span class="stext"><span class="ssub">App Storeで</span><span class="stitle">ダウンロード</span></span></a>
+      <a class="store-btn" href="https://play.google.com/store/apps/details?id=net.nexus_inc.calendar" target="_blank" rel="noopener"><svg class="sicon" viewBox="0 0 24 24"><path fill="#34A853" d="M3.6 2.3c-.4.4-.6 1-.6 1.7v16c0 .7.2 1.3.6 1.7l9.2-9.2L3.6 2.3Z"/><path fill="#FBBC05" d="m17.2 8.4-3.6 3.6 3.6 3.6 4.5-2.6c1.3-.7 1.3-2.6 0-3.3l-4.5-2.6Z"/><path fill="#EA4335" d="M3.6 2.3 12.8 11.5l4.4-3-12-7c-.6-.3-1.2-.3-1.6.8Z"/><path fill="#4285F4" d="M3.6 22 12.8 12.8l4.4 3-12 7c-.6.3-1.2.3-1.6-.8Z"/></svg><span class="stext"><span class="ssub">Google Playで手に入れよう</span><span class="stitle">Google Play</span></span></a>
+    </div>
+  </div>
+
+  <footer>
+    <div class="co">Nexus 株式会社</div>
+    AIカレンダーアプリ「aircal（エアカル）」<br>
+    お問い合わせ：<a href="mailto:contact@nexus-inc.net">contact@nexus-inc.net</a><br>
+    © 2026 Nexus Inc.
+  </footer>
+
+</div>
+<script>
+  function goStore(){
+    var ua = navigator.userAgent || '';
+    var appstore = 'https://apps.apple.com/jp/app/%E5%85%B1%E6%9C%89%E3%82%AB%E3%83%AC%E3%83%B3%E3%83%80%E3%83%BC-%E4%BA%88%E5%AE%9A%E8%A1%A8-%E3%82%A6%E3%82%A3%E3%82%B8%E3%82%A7%E3%83%83%E3%83%88-%E3%82%B7%E3%83%B3%E3%83%97%E3%83%AB%E3%82%B9%E3%82%B1%E3%82%B8%E3%83%A5%E3%83%BC%E3%83%AB/id6746650150';
+    var gplay = 'https://play.google.com/store/apps/details?id=net.nexus_inc.calendar';
+    if (/Android/i.test(ua)) { location.href = gplay; }
+    else if (/iPhone|iPad|iPod/i.test(ua)) { location.href = appstore; }
+    else { window.open(appstore, '_blank'); }  /* PC等: App Storeページを新規タブで開く */
+  }
+  const AREA_DATA = {"shutoken": {"label": "首都圏", "events": [{"d": "10", "m": "JUL", "w": "金", "nm": "鎌倉花火大会", "pl": "神奈川・鎌倉市", "tm": "19:20", "lp": "2,500発", "st": "JR鎌倉駅", "hl": "名物「水中花火」", "pay": false}, {"d": "11", "m": "JUL", "w": "土", "nm": "久里浜ペリー祭花火大会", "pl": "神奈川・横須賀市", "tm": "19:30", "lp": "7,000発", "st": "", "hl": "", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "隅田川花火大会", "pl": "東京・墨田区・台東区", "tm": "19:00", "lp": "20,000発", "st": "", "hl": "", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "越谷花火大会", "pl": "埼玉・越谷市", "tm": "19:00", "lp": "5,000発", "st": "", "hl": "", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "立川まつり 国営昭和記念公園花火大会", "pl": "東京・立川市", "tm": "19:15", "lp": "5,000発", "st": "", "hl": "", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "さいたま市花火大会 大和田公園会場", "pl": "埼玉・さいたま市北区", "tm": "19:30", "lp": "4,000発", "st": "", "hl": "", "pay": false}]}, "hokkaido": {"label": "北海道・東北", "events": [{"d": "11", "m": "JUL", "w": "土", "nm": "北海道真駒内花火大会", "pl": "北海道・札幌市南区", "tm": "19:50", "lp": "22,000発", "st": "", "hl": "北海道最大級", "pay": true}, {"d": "11", "m": "JUL", "w": "土", "nm": "ジャックドまつり", "pl": "青森・三戸郡南部町", "tm": "20:15", "lp": "1,800発", "st": "", "hl": "", "pay": false}, {"d": "11", "m": "JUL", "w": "土", "nm": "WE LOVE HOKKAIDO＆FIGHTERS花火大会 Supported by ビックカメラ", "pl": "北海道・北広島市", "tm": "19:45", "lp": "", "st": "", "hl": "", "pay": true}, {"d": "12", "m": "JUL", "w": "日", "nm": "芽室花火大会「華音」", "pl": "北海道・芽室町", "tm": "20:00", "lp": "5,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "日本海洋上花火大会", "pl": "秋田・由利本荘市", "tm": "19:30", "lp": "1,500発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "港まつり 能代の花火", "pl": "秋田・能代市", "tm": "19:30", "lp": "5,000発", "st": "", "hl": "フレンド席(4名)25,500円", "pay": true}]}, "kitakanto": {"label": "北関東", "events": [{"d": "25", "m": "JUL", "w": "土", "nm": "水戸黄門まつり 水戸偕楽園花火大会", "pl": "茨城・水戸市", "tm": "19:30", "lp": "5,000発", "st": "", "hl": "", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "真岡市夏祭大花火大会", "pl": "栃木・真岡市", "tm": "19:30", "lp": "5,000発", "st": "", "hl": "真岡の夏まつり荒神祭", "pay": true}, {"d": "25", "m": "JUL", "w": "土", "nm": "祇園祭ふるさと茂木夏まつり 花火大会", "pl": "栃木・芳賀郡茂木町", "tm": "19:30", "lp": "5,000発", "st": "", "hl": "八雲神社・御嶽神社の夏まつり", "pay": true}, {"d": "01", "m": "AUG", "w": "土", "nm": "下妻まつり(砂沼の花火大会)", "pl": "茨城・下妻市", "tm": "", "lp": "3,000発", "st": "", "hl": "1推定。フィナーレに砂沼大橋から打上", "pay": false}, {"d": "01", "m": "AUG", "w": "土", "nm": "記念 足利花火大会", "pl": "栃木・足利市", "tm": "19:15", "lp": "20,000発", "st": "", "hl": "関東有数の歴史", "pay": true}, {"d": "01", "m": "AUG", "w": "土", "nm": "つまごい祭", "pl": "群馬・吾妻郡嬬恋村", "tm": "19:30", "lp": "1,800発", "st": "", "hl": "", "pay": false}]}, "koshinetsu": {"label": "甲信越・北陸", "events": [{"d": "11", "m": "JUL", "w": "土", "nm": "鷹巣花火大会", "pl": "福井・福井市", "tm": "19:30", "lp": "2,000発", "st": "", "hl": "新設の初開催", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "越前みなと大花火", "pl": "福井・丹生郡越前町", "tm": "", "lp": "13,000発", "st": "", "hl": "漁港をゆるがす大迫力", "pay": true}, {"d": "18", "m": "JUL", "w": "土", "nm": "七尾港まつり 北國花火七尾大会", "pl": "石川・七尾市", "tm": "", "lp": "2,500発", "st": "18(土)に再開予定とほっと石川旅ねっと（県観光公式）・じゃらん等に掲載。花火の打上数・時刻は要確認のため暫定。最寄=JR七尾駅徒歩約10分。", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "SUMMER FESTA MIHAMA(夏フェスタ美浜)", "pl": "福井・三方郡美浜町", "tm": "20:00", "lp": "2,500発", "st": "", "hl": "18(土)確定", "pay": false}, {"d": "19", "m": "JUL", "w": "日", "nm": "南魚沼市兼続公まつり 大煙火大会", "pl": "新潟・南魚沼市", "tm": "19:30", "lp": "2,000発", "st": "", "hl": "", "pay": false}, {"d": "19", "m": "JUL", "w": "日", "nm": "戸倉上山田温泉夏祭りと煙火大会", "pl": "長野・千曲市", "tm": "20:30", "lp": "3,000発", "st": "", "hl": "祭り7", "pay": false}]}, "tokai": {"label": "東海", "events": [{"d": "11", "m": "JUL", "w": "土", "nm": "日間賀島ぎおん祭り花火大会", "pl": "愛知・知多郡南知多町", "tm": "20:40", "lp": "2,000発", "st": "", "hl": "", "pay": false}, {"d": "11", "m": "JUL", "w": "土", "nm": "ぎおん・野島祭り花火大会", "pl": "愛知・知多郡南知多町", "tm": "19:50", "lp": "3,000発", "st": "", "hl": "", "pay": false}, {"d": "14", "m": "JUL", "w": "火", "nm": "潮かけ祭り（大島祭）花火大会", "pl": "三重・志摩市", "tm": "20:45", "lp": "1,500発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "おがせ池夏まつり花火大会", "pl": "岐阜・各務原市", "tm": "19:30", "lp": "1,500発", "st": "", "hl": "池上の花火", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "豊橋祇園祭 打上花火", "pl": "愛知・豊橋市", "tm": "18:00", "lp": "2,000発", "st": "約1万2000発 川面の水上仕掛け花火 最寄:JR豊橋駅", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "伊勢神宮奉納全国花火大会", "pl": "三重・伊勢市", "tm": "19:20", "lp": "8,400発", "st": "", "hl": "個人自由席3,500円", "pay": true}]}, "kansai": {"label": "関西", "events": [{"d": "18", "m": "JUL", "w": "土", "nm": "愛知川祇園納涼祭花火大会", "pl": "滋賀・愛知郡愛荘町", "tm": "19:30", "lp": "3,500発", "st": "近江鉄道愛知川駅", "hl": "湖東地域最古の歴史を誇る花火", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "TANGOやさか納涼祭 花火大会", "pl": "京都・京丹後市", "tm": "20:30", "lp": "3,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "新宮納涼ふれあいまつり＆花火大会", "pl": "兵庫・たつの市", "tm": "20:00", "lp": "1,000発", "st": "", "hl": "1）とは別大会", "pay": false}, {"d": "19", "m": "JUL", "w": "日", "nm": "浜坂ふるさと夏まつり花火大会(川下祭り)", "pl": "兵庫・美方郡新温泉町", "tm": "20:00", "lp": "3,000発", "st": "", "hl": "", "pay": false}, {"d": "20", "m": "JUL", "w": "月", "nm": "SHIRASAGI花火大会", "pl": "兵庫・姫路市", "tm": "19:45", "lp": "3,000発", "st": "", "hl": "19:45～22:00（7", "pay": true}, {"d": "23", "m": "JUL", "w": "木", "nm": "大津志賀花火大会", "pl": "滋賀・大津市", "tm": "19:30", "lp": "2,000発", "st": "JR近江舞子駅", "hl": "19:30-20:10", "pay": false}]}, "chugoku": {"label": "中国・四国", "events": [{"d": "15", "m": "JUL", "w": "水", "nm": "西大寺夏花火（夏まつり西大寺）", "pl": "岡山岡山市東区", "tm": "20:00", "lp": "1,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "北房花火大会", "pl": "岡山・真庭市", "tm": "20:15", "lp": "1,700発", "st": "", "hl": "18。観覧無料", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "やいとがわ納涼花火大会", "pl": "高知・宿毛市", "tm": "18:30", "lp": "1,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "ながと花火大会", "pl": "山口・長門市", "tm": "20:00", "lp": "3,000発", "st": "", "hl": "19・7", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "上関水軍まつり 花火大会", "pl": "山口・熊毛郡上関町", "tm": "20:00", "lp": "1,500発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "Retra！水都祭花火大会", "pl": "徳島・徳島市", "tm": "20:00", "lp": "2,000発", "st": "", "hl": "祭りは7", "pay": false}]}, "kyushu": {"label": "九州・沖縄", "events": [{"d": "11", "m": "JUL", "w": "土", "nm": "篠栗祇園夏まつり 納涼花火大会", "pl": "福岡・糟屋郡篠栗町", "tm": "20:00", "lp": "1,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "油津港まつり花火大会", "pl": "宮崎・日南市", "tm": "20:00", "lp": "10,000発", "st": "", "hl": "", "pay": true}, {"d": "18", "m": "JUL", "w": "土", "nm": "マリンフェスタinくちのつ", "pl": "長崎・南島原市", "tm": "20:30", "lp": "2,000発", "st": "約2000発。海上花火。最寄=口之津港。20:30~21:00", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "えびの京町温泉夏祭り花火大会", "pl": "宮崎・えびの市", "tm": "20:30", "lp": "3,000発", "st": "", "hl": "", "pay": false}, {"d": "18", "m": "JUL", "w": "土", "nm": "サマーフェスティバルin錦江", "pl": "鹿児島・肝属郡錦江町", "tm": "21:00", "lp": "1,000発", "st": "", "hl": "18(土)を確認", "pay": false}, {"d": "19", "m": "JUL", "w": "日", "nm": "さのよいファイヤーカーニバル", "pl": "熊本・荒尾市", "tm": "20:00", "lp": "10,000発", "st": "", "hl": "", "pay": true}]}};
+  function _evRow(e){
+    var t='';
+    if(e.lp) t+='<span class="tag">'+e.lp+'</span>';
+    if(e.st) t+='<span class="tag">最寄 '+e.st+'</span>';
+    if(e.pay) t+='<span class="tag pay">有料席あり</span>';
+    var meta = t ? '<div class="meta">'+t+'</div>' : '';
+    var pl = e.pl + (e.tm ? ' <span class="tm">'+e.tm+'〜</span>' : '');
+    var hl = e.hl ? '<div class="hl">'+e.hl+'</div>' : '';
+    return '<div class="ev"><div class="date"><div class="d">'+e.d+'</div><div class="m">'+e.m+'</div><div class="w">'+e.w+'</div></div><div class="info"><div class="nm">'+e.nm+'</div><div class="pl">'+pl+'</div>'+hl+meta+'</div><button class="reg" onclick="goStore()">＋ 登録</button></div>';
+  }
+  function renderArea(k){
+    var a=AREA_DATA[k]; if(!a) return;
+    var el=document.getElementById('evlist'); if(el) el.innerHTML=a.events.map(_evRow).join('');
+    var nm=document.getElementById('areaName'); if(nm) nm.textContent=a.label;
+    document.querySelectorAll('.ac').forEach(function(c){ c.classList.toggle('on', c.getAttribute('data-k')===k); });
+  }
+  document.querySelectorAll('.ac').forEach(function(c){
+    c.addEventListener('click', function(){
+      var k=c.getAttribute('data-k'); if(k) renderArea(k);
+    });
+  });
+  renderArea('shutoken');
+</script>
+</body>
+</html>
