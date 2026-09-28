@@ -1,7 +1,7 @@
 ---
 import '../styles/global.css';
 import type { Locale } from '../i18n';
-import { getDict } from '../i18n';
+import { getDict, locales, pathFor } from '../i18n';
 
 interface Props {
   locale: Locale;
@@ -9,19 +9,34 @@ interface Props {
   description?: string;
   /** OGP画像のパス（base からの相対）。省略時はサイト共通の OGP 画像 */
   ogImage?: string;
+  localizedPage?: 'home' | 'contact';
 }
 
-const { locale, title, description, ogImage } = Astro.props;
+const { locale, title, description, ogImage, localizedPage } = Astro.props;
 const dict = getDict(locale);
 const pageTitle = title ?? dict.meta.title;
 const pageDescription = description ?? dict.meta.description;
+const localizedPath = localizedPage === 'contact' ? 'contact' : '';
 const base = import.meta.env.BASE_URL.replace(/\/$/, '');
 
 // OGP / canonical は絶対 URL が必須（Astro.site = https://g-session.github.io）
 const ogImagePath = ogImage ?? `${base}/images/ogp.png`;
 const ogImageUrl = new URL(ogImagePath, Astro.site).href;
-const canonicalUrl = new URL(Astro.url.pathname, Astro.site).href;
-const ogLocale = locale === 'ja' ? 'ja_JP' : 'en_US';
+const canonicalPath = localizedPage
+  ? pathFor(locale, localizedPath)
+  : Astro.url.pathname;
+const canonicalUrl = new URL(canonicalPath, Astro.site).href;
+const alternateUrls = Astro.site && localizedPage
+  ? locales.map((alternateLocale) => ({
+      locale: alternateLocale,
+      href: new URL(pathFor(alternateLocale, localizedPath), Astro.site!).href,
+    }))
+  : [];
+const defaultUrl = Astro.site && localizedPage
+  ? new URL(pathFor('ja', localizedPath), Astro.site).href
+  : undefined;
+const maximizedLocale = new Intl.Locale(locale).maximize();
+const ogLocale = `${maximizedLocale.language}_${maximizedLocale.region?.toUpperCase() ?? 'US'}`;
 ---
 
 <!doctype html>
@@ -32,6 +47,12 @@ const ogLocale = locale === 'ja' ? 'ja_JP' : 'en_US';
     <title>{pageTitle}</title>
     <meta name="description" content={pageDescription} />
     <link rel="canonical" href={canonicalUrl} />
+    {
+      alternateUrls.map((alternate) => (
+        <link rel="alternate" hreflang={alternate.locale} href={alternate.href} />
+      ))
+    }
+    {defaultUrl && <link rel="alternate" hreflang="x-default" href={defaultUrl} />}
 
     <meta property="og:title" content={pageTitle} />
     <meta property="og:description" content={pageDescription} />

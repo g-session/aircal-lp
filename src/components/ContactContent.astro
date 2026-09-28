@@ -13,7 +13,7 @@ const dict = getDict(locale);
 const sectionId = (index: number) => `section-${index + 1}`;
 ---
 
-<Header locale={locale} />
+<Header locale={locale} page="contact" />
 
 <main class="contact-page">
   <div class="container">
@@ -43,13 +43,7 @@ const sectionId = (index: number) => `section-${index + 1}`;
             {typeof s.intro === 'string' ? (
               s.intro
             ) : (
-              <>
-                {s.intro.before}
-                <a class="inline-link" href={s.intro.link.href} target="_blank" rel="noopener">
-                  {s.intro.link.text}
-                </a>
-                {s.intro.after}
-              </>
+              <>{s.intro.before}<a class="inline-link" href={s.intro.link.href} target="_blank" rel="noopener">{s.intro.link.text}</a>{s.intro.after}</>
             )}
           </p>
           <ul class="items">
@@ -131,6 +125,7 @@ const sectionId = (index: number) => `section-${index + 1}`;
   .toc a {
     color: var(--fg);
     font-size: 15px;
+    overflow-wrap: anywhere;
     transition: color 0.15s ease;
   }
 
@@ -157,7 +152,9 @@ const sectionId = (index: number) => `section-${index + 1}`;
     font-size: clamp(22px, 3vw, 28px);
     font-weight: 700;
     letter-spacing: -0.015em;
+    line-height: 1.25;
     margin: 0 0 16px;
+    overflow-wrap: anywhere;
   }
 
   .section-intro {
