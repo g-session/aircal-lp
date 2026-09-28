@@ -1,13 +1,15 @@
 ---
 import type { Locale } from '../i18n';
-import { localeLabels, pathFor } from '../i18n';
+import { getDict, localeLabels, locales, pathFor } from '../i18n';
 
 interface Props {
   locale: Locale;
+  page?: 'home' | 'contact';
 }
 
-const { locale } = Astro.props;
-const otherLocale: Locale = locale === 'ja' ? 'en' : 'ja';
+const { locale, page = 'home' } = Astro.props;
+const pagePath = page === 'contact' ? 'contact' : '';
+const dict = getDict(locale);
 ---
 
 <header class="site-header">
@@ -16,14 +18,32 @@ const otherLocale: Locale = locale === 'ja' ? 'en' : 'ja';
       aircal
     </a>
 
-    <nav class="nav">
-      <a class="lang" href={pathFor(otherLocale)} hreflang={otherLocale}>
-        <span aria-hidden="true">●</span>
-        {localeLabels[otherLocale]}
-      </a>
-    </nav>
+    <div class="nav">
+      <label class="visually-hidden" for="locale-switch">{dict.nav.langSwitch}</label>
+      <select id="locale-switch" class="lang" aria-label={dict.nav.langSwitch}>
+        {
+          locales.map((targetLocale) => (
+            <option
+              value={targetLocale}
+              data-target={pathFor(targetLocale, pagePath)}
+              selected={locale === targetLocale}
+            >
+              {localeLabels[targetLocale]}
+            </option>
+          ))
+        }
+      </select>
+    </div>
   </div>
 </header>
+
+<script>
+  const localeSelect = document.querySelector<HTMLSelectElement>('#locale-switch');
+  localeSelect?.addEventListener('change', () => {
+    const target = localeSelect.selectedOptions[0]?.dataset.target;
+    if (target) window.location.assign(target);
+  });
+</script>
 
 <style>
   .site-header {
@@ -57,16 +77,19 @@ const otherLocale: Locale = locale === 'ja' ? 'en' : 'ja';
   }
 
   .lang {
-    display: inline-flex;
-    align-items: center;
-    gap: 8px;
-    padding: 8px 14px;
+    display: block;
+    width: min(280px, 60vw);
+    min-height: 42px;
+    padding: 8px 36px 8px 12px;
     border: 1px solid var(--border);
     border-radius: 999px;
+    background: var(--bg);
+    font: inherit;
     font-size: 13px;
     font-weight: 500;
     color: var(--fg);
     transition: background-color 0.2s ease, border-color 0.2s ease;
+    cursor: pointer;
   }
 
   .lang:hover {
@@ -74,8 +97,20 @@ const otherLocale: Locale = locale === 'ja' ? 'en' : 'ja';
     border-color: var(--fg-faint);
   }
 
-  .lang span {
-    color: var(--fg-faint);
-    font-size: 10px;
+  .lang:focus-visible {
+    outline: 3px solid var(--fg-muted);
+    outline-offset: 3px;
+  }
+
+  .visually-hidden {
+    position: absolute;
+    width: 1px;
+    height: 1px;
+    padding: 0;
+    margin: -1px;
+    overflow: hidden;
+    clip: rect(0, 0, 0, 0);
+    white-space: nowrap;
+    border: 0;
   }
 </style>

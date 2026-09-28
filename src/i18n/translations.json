@@ -1,0 +1,2682 @@
+{
+  "ko": {
+    "meta": {
+      "title": "aircal — 앱은 덜 열고, 일정은 한눈에.",
+      "description": "일정을 보는 경험에 집중한 캘린더 앱. Google 캘린더와 자동으로 동기화되어 업무와 일상을 한 화면에서 확인할 수 있습니다."
+    },
+    "nav": {
+      "langSwitch": "언어"
+    },
+    "hero": {
+      "tagline": "앱은 덜 열고, 일정은 한눈에.",
+      "description": "일정을 보는 경험에 집중한,\nGoogle 캘린더 연동 캘린더 앱.",
+      "storeAriaApp": "App Store에서 다운로드",
+      "storeAriaGoogle": "Google Play에서 다운로드"
+    },
+    "store": {
+      "appStore": "App Store에서 다운로드",
+      "googlePlay": "Google Play에서 다운로드"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "차분한 아름다움",
+        "body": "한눈에 읽히는 월간 보기. 정보의 밀도와 여백의 균형을 세심하게 다듬었습니다. 손가락으로 쓸어 넘겨 달을 오가고, 일정을 확인하고 추가하는 과정까지 자연스럽게 이어집니다.",
+        "alt": "월간 보기 화면"
+      },
+      {
+        "number": "02",
+        "title": "Google 캘린더와 긴밀한 연동",
+        "body": "실시간 양방향 동기화로 업무와 일상을 한곳에서 정리하세요. 여러 계정을 전환해 사용할 수 있고, 기기를 바꿔도 같은 화면을 유지합니다.",
+        "alt": "Google 캘린더 연동 화면"
+      },
+      {
+        "number": "03",
+        "title": "가족과 친구에게 일정 공유",
+        "body": "서로의 일정을 한 화면에서 확인하세요. Google 캘린더 공유 기능을 그대로 활용해 가족 캘린더를 함께 쓰고 자연스럽게 공동 편집할 수 있습니다.",
+        "alt": "일정 공유 화면"
+      },
+      {
+        "number": "04",
+        "title": "내 취향에 맞는 화면",
+        "body": "47가지 컬러 테마, 다크 모드, 공휴일 표시, 요일과 한 주의 시작일 설정까지. 간결함은 그대로, 원하는 대로 꾸밀 수 있습니다.",
+        "alt": "컬러 테마 모음"
+      },
+      {
+        "number": "05",
+        "title": "홈 화면에서 바로 확인",
+        "body": "앱을 열지 않고도 다음 일정을 간단히 확인하세요. 일·주·월 단위 위젯으로 앱을 열지 않는 경험을 추구했습니다.",
+        "alt": "홈 화면 위젯"
+      }
+    ],
+    "finalCta": {
+      "title": "지금 시작해 보세요."
+    },
+    "footer": {
+      "supportHeading": "지원",
+      "aboutHeading": "소개",
+      "help": "도움말",
+      "contact": "문의하기",
+      "terms": "이용약관",
+      "privacy": "개인정보 처리방침",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "문의하기 — aircal",
+        "description": "aircal 이용 문의와 각종 지원 채널을 안내합니다."
+      },
+      "heading": "문의하기",
+      "subheading": "문의 안내",
+      "tocTitle": "목차",
+      "sections": [
+        {
+          "heading": "aircal 이용에 관한 문의",
+          "intro": {
+            "before": "문의 전에 먼저 ",
+            "link": {
+              "text": "도움말",
+              "href": "https://g-session.github.io/aircal-help/ko/"
+            },
+            "after": "을 확인해 주세요. 그 밖의 문의는 아래 채널로 연락해 주세요."
+          },
+          "items": [
+            {
+              "label": "이메일",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Google 캘린더에 관한 문의",
+          "intro": "aircal은 Google 캘린더와 연동됩니다. 동기화나 일정 표시에 관해 궁금한 점이 있다면 Google 캘린더 고객센터도 함께 확인해 주세요.",
+          "items": [
+            {
+              "label": "Google 캘린더 고객센터",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "기기에 관한 문의",
+          "intro": "iPhone / iPad / Mac 작동이나 iCloud에 관한 질문은 Apple 지원에서, Android 작동에 관한 질문은 Google 지원에서 도움을 받을 수 있습니다.",
+          "items": [
+            {
+              "label": "Apple 지원",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google 지원",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zh": {
+    "meta": {
+      "title": "aircal — 少打开，一眼看清。",
+      "description": "专注于查看日程体验的日历应用。与 Google 日历自动同步，让工作与生活安排尽在同一屏幕。"
+    },
+    "nav": {
+      "langSwitch": "语言"
+    },
+    "hero": {
+      "tagline": "少打开，一眼看清。",
+      "description": "专注于日程查看体验的日历应用，\n与 Google 日历深度联动。",
+      "storeAriaApp": "在 App Store 下载",
+      "storeAriaGoogle": "在 Google Play 获取"
+    },
+    "store": {
+      "appStore": "在 App Store 下载",
+      "googlePlay": "在 Google Play 获取"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "静谧之美",
+        "body": "月视图一目了然，信息密度与留白经过细致平衡。轻轻滑动即可切换月份，从查看日程到添加安排，一气呵成。",
+        "alt": "月视图界面"
+      },
+      {
+        "number": "02",
+        "title": "与 Google 日历紧密联动",
+        "body": "实时双向同步，让工作与生活安排井然有序。支持切换多个账号，更换设备后也能保持相同的视图。",
+        "alt": "Google 日历联动界面"
+      },
+      {
+        "number": "03",
+        "title": "与家人和朋友共享日程",
+        "body": "在同一屏幕查看彼此的安排。沿用 Google 日历的共享功能，轻松使用家庭日历并共同编辑。",
+        "alt": "日程共享界面"
+      },
+      {
+        "number": "04",
+        "title": "打造自己的日历视图",
+        "body": "47 款颜色主题、深色模式、节假日显示，以及星期和每周起始日设置。保持简洁，也能按自己的喜好定制。",
+        "alt": "颜色主题一览"
+      },
+      {
+        "number": "05",
+        "title": "从主屏幕快速查看",
+        "body": "无需打开应用，也能快速查看下一个安排。提供日、周、月视图小组件，专为无需打开应用的体验而设计。",
+        "alt": "主屏幕小组件"
+      }
+    ],
+    "finalCta": {
+      "title": "现在就开始使用吧。"
+    },
+    "footer": {
+      "supportHeading": "支持",
+      "aboutHeading": "关于",
+      "help": "帮助",
+      "contact": "联系我们",
+      "terms": "服务条款",
+      "privacy": "隐私政策",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "联系我们 — aircal",
+        "description": "了解如何联系 aircal 团队，以及获取所需的支持。"
+      },
+      "heading": "联系我们",
+      "subheading": "联系支持",
+      "tocTitle": "目录",
+      "sections": [
+        {
+          "heading": "关于使用 aircal",
+          "intro": {
+            "before": "联系前，请先查看",
+            "link": {
+              "text": "帮助文档",
+              "href": "https://g-session.github.io/aircal-help/zh/"
+            },
+            "after": "。其他问题可通过以下渠道联系我们："
+          },
+          "items": [
+            {
+              "label": "电子邮件",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "关于 Google 日历",
+          "intro": "aircal 与 Google 日历联动。如果同步或日程显示有疑问，也可以先查看 Google 日历帮助中心。",
+          "items": [
+            {
+              "label": "Google 日历帮助中心",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "关于设备",
+          "intro": "有关 iPhone / iPad / Mac 运行或 iCloud 的问题，请联系 Apple 支持；有关 Android 运行的问题，请联系 Google 支持。",
+          "items": [
+            {
+              "label": "Apple 支持",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google 支持",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zh-Hant-TW": {
+    "meta": {
+      "title": "aircal — 少開啟，一眼掌握。",
+      "description": "專注於查看行程體驗的日曆 App。與 Google 日曆自動同步，讓工作與生活安排都在同一個畫面。"
+    },
+    "nav": {
+      "langSwitch": "語言"
+    },
+    "hero": {
+      "tagline": "少開啟，一眼掌握。",
+      "description": "專注於查看行程體驗的，\nGoogle 日曆連動日曆 App。",
+      "storeAriaApp": "在 App Store 下載",
+      "storeAriaGoogle": "在 Google Play 下載"
+    },
+    "store": {
+      "appStore": "在 App Store 下載",
+      "googlePlay": "在 Google Play 下載"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "靜謐之美",
+        "body": "月檢視一目了然，資訊密度與留白經過細心平衡。輕輕滑動即可切換月份，從查看行程到新增安排，一氣呵成。",
+        "alt": "月檢視畫面"
+      },
+      {
+        "number": "02",
+        "title": "與 Google 日曆深度連動",
+        "body": "即時雙向同步，讓工作與生活安排井然有序。支援切換多個帳戶，更換裝置後也能維持相同的檢視畫面。",
+        "alt": "Google 日曆連動畫面"
+      },
+      {
+        "number": "03",
+        "title": "與家人和朋友共享行程",
+        "body": "在同一個畫面查看彼此的安排。沿用 Google 日曆的共享功能，輕鬆使用家庭日曆並共同編輯。",
+        "alt": "行程共享畫面"
+      },
+      {
+        "number": "04",
+        "title": "打造自己的日曆畫面",
+        "body": "47 種色彩主題、深色模式、國定假日顯示，以及星期和每週起始日設定。維持簡潔，也能依照喜好自訂。",
+        "alt": "色彩主題一覽"
+      },
+      {
+        "number": "05",
+        "title": "從主畫面快速查看",
+        "body": "不用開啟 App，也能快速查看下一個行程。提供日、週、月檢視小工具，專為無需開啟 App 的體驗設計。",
+        "alt": "主畫面小工具"
+      }
+    ],
+    "finalCta": {
+      "title": "現在就開始使用 aircal。"
+    },
+    "footer": {
+      "supportHeading": "支援",
+      "aboutHeading": "關於",
+      "help": "說明",
+      "contact": "聯絡我們",
+      "terms": "服務條款",
+      "privacy": "隱私權政策",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "聯絡我們 — aircal",
+        "description": "了解如何聯絡 aircal 團隊，以及取得所需的支援。"
+      },
+      "heading": "聯絡我們",
+      "subheading": "聯絡支援",
+      "tocTitle": "目錄",
+      "sections": [
+        {
+          "heading": "關於 aircal 使用方式",
+          "intro": {
+            "before": "聯絡前，請先查看",
+            "link": {
+              "text": "說明文件",
+              "href": "https://g-session.github.io/aircal-help/zh-Hant-TW/"
+            },
+            "after": "。其他問題可透過以下管道聯絡我們："
+          },
+          "items": [
+            {
+              "label": "電子郵件",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "關於 Google 日曆",
+          "intro": "aircal 與 Google 日曆連動。如果同步或行程顯示有疑問，也可以先查看 Google 日曆說明中心。",
+          "items": [
+            {
+              "label": "Google 日曆說明中心",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "關於裝置",
+          "intro": "有關 iPhone / iPad / Mac 運作或 iCloud 的問題，請洽 Apple 支援；有關 Android 運作的問題，請洽 Google 支援。",
+          "items": [
+            {
+              "label": "Apple 支援",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google 支援",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "zh-Hant-HK": {
+    "meta": {
+      "title": "aircal — 少開啟，一眼掌握。",
+      "description": "專注於查看行程體驗的日曆 App。與 Google 日曆自動同步，讓工作與生活安排都在同一個畫面。"
+    },
+    "nav": {
+      "langSwitch": "語言"
+    },
+    "hero": {
+      "tagline": "少開啟，一眼掌握。",
+      "description": "專注於查看行程體驗的，\nGoogle 日曆連動日曆 App。",
+      "storeAriaApp": "在 App Store 下載",
+      "storeAriaGoogle": "在 Google Play 下載"
+    },
+    "store": {
+      "appStore": "在 App Store 下載",
+      "googlePlay": "在 Google Play 下載"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "靜謐之美",
+        "body": "月檢視一目了然，資訊密度與留白經過細心平衡。輕輕滑動即可切換月份，從查看行程到新增安排，一氣呵成。",
+        "alt": "月檢視畫面"
+      },
+      {
+        "number": "02",
+        "title": "與 Google 日曆緊密連動",
+        "body": "即時雙向同步，讓工作與生活安排井然有序。支援切換多個帳戶，更換裝置後也能維持相同的檢視畫面。",
+        "alt": "Google 日曆連動畫面"
+      },
+      {
+        "number": "03",
+        "title": "與家人和朋友共享行程",
+        "body": "在同一個畫面查看彼此的安排。沿用 Google 日曆的共享功能，輕鬆使用家庭日曆並共同編輯。",
+        "alt": "行程共享畫面"
+      },
+      {
+        "number": "04",
+        "title": "打造自己的日曆畫面",
+        "body": "47 種色彩主題、深色模式、公眾假期顯示，以及星期和每週起始日設定。維持簡潔，也能依照喜好自訂。",
+        "alt": "色彩主題一覽"
+      },
+      {
+        "number": "05",
+        "title": "從主畫面快速查看",
+        "body": "不用開啟 App，也能快速查看下一個行程。提供日、週、月檢視小工具，專為無需開啟 App 的體驗設計。",
+        "alt": "主畫面小工具"
+      }
+    ],
+    "finalCta": {
+      "title": "立即開始使用 aircal。"
+    },
+    "footer": {
+      "supportHeading": "支援",
+      "aboutHeading": "關於",
+      "help": "說明",
+      "contact": "聯絡我們",
+      "terms": "服務條款",
+      "privacy": "私隱政策",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "聯絡我們 — aircal",
+        "description": "了解如何聯絡 aircal 團隊，以及取得所需的支援。"
+      },
+      "heading": "聯絡我們",
+      "subheading": "聯絡支援",
+      "tocTitle": "目錄",
+      "sections": [
+        {
+          "heading": "關於 aircal 使用方式",
+          "intro": {
+            "before": "聯絡前，請先查看",
+            "link": {
+              "text": "說明文件",
+              "href": "https://g-session.github.io/aircal-help/zh-Hant-HK/"
+            },
+            "after": "。其他問題可透過以下途徑聯絡我們："
+          },
+          "items": [
+            {
+              "label": "電郵",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "關於 Google 日曆",
+          "intro": "aircal 與 Google 日曆連動。如果同步或行程顯示有疑問，也可以先查看 Google 日曆說明中心。",
+          "items": [
+            {
+              "label": "Google 日曆說明中心",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "關於裝置",
+          "intro": "有關 iPhone / iPad / Mac 運作或 iCloud 的問題，請聯絡 Apple 支援；有關 Android 運作的問題，請聯絡 Google 支援。",
+          "items": [
+            {
+              "label": "Apple 支援",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google 支援",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "id": {
+    "meta": {
+      "title": "aircal — Buka lebih jarang, lihat semuanya sekilas.",
+      "description": "Aplikasi kalender yang mengutamakan pengalaman melihat jadwal. Sinkron otomatis dengan Google Kalender agar urusan kerja dan pribadi tampil dalam satu layar."
+    },
+    "nav": {
+      "langSwitch": "Bahasa"
+    },
+    "hero": {
+      "tagline": "Buka lebih jarang, lihat semuanya sekilas.",
+      "description": "Aplikasi kalender yang dirancang untuk memudahkan Anda melihat jadwal,\nterintegrasi dengan Google Kalender.",
+      "storeAriaApp": "Unduh di App Store",
+      "storeAriaGoogle": "Dapatkan di Google Play"
+    },
+    "store": {
+      "appStore": "Unduh di App Store",
+      "googlePlay": "Dapatkan di Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Keindahan yang tenang",
+        "body": "Tampilan bulanan yang mudah dipahami sekilas. Kepadatan informasi dan ruang kosong ditata dengan seimbang. Geser untuk berpindah bulan, melihat jadwal, hingga menambahkan acara dalam satu alur yang mulus.",
+        "alt": "Tampilan bulan"
+      },
+      {
+        "number": "02",
+        "title": "Terhubung erat dengan Google Kalender",
+        "body": "Sinkronisasi dua arah secara waktu nyata merapikan urusan kerja dan pribadi di satu tempat. Anda dapat beralih di antara beberapa akun dan melihat tampilan yang sama meski berganti perangkat.",
+        "alt": "Layar integrasi Google Kalender"
+      },
+      {
+        "number": "03",
+        "title": "Bagikan jadwal dengan keluarga dan teman",
+        "body": "Lihat jadwal satu sama lain dalam satu layar. Manfaatkan fitur berbagi Google Kalender untuk menggunakan kalender keluarga dan mengeditnya bersama dengan mudah.",
+        "alt": "Layar berbagi jadwal"
+      },
+      {
+        "number": "04",
+        "title": "Sesuaikan tampilannya",
+        "body": "47 tema warna, mode gelap, tampilan hari libur, serta pengaturan hari dan awal pekan. Tetap sederhana, dengan tampilan yang bisa disesuaikan sesuka Anda.",
+        "alt": "Kumpulan tema warna"
+      },
+      {
+        "number": "05",
+        "title": "Lihat langsung dari layar utama",
+        "body": "Lihat jadwal berikutnya tanpa membuka aplikasi. Widget harian, mingguan, dan bulanan dirancang agar Anda bisa melihat agenda tanpa perlu membuka aplikasi.",
+        "alt": "Widget layar utama"
+      }
+    ],
+    "finalCta": {
+      "title": "Mulai gunakan aircal."
+    },
+    "footer": {
+      "supportHeading": "Dukungan",
+      "aboutHeading": "Tentang",
+      "help": "Bantuan",
+      "contact": "Hubungi kami",
+      "terms": "Ketentuan Layanan",
+      "privacy": "Kebijakan Privasi",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Hubungi kami — aircal",
+        "description": "Hubungi tim aircal dan temukan kanal dukungan yang sesuai."
+      },
+      "heading": "Hubungi kami",
+      "subheading": "Kontak",
+      "tocTitle": "Daftar isi",
+      "sections": [
+        {
+          "heading": "Tentang penggunaan aircal",
+          "intro": {
+            "before": "Sebelum menghubungi kami, silakan lihat ",
+            "link": {
+              "text": "pusat bantuan",
+              "href": "https://g-session.github.io/aircal-help/id/"
+            },
+            "after": " terlebih dahulu. Untuk hal lainnya, hubungi kami melalui kanal berikut:"
+          },
+          "items": [
+            {
+              "label": "Email",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Tentang Google Kalender",
+          "intro": "aircal terhubung dengan Google Kalender. Jika ada pertanyaan tentang sinkronisasi atau tampilan acara, silakan lihat Pusat Bantuan Google Kalender.",
+          "items": [
+            {
+              "label": "Pusat Bantuan Google Kalender",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Tentang perangkat",
+          "intro": "Untuk pertanyaan tentang pengoperasian iPhone / iPad / Mac atau iCloud, silakan hubungi Dukungan Apple. Untuk pertanyaan tentang Android, hubungi Dukungan Google.",
+          "items": [
+            {
+              "label": "Dukungan Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Dukungan Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "vi": {
+    "meta": {
+      "title": "aircal — Mở ít hơn. Xem rõ hơn.",
+      "description": "Ứng dụng lịch chú trọng trải nghiệm xem lịch. Đồng bộ tự động với Google Calendar để sắp xếp công việc và cuộc sống trên cùng một màn hình."
+    },
+    "nav": {
+      "langSwitch": "Ngôn ngữ"
+    },
+    "hero": {
+      "tagline": "Mở ít hơn. Xem rõ hơn.",
+      "description": "Ứng dụng lịch chú trọng trải nghiệm xem lịch,\ntích hợp với Google Calendar.",
+      "storeAriaApp": "Tải trên App Store",
+      "storeAriaGoogle": "Tải trên Google Play"
+    },
+    "store": {
+      "appStore": "Tải trên App Store",
+      "googlePlay": "Tải trên Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Vẻ đẹp tĩnh lặng",
+        "body": "Chế độ xem tháng rõ ràng chỉ trong một ánh nhìn. Mật độ thông tin và khoảng trống được cân bằng cẩn thận. Vuốt để chuyển tháng, xem lịch và thêm sự kiện liền mạch trong cùng một thao tác.",
+        "alt": "Màn hình xem tháng"
+      },
+      {
+        "number": "02",
+        "title": "Kết nối sâu với Google Calendar",
+        "body": "Đồng bộ hai chiều theo thời gian thực giúp sắp xếp công việc và cuộc sống ở cùng một nơi. Bạn có thể chuyển đổi giữa nhiều tài khoản và giữ nguyên chế độ xem trên các thiết bị.",
+        "alt": "Màn hình tích hợp Google Calendar"
+      },
+      {
+        "number": "03",
+        "title": "Chia sẻ lịch với gia đình và bạn bè",
+        "body": "Xem lịch của mọi người trên cùng một màn hình. Tận dụng tính năng chia sẻ của Google Calendar để dùng chung lịch gia đình và cùng chỉnh sửa thật dễ dàng.",
+        "alt": "Màn hình chia sẻ lịch"
+      },
+      {
+        "number": "04",
+        "title": "Tùy chỉnh theo sở thích",
+        "body": "47 chủ đề màu, chế độ tối, hiển thị ngày lễ, cùng tùy chọn thứ trong tuần và ngày bắt đầu tuần. Vẫn giữ sự đơn giản mà bạn có thể tùy chỉnh theo ý mình.",
+        "alt": "Bộ sưu tập chủ đề màu"
+      },
+      {
+        "number": "05",
+        "title": "Xem nhanh từ màn hình chính",
+        "body": "Xem lịch tiếp theo mà không cần mở ứng dụng. Widget theo ngày, tuần và tháng được thiết kế để bạn xem lịch mà không phải mở ứng dụng.",
+        "alt": "Widget trên màn hình chính"
+      }
+    ],
+    "finalCta": {
+      "title": "Bắt đầu với aircal."
+    },
+    "footer": {
+      "supportHeading": "Hỗ trợ",
+      "aboutHeading": "Giới thiệu",
+      "help": "Trợ giúp",
+      "contact": "Liên hệ",
+      "terms": "Điều khoản dịch vụ",
+      "privacy": "Chính sách quyền riêng tư",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Liên hệ — aircal",
+        "description": "Liên hệ với đội ngũ aircal và tìm kênh hỗ trợ phù hợp."
+      },
+      "heading": "Liên hệ",
+      "subheading": "Kết nối với chúng tôi",
+      "tocTitle": "Mục lục",
+      "sections": [
+        {
+          "heading": "Về việc sử dụng aircal",
+          "intro": {
+            "before": "Trước khi liên hệ, vui lòng xem ",
+            "link": {
+              "text": "trang trợ giúp",
+              "href": "https://g-session.github.io/aircal-help/vi/"
+            },
+            "after": " trước. Với các vấn đề khác, bạn có thể liên hệ qua những kênh sau:"
+          },
+          "items": [
+            {
+              "label": "Email",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Về Google Calendar",
+          "intro": "aircal được tích hợp với Google Calendar. Nếu bạn có thắc mắc về đồng bộ hoặc cách hiển thị sự kiện, hãy xem thêm Trung tâm trợ giúp Google Calendar.",
+          "items": [
+            {
+              "label": "Trung tâm trợ giúp Google Calendar",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Về thiết bị",
+          "intro": "Với câu hỏi về hoạt động của iPhone / iPad / Mac hoặc iCloud, bạn có thể liên hệ Bộ phận hỗ trợ Apple. Với câu hỏi về Android, hãy liên hệ Bộ phận hỗ trợ Google.",
+          "items": [
+            {
+              "label": "Bộ phận hỗ trợ Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Bộ phận hỗ trợ Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ms": {
+    "meta": {
+      "title": "aircal — Kurang membuka, lebih mudah melihat.",
+      "description": "Aplikasi kalendar yang mengutamakan pengalaman melihat jadual. Segerak secara automatik dengan Google Calendar untuk menyusun kerja dan kehidupan dalam satu paparan."
+    },
+    "nav": {
+      "langSwitch": "Bahasa"
+    },
+    "hero": {
+      "tagline": "Kurang membuka, lebih mudah melihat.",
+      "description": "Aplikasi kalendar yang mengutamakan pengalaman melihat jadual,\ndengan sambungan Google Calendar.",
+      "storeAriaApp": "Muat turun di App Store",
+      "storeAriaGoogle": "Dapatkan di Google Play"
+    },
+    "store": {
+      "appStore": "Muat turun di App Store",
+      "googlePlay": "Dapatkan di Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Keindahan yang tenang",
+        "body": "Paparan bulanan yang mudah difahami sekali imbas. Kepadatan maklumat dan ruang kosong diseimbangkan dengan teliti. Leret untuk bertukar bulan, melihat jadual dan menambah acara dalam satu aliran yang lancar.",
+        "alt": "Paparan bulan"
+      },
+      {
+        "number": "02",
+        "title": "Terhubung rapat dengan Google Calendar",
+        "body": "Penyegerakan dua hala masa nyata menyusun kerja dan kehidupan di satu tempat. Anda boleh bertukar antara berbilang akaun dan mengekalkan paparan yang sama walaupun bertukar peranti.",
+        "alt": "Skrin integrasi Google Calendar"
+      },
+      {
+        "number": "03",
+        "title": "Kongsi jadual dengan keluarga dan rakan",
+        "body": "Lihat jadual antara satu sama lain dalam satu paparan. Gunakan ciri perkongsian Google Calendar untuk berkongsi kalendar keluarga dan mengeditnya bersama dengan mudah.",
+        "alt": "Skrin perkongsian jadual"
+      },
+      {
+        "number": "04",
+        "title": "Sesuaikan mengikut cita rasa",
+        "body": "47 tema warna, mod gelap, paparan cuti umum, serta tetapan hari dan permulaan minggu. Kekal ringkas sambil disesuaikan mengikut pilihan anda.",
+        "alt": "Koleksi tema warna"
+      },
+      {
+        "number": "05",
+        "title": "Lihat terus dari skrin utama",
+        "body": "Lihat jadual seterusnya tanpa membuka aplikasi. Widget harian, mingguan dan bulanan direka untuk pengalaman melihat jadual tanpa perlu membuka aplikasi.",
+        "alt": "Widget skrin utama"
+      }
+    ],
+    "finalCta": {
+      "title": "Mula gunakan aircal."
+    },
+    "footer": {
+      "supportHeading": "Sokongan",
+      "aboutHeading": "Tentang",
+      "help": "Bantuan",
+      "contact": "Hubungi kami",
+      "terms": "Terma Perkhidmatan",
+      "privacy": "Dasar Privasi",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Hubungi kami — aircal",
+        "description": "Hubungi pasukan aircal dan cari saluran sokongan yang sesuai."
+      },
+      "heading": "Hubungi kami",
+      "subheading": "Hubungi kami",
+      "tocTitle": "Kandungan",
+      "sections": [
+        {
+          "heading": "Tentang penggunaan aircal",
+          "intro": {
+            "before": "Sebelum menghubungi kami, sila lihat ",
+            "link": {
+              "text": "pusat bantuan",
+              "href": "https://g-session.github.io/aircal-help/ms/"
+            },
+            "after": " terlebih dahulu. Untuk perkara lain, hubungi kami melalui saluran berikut:"
+          },
+          "items": [
+            {
+              "label": "E-mel",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Tentang Google Calendar",
+          "intro": "aircal disepadukan dengan Google Calendar. Jika ada soalan tentang penyegerakan atau paparan acara, sila rujuk Pusat Bantuan Google Calendar juga.",
+          "items": [
+            {
+              "label": "Pusat Bantuan Google Calendar",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Tentang peranti",
+          "intro": "Untuk soalan tentang operasi iPhone / iPad / Mac atau iCloud, sila hubungi Sokongan Apple. Untuk soalan tentang Android, hubungi Sokongan Google.",
+          "items": [
+            {
+              "label": "Sokongan Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Sokongan Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "th": {
+    "meta": {
+      "title": "aircal — เปิดแอปน้อยลง เห็นตารางชัดขึ้น",
+      "description": "แอปปฏิทินที่ใส่ใจประสบการณ์การดูตาราง ซิงค์กับ Google ปฏิทินโดยอัตโนมัติ ให้ทั้งเรื่องงานและชีวิตอยู่ในหน้าจอเดียว"
+    },
+    "nav": {
+      "langSwitch": "ภาษา"
+    },
+    "hero": {
+      "tagline": "เปิดแอปน้อยลง เห็นตารางชัดขึ้น",
+      "description": "แอปปฏิทินที่ใส่ใจประสบการณ์การดูตาราง\nพร้อมเชื่อมต่อกับ Google ปฏิทิน",
+      "storeAriaApp": "ดาวน์โหลดบน App Store",
+      "storeAriaGoogle": "ดาวน์โหลดบน Google Play"
+    },
+    "store": {
+      "appStore": "ดาวน์โหลดบน App Store",
+      "googlePlay": "ดาวน์โหลดบน Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "ความงามที่เรียบสงบ",
+        "body": "มุมมองรายเดือนที่ดูเข้าใจได้ในพริบตา เราใส่ใจสมดุลระหว่างข้อมูลกับพื้นที่ว่าง ปัดเพื่อเปลี่ยนเดือนได้อย่างลื่นไหล ตั้งแต่ดูตารางไปจนถึงเพิ่มกำหนดการ",
+        "alt": "หน้าจอมุมมองรายเดือน"
+      },
+      {
+        "number": "02",
+        "title": "เชื่อมต่อกับ Google ปฏิทินอย่างใกล้ชิด",
+        "body": "ซิงค์สองทางแบบเรียลไทม์ ช่วยจัดระเบียบทั้งงานและชีวิตไว้ในที่เดียว สลับใช้หลายบัญชีได้ และยังคงมุมมองเดิมเมื่อเปลี่ยนอุปกรณ์",
+        "alt": "หน้าจอเชื่อมต่อ Google ปฏิทิน"
+      },
+      {
+        "number": "03",
+        "title": "แชร์ตารางกับครอบครัวและเพื่อน",
+        "body": "ดูตารางของกันและกันได้ในหน้าจอเดียว ใช้ฟีเจอร์แชร์ของ Google ปฏิทินเพื่อใช้ปฏิทินครอบครัวร่วมกันและแก้ไขร่วมกันได้อย่างเป็นธรรมชาติ",
+        "alt": "หน้าจอแชร์ตาราง"
+      },
+      {
+        "number": "04",
+        "title": "ปรับมุมมองให้เป็นแบบของคุณ",
+        "body": "ธีมสี 47 แบบ โหมดมืด แสดงวันหยุด และตั้งค่าวันในสัปดาห์กับวันเริ่มต้นสัปดาห์ได้ ยังคงเรียบง่ายพร้อมปรับแต่งตามสไตล์ของคุณ",
+        "alt": "รวมธีมสี"
+      },
+      {
+        "number": "05",
+        "title": "ดูได้ทันทีจากหน้าจอหลัก",
+        "body": "ดูตารางถัดไปได้โดยไม่ต้องเปิดแอป วิดเจ็ตรายวัน รายสัปดาห์ และรายเดือนออกแบบมาให้ดูตารางได้โดยไม่ต้องเปิดแอป",
+        "alt": "วิดเจ็ตหน้าจอหลัก"
+      }
+    ],
+    "finalCta": {
+      "title": "เริ่มใช้ aircal ได้เลย"
+    },
+    "footer": {
+      "supportHeading": "การสนับสนุน",
+      "aboutHeading": "เกี่ยวกับ",
+      "help": "ช่วยเหลือ",
+      "contact": "ติดต่อเรา",
+      "terms": "ข้อกำหนดการใช้บริการ",
+      "privacy": "นโยบายความเป็นส่วนตัว",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "ติดต่อเรา — aircal",
+        "description": "ติดต่อทีมงาน aircal และค้นหาช่องทางรับความช่วยเหลือที่เหมาะสม"
+      },
+      "heading": "ติดต่อเรา",
+      "subheading": "ติดต่อทีมงาน",
+      "tocTitle": "สารบัญ",
+      "sections": [
+        {
+          "heading": "เกี่ยวกับการใช้งาน aircal",
+          "intro": {
+            "before": "ก่อนติดต่อเรา โปรดดู ",
+            "link": {
+              "text": "ศูนย์ช่วยเหลือ",
+              "href": "https://g-session.github.io/aircal-help/th/"
+            },
+            "after": " ก่อน หากมีเรื่องอื่น ติดต่อเราได้ผ่านช่องทางต่อไปนี้:"
+          },
+          "items": [
+            {
+              "label": "อีเมล",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "เกี่ยวกับ Google ปฏิทิน",
+          "intro": "aircal เชื่อมต่อกับ Google ปฏิทิน หากมีข้อสงสัยเกี่ยวกับการซิงค์หรือการแสดงกำหนดการ โปรดดูศูนย์ช่วยเหลือ Google ปฏิทินเพิ่มเติม",
+          "items": [
+            {
+              "label": "ศูนย์ช่วยเหลือ Google ปฏิทิน",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "เกี่ยวกับอุปกรณ์",
+          "intro": "หากมีคำถามเกี่ยวกับการทำงานของ iPhone / iPad / Mac หรือ iCloud โปรดติดต่อฝ่ายสนับสนุนของ Apple ส่วนคำถามเกี่ยวกับ Android โปรดติดต่อฝ่ายสนับสนุนของ Google",
+          "items": [
+            {
+              "label": "ฝ่ายสนับสนุนของ Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "ฝ่ายสนับสนุนของ Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "ru": {
+    "meta": {
+      "title": "aircal — Открывайте реже. Всё видно сразу.",
+      "description": "Календарь, созданный для удобного просмотра расписания. Автоматически синхронизируется с Google Calendar, чтобы дела и личные планы были на одном экране."
+    },
+    "nav": {
+      "langSwitch": "Язык"
+    },
+    "hero": {
+      "tagline": "Открывайте реже. Всё видно сразу.",
+      "description": "Календарь для удобного просмотра расписания,\nс интеграцией Google Calendar.",
+      "storeAriaApp": "Загрузить в App Store",
+      "storeAriaGoogle": "Скачать в Google Play"
+    },
+    "store": {
+      "appStore": "Загрузить в App Store",
+      "googlePlay": "Скачать в Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Спокойная красота",
+        "body": "Месячный вид, в котором всё понятно с первого взгляда. Мы тщательно сбалансировали количество информации и свободное пространство. Листайте месяцы, просматривайте расписание и добавляйте события одним плавным движением.",
+        "alt": "Экран месячного вида"
+      },
+      {
+        "number": "02",
+        "title": "Тесная интеграция с Google Calendar",
+        "body": "Двусторонняя синхронизация в реальном времени помогает держать рабочие и личные дела в одном месте. Переключайтесь между несколькими аккаунтами и сохраняйте один и тот же вид на разных устройствах.",
+        "alt": "Экран интеграции с Google Calendar"
+      },
+      {
+        "number": "03",
+        "title": "Делитесь расписанием с близкими",
+        "body": "Смотрите планы друг друга на одном экране. Используйте функции общего доступа Google Calendar, чтобы вместе вести семейный календарь и редактировать его.",
+        "alt": "Экран общего доступа к расписанию"
+      },
+      {
+        "number": "04",
+        "title": "Настройте под себя",
+        "body": "47 цветовых тем, тёмный режим, отображение праздников, настройка дней недели и начала недели. Приложение остаётся простым и при этом подстраивается под ваши предпочтения.",
+        "alt": "Коллекция цветовых тем"
+      },
+      {
+        "number": "05",
+        "title": "Быстрый просмотр с главного экрана",
+        "body": "Посмотрите, что запланировано дальше, не открывая приложение. Виджеты дня, недели и месяца созданы для просмотра расписания без запуска приложения.",
+        "alt": "Виджет на главном экране"
+      }
+    ],
+    "finalCta": {
+      "title": "Начните пользоваться aircal."
+    },
+    "footer": {
+      "supportHeading": "Поддержка",
+      "aboutHeading": "О приложении",
+      "help": "Справка",
+      "contact": "Связаться с нами",
+      "terms": "Условия использования",
+      "privacy": "Политика конфиденциальности",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Связаться с нами — aircal",
+        "description": "Свяжитесь с командой aircal и выберите подходящий канал поддержки."
+      },
+      "heading": "Контакты",
+      "subheading": "Свяжитесь с нами",
+      "tocTitle": "Содержание",
+      "sections": [
+        {
+          "heading": "Об использовании aircal",
+          "intro": {
+            "before": "Перед обращением загляните в ",
+            "link": {
+              "text": "справку",
+              "href": "https://g-session.github.io/aircal-help/ru/"
+            },
+            "after": ". По другим вопросам свяжитесь с нами одним из способов ниже:"
+          },
+          "items": [
+            {
+              "label": "Электронная почта",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "О Google Calendar",
+          "intro": "aircal интегрирован с Google Calendar. Если у вас возникли вопросы о синхронизации или отображении событий, загляните также в справочный центр Google Calendar.",
+          "items": [
+            {
+              "label": "Справочный центр Google Calendar",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Об устройстве",
+          "intro": "По вопросам работы iPhone / iPad / Mac или iCloud обратитесь в службу поддержки Apple. По вопросам работы Android обратитесь в службу поддержки Google.",
+          "items": [
+            {
+              "label": "Поддержка Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Поддержка Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "hu": {
+    "meta": {
+      "title": "aircal — Nyisd meg ritkábban, lásd át könnyebben.",
+      "description": "Naptáralkalmazás, amely a programok áttekintésére összpontosít. Automatikusan szinkronizál a Google Naptárral, így a munka és a magánélet egy nézetben marad."
+    },
+    "nav": {
+      "langSwitch": "Nyelv"
+    },
+    "hero": {
+      "tagline": "Nyisd meg ritkábban, lásd át könnyebben.",
+      "description": "Naptáralkalmazás, amely a programok áttekintésére összpontosít,\na Google Naptárral összekapcsolva.",
+      "storeAriaApp": "Letöltés az App Store-ból",
+      "storeAriaGoogle": "Letöltés a Google Playről"
+    },
+    "store": {
+      "appStore": "Letöltés az App Store-ból",
+      "googlePlay": "Letöltés a Google Playről"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Visszafogott szépség",
+        "body": "Havi nézet, amelyre elég egy pillantást vetni. Gondosan egyensúlyoztuk az információ mennyiségét és a szabad teret. Lapozz a hónapok között, nézd meg a programjaidat, és adj hozzá újakat egyetlen gördülékeny mozdulattal.",
+        "alt": "Havi nézet képernyője"
+      },
+      {
+        "number": "02",
+        "title": "Szoros kapcsolat a Google Naptárral",
+        "body": "A valós idejű, kétirányú szinkronizálás egy helyen tartja a munkát és a magánéletet. Több fiók között is válthatsz, és eszközváltás után is ugyanazt a nézetet látod.",
+        "alt": "Google Naptár-integráció képernyője"
+      },
+      {
+        "number": "03",
+        "title": "Oszd meg a programjaidat családoddal és barátaiddal",
+        "body": "Lássátok egymás programjait egyetlen nézetben. Használd ki a Google Naptár megosztási funkcióit, hogy közösen kezeljétek a családi naptárat és szerkesszétek a bejegyzéseket.",
+        "alt": "Naptármegosztási képernyő"
+      },
+      {
+        "number": "04",
+        "title": "Alakítsd a saját ízlésedre",
+        "body": "47 színtéma, sötét mód, ünnepnapok megjelenítése, valamint a hét napjainak és kezdőnapjának beállítása. Marad egyszerű, mégis a saját igényeidhez igazíthatod.",
+        "alt": "Színtémák"
+      },
+      {
+        "number": "05",
+        "title": "Gyors áttekintés a főképernyőről",
+        "body": "Nézd meg a következő programodat az alkalmazás megnyitása nélkül. A napi, heti és havi widgetekkel alkalmazásnyitás nélkül pillanthatsz rá a naptáradra.",
+        "alt": "Főképernyő-widget"
+      }
+    ],
+    "finalCta": {
+      "title": "Kezdd el az aircal használatát."
+    },
+    "footer": {
+      "supportHeading": "Támogatás",
+      "aboutHeading": "Rólunk",
+      "help": "Súgó",
+      "contact": "Kapcsolat",
+      "terms": "Felhasználási feltételek",
+      "privacy": "Adatvédelmi irányelvek",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kapcsolat — aircal",
+        "description": "Vedd fel a kapcsolatot az aircal csapatával, és találd meg a megfelelő támogatási csatornát."
+      },
+      "heading": "Kapcsolat",
+      "subheading": "Lépj kapcsolatba velünk",
+      "tocTitle": "Tartalom",
+      "sections": [
+        {
+          "heading": "Az aircal használatáról",
+          "intro": {
+            "before": "Mielőtt kapcsolatba lépnél velünk, nézd meg a ",
+            "link": {
+              "text": "súgót",
+              "href": "https://g-session.github.io/aircal-help/hu/"
+            },
+            "after": " is. Egyéb kérdésekkel az alábbi csatornákon érhetsz el minket:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "A Google Naptárról",
+          "intro": "Az aircal a Google Naptárral működik együtt. Ha kérdésed van a szinkronizálással vagy a programok megjelenítésével kapcsolatban, nézd meg a Google Naptár Súgóját is.",
+          "items": [
+            {
+              "label": "Google Naptár Súgó",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Az eszközödről",
+          "intro": "Az iPhone / iPad / Mac működésével vagy az iClouddal kapcsolatos kérdésekben az Apple-támogatás tud segíteni. Androiddal kapcsolatos kérdésekkel fordulj a Google ügyfélszolgálatához.",
+          "items": [
+            {
+              "label": "Apple-támogatás",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google-támogatás",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "de": {
+    "meta": {
+      "title": "aircal — Weniger öffnen. Mehr sehen.",
+      "description": "Ein Kalender für alle, die ihre Termine gern auf einen Blick erfassen. Synchronisiert sich mit Google Kalender und hält Berufliches und Privates in einer ruhigen Ansicht zusammen."
+    },
+    "nav": {
+      "langSwitch": "Sprache"
+    },
+    "hero": {
+      "tagline": "Weniger öffnen. Mehr sehen.",
+      "description": "Ein Kalender für alle, die ihre Termine gern auf einen Blick erfassen,\nmit Google Kalender verbunden.",
+      "storeAriaApp": "Im App Store laden",
+      "storeAriaGoogle": "Bei Google Play herunterladen"
+    },
+    "store": {
+      "appStore": "Im App Store laden",
+      "googlePlay": "Bei Google Play herunterladen"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Ruhige Klarheit",
+        "body": "Eine Monatsansicht, die sich auf einen Blick erfassen lässt. Informationen und Freiraum sind sorgfältig ausbalanciert. Wische zwischen den Monaten, sieh deine Termine an und füge neue hinzu – alles in einem fließenden Ablauf.",
+        "alt": "Monatsansicht"
+      },
+      {
+        "number": "02",
+        "title": "Eng mit Google Kalender verbunden",
+        "body": "Der Echtzeitabgleich in beide Richtungen hält Berufliches und Privates an einem Ort zusammen. Wechsle zwischen mehreren Konten und behalte auf jedem Gerät dieselbe Ansicht.",
+        "alt": "Ansicht der Google-Kalender-Verknüpfung"
+      },
+      {
+        "number": "03",
+        "title": "Termine mit Familie und Freunden teilen",
+        "body": "Behalte eure Termine in einer Ansicht im Blick. aircal nutzt die Freigabefunktionen von Google Kalender, damit gemeinsame Familienkalender und die Bearbeitung durch mehrere Personen ganz einfach funktionieren.",
+        "alt": "Ansicht zum Teilen von Terminen"
+      },
+      {
+        "number": "04",
+        "title": "Gestalte deine Ansicht",
+        "body": "47 Farbthemen, Dunkelmodus, Feiertagsanzeige sowie Einstellungen für Wochentage und Wochenbeginn. Passe die Ansicht an, ohne ihre Schlichtheit zu verlieren.",
+        "alt": "Farbthemen"
+      },
+      {
+        "number": "05",
+        "title": "Ein Blick vom Home-Bildschirm",
+        "body": "Sieh deinen nächsten Termin, ohne die App zu öffnen. Widgets für Tag, Woche und Monat – für eine Nutzung, bei der die App geschlossen bleiben kann.",
+        "alt": "Widget auf dem Home-Bildschirm"
+      }
+    ],
+    "finalCta": {
+      "title": "Starte jetzt mit aircal."
+    },
+    "footer": {
+      "supportHeading": "Support",
+      "aboutHeading": "Über aircal",
+      "help": "Hilfe",
+      "contact": "Kontakt",
+      "terms": "Nutzungsbedingungen",
+      "privacy": "Datenschutzerklärung",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — aircal",
+        "description": "Kontaktmöglichkeiten und Support für die Nutzung von aircal."
+      },
+      "heading": "Kontakt",
+      "subheading": "Schreib uns",
+      "tocTitle": "Inhalt",
+      "sections": [
+        {
+          "heading": "Fragen zur Nutzung von aircal",
+          "intro": {
+            "before": "Bevor du uns kontaktierst, wirf bitte zuerst einen Blick in unsere ",
+            "link": {
+              "text": "Hilfe",
+              "href": "https://g-session.github.io/aircal-help/de/"
+            },
+            "after": ". Für weitere Anliegen erreichst du uns über folgende Kanäle:"
+          },
+          "items": [
+            {
+              "label": "E-Mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Fragen zu Google Kalender",
+          "intro": "aircal ist mit Google Kalender verbunden. Wenn du Fragen zur Synchronisierung oder zur Anzeige von Terminen hast, hilft dir auch die Google-Kalender-Hilfe weiter.",
+          "items": [
+            {
+              "label": "Google-Kalender-Hilfe",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Fragen zu deinem Gerät",
+          "intro": "Bei Fragen zur Nutzung von iPhone, iPad, Mac oder iCloud hilft dir der Apple Support. Bei Fragen zu Android wende dich bitte an den Google Support.",
+          "items": [
+            {
+              "label": "Apple Support",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google Support",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "es": {
+    "meta": {
+      "title": "aircal — Abre menos. Ve más.",
+      "description": "Una app de calendario pensada para consultar tus planes de un vistazo. Se sincroniza con Google Calendar y reúne el trabajo y la vida personal en una sola vista."
+    },
+    "nav": {
+      "langSwitch": "Idioma"
+    },
+    "hero": {
+      "tagline": "Abre menos. Ve más.",
+      "description": "Una app de calendario pensada para consultar tus planes de un vistazo,\ncon Google Calendar integrado.",
+      "storeAriaApp": "Descargar en el App Store",
+      "storeAriaGoogle": "Descargar en Google Play"
+    },
+    "store": {
+      "appStore": "Descargar en el App Store",
+      "googlePlay": "Descargar en Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Belleza serena",
+        "body": "Una vista mensual que se entiende de un vistazo, con un equilibrio cuidado entre información y espacio. Desliza para cambiar de mes, consultar tus planes y añadir eventos, todo con un gesto fluido.",
+        "alt": "Vista mensual"
+      },
+      {
+        "number": "02",
+        "title": "Integrado con Google Calendar",
+        "body": "La sincronización bidireccional en tiempo real reúne el trabajo y la vida personal. Cambia entre varias cuentas y conserva la misma vista en todos tus dispositivos.",
+        "alt": "Pantalla de integración con Google Calendar"
+      },
+      {
+        "number": "03",
+        "title": "Comparte planes con familiares y amigos",
+        "body": "Consulta vuestros planes en una sola vista. aircal aprovecha las opciones para compartir de Google Calendar, para que los calendarios familiares y la edición conjunta sean sencillos.",
+        "alt": "Pantalla para compartir planes"
+      },
+      {
+        "number": "04",
+        "title": "A tu manera",
+        "body": "47 temas de color, modo oscuro, opción para mostrar festivos y ajustes de los días de la semana y el inicio de semana. Personaliza la vista sin perder la sencillez.",
+        "alt": "Temas de color"
+      },
+      {
+        "number": "05",
+        "title": "Un vistazo desde la pantalla de inicio",
+        "body": "Consulta tu próximo plan sin abrir la app. Widgets diarios, semanales y mensuales, pensados para que puedas ver tu agenda sin entrar en la app.",
+        "alt": "Widget de la pantalla de inicio"
+      }
+    ],
+    "finalCta": {
+      "title": "Empieza con aircal."
+    },
+    "footer": {
+      "supportHeading": "Ayuda",
+      "aboutHeading": "Acerca de aircal",
+      "help": "Centro de ayuda",
+      "contact": "Contacto",
+      "terms": "Condiciones del servicio",
+      "privacy": "Política de privacidad",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contacto — aircal",
+        "description": "Canales de contacto y asistencia para usar aircal."
+      },
+      "heading": "Contacto",
+      "subheading": "Escríbenos",
+      "tocTitle": "Contenido",
+      "sections": [
+        {
+          "heading": "Ayuda sobre el uso de aircal",
+          "intro": {
+            "before": "Antes de escribirnos, consulta primero nuestra ",
+            "link": {
+              "text": "ayuda",
+              "href": "https://g-session.github.io/aircal-help/es/"
+            },
+            "after": ". Para lo demás, puedes contactarnos por estos canales:"
+          },
+          "items": [
+            {
+              "label": "Correo electrónico",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Ayuda sobre Google Calendar",
+          "intro": "aircal está integrado con Google Calendar. Si tienes dudas sobre la sincronización o la visualización de eventos, también puedes consultar la ayuda de Google Calendar.",
+          "items": [
+            {
+              "label": "Ayuda de Google Calendar",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Ayuda sobre tu dispositivo",
+          "intro": "Para consultas sobre el funcionamiento de iPhone, iPad, Mac o iCloud, puedes acudir al soporte de Apple. Para consultas sobre Android, ponte en contacto con el soporte de Google.",
+          "items": [
+            {
+              "label": "Soporte de Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Soporte de Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pt": {
+    "meta": {
+      "title": "aircal — Abra menos. Veja mais.",
+      "description": "Um app de calendário feito para consultar seus compromissos de relance. Sincroniza com o Google Agenda e reúne trabalho e vida pessoal em uma única tela."
+    },
+    "nav": {
+      "langSwitch": "Idioma"
+    },
+    "hero": {
+      "tagline": "Abra menos. Veja mais.",
+      "description": "Um app de calendário feito para consultar seus compromissos de relance,\ncom integração ao Google Agenda.",
+      "storeAriaApp": "Baixe na App Store",
+      "storeAriaGoogle": "Baixe no Google Play"
+    },
+    "store": {
+      "appStore": "Baixe na App Store",
+      "googlePlay": "Baixe no Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Beleza tranquila",
+        "body": "Uma visualização mensal fácil de entender de relance, com equilíbrio cuidadoso entre informações e espaço. Deslize entre os meses, confira seus compromissos e adicione eventos em um fluxo natural.",
+        "alt": "Tela da visualização mensal"
+      },
+      {
+        "number": "02",
+        "title": "Integrado ao Google Agenda",
+        "body": "A sincronização bidirecional em tempo real reúne trabalho e vida pessoal. Alterne entre várias contas e mantenha a mesma visualização em todos os seus dispositivos.",
+        "alt": "Tela de integração com o Google Agenda"
+      },
+      {
+        "number": "03",
+        "title": "Compartilhe compromissos com família e amigos",
+        "body": "Veja os compromissos de todos em uma única tela. O aircal aproveita o compartilhamento do Google Agenda para facilitar o uso de calendários da família e a edição em conjunto.",
+        "alt": "Tela de compartilhamento de compromissos"
+      },
+      {
+        "number": "04",
+        "title": "Do seu jeito",
+        "body": "47 temas de cores, modo escuro, opção de exibir feriados e ajustes dos dias da semana e do início da semana. Personalize a visualização sem perder a simplicidade.",
+        "alt": "Temas de cores"
+      },
+      {
+        "number": "05",
+        "title": "Uma olhada na tela inicial",
+        "body": "Confira o próximo compromisso sem abrir o app. Widgets diários, semanais e mensais, pensados para você consultar a agenda sem entrar no app.",
+        "alt": "Widget da tela inicial"
+      }
+    ],
+    "finalCta": {
+      "title": "Comece com o aircal."
+    },
+    "footer": {
+      "supportHeading": "Suporte",
+      "aboutHeading": "Sobre o aircal",
+      "help": "Ajuda",
+      "contact": "Contato",
+      "terms": "Termos de Serviço",
+      "privacy": "Política de Privacidade",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contato — aircal",
+        "description": "Canais de contato e suporte para usar o aircal."
+      },
+      "heading": "Contato",
+      "subheading": "Fale com a gente",
+      "tocTitle": "Conteúdo",
+      "sections": [
+        {
+          "heading": "Dúvidas sobre o uso do aircal",
+          "intro": {
+            "before": "Antes de falar com a gente, confira primeiro nossa ",
+            "link": {
+              "text": "ajuda",
+              "href": "https://g-session.github.io/aircal-help/pt/"
+            },
+            "after": ". Para outros assuntos, fale conosco por um destes canais:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Dúvidas sobre o Google Agenda",
+          "intro": "O aircal é integrado ao Google Agenda. Se tiver dúvidas sobre sincronização ou exibição de eventos, consulte também a Central de Ajuda do Google Agenda.",
+          "items": [
+            {
+              "label": "Ajuda do Google Agenda",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Dúvidas sobre seu dispositivo",
+          "intro": "Para dúvidas sobre o funcionamento do iPhone, iPad, Mac ou iCloud, consulte o Suporte da Apple. Para dúvidas sobre Android, entre em contato com o Suporte do Google.",
+          "items": [
+            {
+              "label": "Suporte da Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Suporte do Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "fr": {
+    "meta": {
+      "title": "aircal — Ouvrez moins. Voyez plus.",
+      "description": "Un calendrier conçu pour consulter vos rendez-vous d’un seul coup d’œil. Il se synchronise avec Google Agenda pour réunir travail et vie personnelle dans une vue sereine."
+    },
+    "nav": {
+      "langSwitch": "Langue"
+    },
+    "hero": {
+      "tagline": "Ouvrez moins. Voyez plus.",
+      "description": "Un calendrier conçu pour consulter vos rendez-vous d’un seul coup d’œil,\nconnecté à Google Agenda.",
+      "storeAriaApp": "Télécharger dans l’App Store",
+      "storeAriaGoogle": "Télécharger sur Google Play"
+    },
+    "store": {
+      "appStore": "Télécharger dans l’App Store",
+      "googlePlay": "Télécharger sur Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Une beauté apaisante",
+        "body": "Une vue mensuelle lisible d’un seul coup d’œil, où informations et espace s’équilibrent avec soin. Faites défiler les mois, consultez vos rendez-vous et ajoutez-en en toute fluidité.",
+        "alt": "Vue mensuelle"
+      },
+      {
+        "number": "02",
+        "title": "Au cœur de Google Agenda",
+        "body": "La synchronisation bidirectionnelle en temps réel réunit travail et vie personnelle. Passez d’un compte à l’autre et retrouvez la même vue sur tous vos appareils.",
+        "alt": "Écran d’intégration avec Google Agenda"
+      },
+      {
+        "number": "03",
+        "title": "Partagez vos rendez-vous avec vos proches",
+        "body": "Retrouvez vos rendez-vous dans une seule vue. aircal s’appuie sur le partage de Google Agenda pour faciliter les calendriers familiaux et la modification à plusieurs.",
+        "alt": "Écran de partage des rendez-vous"
+      },
+      {
+        "number": "04",
+        "title": "À votre image",
+        "body": "47 thèmes de couleurs, le mode sombre, l’affichage des jours fériés et des réglages pour les jours de la semaine et le premier jour de la semaine. Personnalisez l’affichage tout en gardant sa simplicité.",
+        "alt": "Thèmes de couleurs"
+      },
+      {
+        "number": "05",
+        "title": "Un aperçu depuis l’écran d’accueil",
+        "body": "Consultez votre prochain rendez-vous sans ouvrir l’app. Des widgets jour, semaine et mois, pensés pour voir votre agenda sans entrer dans l’app.",
+        "alt": "Widget de l’écran d’accueil"
+      }
+    ],
+    "finalCta": {
+      "title": "Commencez avec aircal."
+    },
+    "footer": {
+      "supportHeading": "Assistance",
+      "aboutHeading": "À propos d’aircal",
+      "help": "Aide",
+      "contact": "Contact",
+      "terms": "Conditions d’utilisation",
+      "privacy": "Politique de confidentialité",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact — aircal",
+        "description": "Coordonnées et assistance pour toute question sur l’utilisation d’aircal."
+      },
+      "heading": "Contact",
+      "subheading": "Écrivez-nous",
+      "tocTitle": "Sommaire",
+      "sections": [
+        {
+          "heading": "Questions sur l’utilisation d’aircal",
+          "intro": {
+            "before": "Avant de nous contacter, consultez d’abord notre ",
+            "link": {
+              "text": "aide",
+              "href": "https://g-session.github.io/aircal-help/fr/"
+            },
+            "after": ". Pour toute autre demande, vous pouvez nous écrire via les canaux suivants :"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Questions sur Google Agenda",
+          "intro": "aircal est connecté à Google Agenda. Pour toute question sur la synchronisation ou l’affichage des événements, vous pouvez également consulter l’aide Google Agenda.",
+          "items": [
+            {
+              "label": "Aide Google Agenda",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Questions sur votre appareil",
+          "intro": "Pour toute question sur le fonctionnement d’un iPhone, iPad, Mac ou d’iCloud, contactez l’assistance Apple. Pour les questions liées à Android, contactez l’assistance Google.",
+          "items": [
+            {
+              "label": "Assistance Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Assistance Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "it": {
+    "meta": {
+      "title": "aircal — Apri meno. Guarda di più.",
+      "description": "Un calendario pensato per consultare i tuoi impegni a colpo d’occhio. Si sincronizza con Google Calendar e riunisce lavoro e vita privata in un’unica schermata."
+    },
+    "nav": {
+      "langSwitch": "Lingua"
+    },
+    "hero": {
+      "tagline": "Apri meno. Guarda di più.",
+      "description": "Un calendario pensato per consultare i tuoi impegni a colpo d’occhio,\ncon Google Calendar.",
+      "storeAriaApp": "Scarica sull’App Store",
+      "storeAriaGoogle": "Scarica su Google Play"
+    },
+    "store": {
+      "appStore": "Scarica sull’App Store",
+      "googlePlay": "Scarica su Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "La bellezza della semplicità",
+        "body": "Una vista mensile leggibile a colpo d’occhio, con un equilibrio curato tra informazioni e spazio. Scorri tra i mesi, controlla gli impegni e aggiungi eventi con un gesto fluido.",
+        "alt": "Vista mensile"
+      },
+      {
+        "number": "02",
+        "title": "Al centro c’è Google Calendar",
+        "body": "La sincronizzazione bidirezionale in tempo reale riunisce lavoro e vita privata. Passa da un account all’altro e ritrova la stessa vista su tutti i tuoi dispositivi.",
+        "alt": "Schermata di integrazione con Google Calendar"
+      },
+      {
+        "number": "03",
+        "title": "Condividi gli impegni con familiari e amici",
+        "body": "Tutti gli impegni in un’unica vista. aircal sfrutta la condivisione di Google Calendar per rendere semplici i calendari di famiglia e la modifica condivisa.",
+        "alt": "Schermata di condivisione degli impegni"
+      },
+      {
+        "number": "04",
+        "title": "A modo tuo",
+        "body": "47 temi di colore, modalità scura, opzione per mostrare le festività e impostazioni dei giorni della settimana e del primo giorno della settimana. Personalizza la vista senza rinunciare alla semplicità.",
+        "alt": "Temi di colore"
+      },
+      {
+        "number": "05",
+        "title": "Uno sguardo dalla schermata Home",
+        "body": "Scopri il prossimo impegno senza aprire l’app. Widget giornalieri, settimanali e mensili, pensati per consultare il calendario senza entrare nell’app.",
+        "alt": "Widget della schermata Home"
+      }
+    ],
+    "finalCta": {
+      "title": "Inizia con aircal."
+    },
+    "footer": {
+      "supportHeading": "Assistenza",
+      "aboutHeading": "Informazioni su aircal",
+      "help": "Aiuto",
+      "contact": "Contatti",
+      "terms": "Termini di servizio",
+      "privacy": "Informativa sulla privacy",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contatti — aircal",
+        "description": "Contatti e canali di assistenza per usare aircal."
+      },
+      "heading": "Contatti",
+      "subheading": "Scrivici",
+      "tocTitle": "Indice",
+      "sections": [
+        {
+          "heading": "Domande sull’uso di aircal",
+          "intro": {
+            "before": "Prima di contattarci, consulta la nostra ",
+            "link": {
+              "text": "guida",
+              "href": "https://g-session.github.io/aircal-help/it/"
+            },
+            "after": ". Per tutto il resto, puoi contattarci tramite questi canali:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Domande su Google Calendar",
+          "intro": "aircal è collegato a Google Calendar. Per dubbi sulla sincronizzazione o sulla visualizzazione degli eventi, puoi consultare anche la guida di Google Calendar.",
+          "items": [
+            {
+              "label": "Guida di Google Calendar",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Domande sul tuo dispositivo",
+          "intro": "Per domande sul funzionamento di iPhone, iPad, Mac o iCloud, puoi contattare il supporto Apple. Per domande su Android, rivolgiti al supporto Google.",
+          "items": [
+            {
+              "label": "Supporto Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Supporto Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "pl": {
+    "meta": {
+      "title": "aircal — Otwieraj rzadziej. Zobacz więcej.",
+      "description": "Kalendarz stworzony z myślą o szybkim sprawdzaniu planów. Synchronizuje się z Kalendarzem Google, łącząc pracę i życie prywatne na jednym, przejrzystym ekranie."
+    },
+    "nav": {
+      "langSwitch": "Język"
+    },
+    "hero": {
+      "tagline": "Otwieraj rzadziej. Zobacz więcej.",
+      "description": "Kalendarz stworzony z myślą o szybkim sprawdzaniu planów,\nzintegrowany z Kalendarzem Google.",
+      "storeAriaApp": "Pobierz w App Store",
+      "storeAriaGoogle": "Pobierz w Google Play"
+    },
+    "store": {
+      "appStore": "Pobierz w App Store",
+      "googlePlay": "Pobierz w Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Spokojna przejrzystość",
+        "body": "Widok miesiąca, który łatwo ogarnąć jednym spojrzeniem. Starannie dobrane proporcje informacji i wolnej przestrzeni. Przesuwaj palcem między miesiącami, sprawdzaj plany i dodawaj wydarzenia w jednym płynnym ciągu.",
+        "alt": "Widok miesiąca"
+      },
+      {
+        "number": "02",
+        "title": "Pełna integracja z Kalendarzem Google",
+        "body": "Dwukierunkowa synchronizacja w czasie rzeczywistym łączy sprawy zawodowe i prywatne. Przełączaj się między kontami i korzystaj z tego samego widoku na każdym urządzeniu.",
+        "alt": "Ekran integracji z Kalendarzem Google"
+      },
+      {
+        "number": "03",
+        "title": "Dziel się planami z rodziną i znajomymi",
+        "body": "Zobaczcie swoje plany na jednym ekranie. aircal korzysta z funkcji udostępniania Kalendarza Google, dzięki czemu kalendarze rodzinne i wspólna edycja są proste.",
+        "alt": "Ekran udostępniania planów"
+      },
+      {
+        "number": "04",
+        "title": "Po twojemu",
+        "body": "47 motywów kolorystycznych, tryb ciemny, wyświetlanie świąt oraz ustawienia dni tygodnia i początku tygodnia. Dostosuj widok, zachowując jego prostotę.",
+        "alt": "Motywy kolorystyczne"
+      },
+      {
+        "number": "05",
+        "title": "Rzut oka na ekranie głównym",
+        "body": "Sprawdź, co masz w planach, bez otwierania aplikacji. Widżety dnia, tygodnia i miesiąca pozwalają szybko zajrzeć do kalendarza.",
+        "alt": "Widżet na ekranie głównym"
+      }
+    ],
+    "finalCta": {
+      "title": "Zacznij korzystać z aircal."
+    },
+    "footer": {
+      "supportHeading": "Pomoc",
+      "aboutHeading": "O aircal",
+      "help": "Centrum pomocy",
+      "contact": "Kontakt",
+      "terms": "Warunki korzystania z usługi",
+      "privacy": "Polityka prywatności",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — aircal",
+        "description": "Dane kontaktowe i kanały pomocy dotyczące korzystania z aircal."
+      },
+      "heading": "Kontakt",
+      "subheading": "Napisz do nas",
+      "tocTitle": "Spis treści",
+      "sections": [
+        {
+          "heading": "Pytania dotyczące korzystania z aircal",
+          "intro": {
+            "before": "Zanim się z nami skontaktujesz, zajrzyj do naszej sekcji ",
+            "link": {
+              "text": "pomocy",
+              "href": "https://g-session.github.io/aircal-help/pl/"
+            },
+            "after": ". W pozostałych sprawach możesz napisać do nas jednym z tych kanałów:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Pytania dotyczące Kalendarza Google",
+          "intro": "aircal współpracuje z Kalendarzem Google. W razie pytań o synchronizację lub wyświetlanie wydarzeń zajrzyj również do pomocy Kalendarza Google.",
+          "items": [
+            {
+              "label": "Pomoc Kalendarza Google",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Pytania dotyczące urządzenia",
+          "intro": "W sprawach dotyczących działania iPhone’a, iPada, Maca lub iCloud możesz skontaktować się ze wsparciem Apple. W sprawach dotyczących Androida skorzystaj ze wsparcia Google.",
+          "items": [
+            {
+              "label": "Wsparcie Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Wsparcie Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "cs": {
+    "meta": {
+      "title": "aircal — Méně otevírejte. Více uvidíte.",
+      "description": "Kalendář navržený pro rychlý přehled o vašich plánech. Synchronizuje se s Kalendářem Google a spojuje pracovní i osobní život do jednoho přehledného zobrazení."
+    },
+    "nav": {
+      "langSwitch": "Jazyk"
+    },
+    "hero": {
+      "tagline": "Méně otevírejte. Více uvidíte.",
+      "description": "Kalendář navržený pro rychlý přehled o vašich plánech,\npropojený s Kalendářem Google.",
+      "storeAriaApp": "Stáhnout v App Storu",
+      "storeAriaGoogle": "Stáhnout na Google Play"
+    },
+    "store": {
+      "appStore": "Stáhnout v App Storu",
+      "googlePlay": "Stáhnout na Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Klidná přehlednost",
+        "body": "Měsíční přehled, kterému porozumíte na první pohled. Pečlivě vyvážené množství informací a volného prostoru. Přejíždějte mezi měsíci, kontrolujte své plány a přidávejte události v plynulém sledu.",
+        "alt": "Měsíční přehled"
+      },
+      {
+        "number": "02",
+        "title": "Propojení s Kalendářem Google",
+        "body": "Obousměrná synchronizace v reálném čase spojuje pracovní i osobní plány. Přepínejte mezi více účty a mějte na všech zařízeních stejné zobrazení.",
+        "alt": "Obrazovka propojení s Kalendářem Google"
+      },
+      {
+        "number": "03",
+        "title": "Sdílejte plány s rodinou a přáteli",
+        "body": "Mějte své plány na jednom místě. aircal využívá možnosti sdílení Kalendáře Google, takže rodinné kalendáře i společné úpravy fungují snadno.",
+        "alt": "Obrazovka sdílení plánů"
+      },
+      {
+        "number": "04",
+        "title": "Podle vás",
+        "body": "47 barevných motivů, tmavý režim, zobrazení svátků a nastavení dnů v týdnu i začátku týdne. Upravte si zobrazení a zachovejte jeho jednoduchost.",
+        "alt": "Barevné motivy"
+      },
+      {
+        "number": "05",
+        "title": "Rychlý pohled z plochy",
+        "body": "Podívejte se na další událost, aniž byste otevřeli aplikaci. Widgety pro den, týden i měsíc vám umožní nahlédnout do kalendáře bez otevření aplikace.",
+        "alt": "Widget na ploše"
+      }
+    ],
+    "finalCta": {
+      "title": "Začněte s aircal."
+    },
+    "footer": {
+      "supportHeading": "Podpora",
+      "aboutHeading": "O aplikaci aircal",
+      "help": "Nápověda",
+      "contact": "Kontakt",
+      "terms": "Podmínky služby",
+      "privacy": "Zásady ochrany soukromí",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — aircal",
+        "description": "Kontaktní údaje a možnosti podpory při používání aplikace aircal."
+      },
+      "heading": "Kontakt",
+      "subheading": "Napište nám",
+      "tocTitle": "Obsah",
+      "sections": [
+        {
+          "heading": "Dotazy k používání aplikace aircal",
+          "intro": {
+            "before": "Než nám napíšete, podívejte se nejprve do naší části ",
+            "link": {
+              "text": "nápověda",
+              "href": "https://g-session.github.io/aircal-help/cs/"
+            },
+            "after": ". S ostatními dotazy se na nás můžete obrátit těmito způsoby:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Dotazy ke Kalendáři Google",
+          "intro": "aircal je propojený s Kalendářem Google. Pokud máte otázky k synchronizaci nebo zobrazení událostí, podívejte se také do nápovědy Kalendáře Google.",
+          "items": [
+            {
+              "label": "Nápověda Kalendáře Google",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Dotazy k vašemu zařízení",
+          "intro": "S otázkami ohledně fungování iPhonu, iPadu, Macu nebo iCloudu vám pomůže podpora Apple. S dotazy ohledně Androidu se obraťte na podporu Google.",
+          "items": [
+            {
+              "label": "Podpora Apple",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Podpora Google",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nb": {
+    "meta": {
+      "title": "aircal — Åpne mindre. Se mer.",
+      "description": "En kalender laget for å gi deg oversikt med et raskt blikk. Synkroniseres med Google Kalender og samler jobb og fritid i én rolig visning."
+    },
+    "nav": {
+      "langSwitch": "Språk"
+    },
+    "hero": {
+      "tagline": "Åpne mindre. Se mer.",
+      "description": "En kalender laget for å gi deg oversikt med et raskt blikk,\nmed Google Kalender.",
+      "storeAriaApp": "Last ned i App Store",
+      "storeAriaGoogle": "Last ned på Google Play"
+    },
+    "store": {
+      "appStore": "Last ned i App Store",
+      "googlePlay": "Last ned på Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Rolig og oversiktlig",
+        "body": "En månedsvisning du forstår med et raskt blikk, med en nøye avveid balanse mellom informasjon og luft. Sveip mellom månedene, sjekk avtalene dine og legg til nye i én smidig flyt.",
+        "alt": "Månedsvisning"
+      },
+      {
+        "number": "02",
+        "title": "Tett koblet til Google Kalender",
+        "body": "Tosidig synkronisering i sanntid samler jobb og fritid. Bytt mellom flere kontoer og behold den samme visningen på alle enhetene dine.",
+        "alt": "Skjerm for Google Kalender-integrering"
+      },
+      {
+        "number": "03",
+        "title": "Del planer med familie og venner",
+        "body": "Se alles planer i én visning. aircal bruker delingsfunksjonene i Google Kalender, slik at familiekalendere og felles redigering fungerer enkelt.",
+        "alt": "Skjerm for deling av planer"
+      },
+      {
+        "number": "04",
+        "title": "Gjør visningen til din egen",
+        "body": "47 fargetemaer, mørk modus, visning av helligdager og innstillinger for ukedager og ukestart. Tilpass visningen uten å miste enkelheten.",
+        "alt": "Fargetemaer"
+      },
+      {
+        "number": "05",
+        "title": "En rask titt fra Hjem-skjermen",
+        "body": "Se hva som står for tur uten å åpne appen. Widgeter for dag, uke og måned gjør det enkelt å sjekke kalenderen uten å gå inn i appen.",
+        "alt": "Widget på Hjem-skjermen"
+      }
+    ],
+    "finalCta": {
+      "title": "Kom i gang med aircal."
+    },
+    "footer": {
+      "supportHeading": "Brukerstøtte",
+      "aboutHeading": "Om aircal",
+      "help": "Hjelp",
+      "contact": "Kontakt",
+      "terms": "Brukervilkår",
+      "privacy": "Personvernerklæring",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — aircal",
+        "description": "Kontaktinformasjon og brukerstøtte for aircal."
+      },
+      "heading": "Kontakt",
+      "subheading": "Ta kontakt",
+      "tocTitle": "Innhold",
+      "sections": [
+        {
+          "heading": "Spørsmål om bruk av aircal",
+          "intro": {
+            "before": "Før du kontakter oss, kan du først se gjennom ",
+            "link": {
+              "text": "hjelpen",
+              "href": "https://g-session.github.io/aircal-help/nb/"
+            },
+            "after": ". For andre spørsmål kan du kontakte oss via disse kanalene:"
+          },
+          "items": [
+            {
+              "label": "E-post",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Spørsmål om Google Kalender",
+          "intro": "aircal er koblet til Google Kalender. Hvis du lurer på noe om synkronisering eller visning av avtaler, kan du også se i hjelpen for Google Kalender.",
+          "items": [
+            {
+              "label": "Hjelp for Google Kalender",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Spørsmål om enheten din",
+          "intro": "For spørsmål om hvordan iPhone, iPad, Mac eller iCloud fungerer, kan du kontakte Apple-kundestøtte. For spørsmål om Android kan du kontakte Google-kundestøtte.",
+          "items": [
+            {
+              "label": "Apple-kundestøtte",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google-kundestøtte",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "nl": {
+    "meta": {
+      "title": "aircal — Open minder. Zie meer.",
+      "description": "Een agenda die is gemaakt om je afspraken in één oogopslag te bekijken. Synchroniseert met Google Agenda en brengt werk en privé samen in één rustig overzicht."
+    },
+    "nav": {
+      "langSwitch": "Taal"
+    },
+    "hero": {
+      "tagline": "Open minder. Zie meer.",
+      "description": "Een agenda die is gemaakt om je afspraken in één oogopslag te bekijken,\nmet Google Agenda.",
+      "storeAriaApp": "Download in de App Store",
+      "storeAriaGoogle": "Download op Google Play"
+    },
+    "store": {
+      "appStore": "Download in de App Store",
+      "googlePlay": "Download op Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Rustige helderheid",
+        "body": "Een maandweergave die je in één oogopslag begrijpt, met een zorgvuldige balans tussen informatie en ruimte. Veeg tussen maanden, bekijk je afspraken en voeg ze toe in één vloeiende beweging.",
+        "alt": "Maandweergave"
+      },
+      {
+        "number": "02",
+        "title": "Nauw verbonden met Google Agenda",
+        "body": "Dankzij realtime synchronisatie in twee richtingen houd je werk en privé bij elkaar. Wissel tussen meerdere accounts en behoud op elk apparaat dezelfde weergave.",
+        "alt": "Scherm met Google Agenda-integratie"
+      },
+      {
+        "number": "03",
+        "title": "Deel afspraken met familie en vrienden",
+        "body": "Bekijk jullie afspraken in één overzicht. aircal maakt gebruik van de deelfuncties van Google Agenda, zodat gezinsagenda’s en samen bewerken vanzelf gaan.",
+        "alt": "Scherm voor het delen van afspraken"
+      },
+      {
+        "number": "04",
+        "title": "Helemaal naar jouw smaak",
+        "body": "47 kleurthema’s, donkere modus, feestdagen weergeven en instellingen voor weekdagen en de eerste dag van de week. Pas je weergave aan en behoud de eenvoud.",
+        "alt": "Kleurthema’s"
+      },
+      {
+        "number": "05",
+        "title": "Een blik vanaf je beginscherm",
+        "body": "Bekijk je volgende afspraak zonder de app te openen. Widgets voor dag, week en maand laten je je agenda bekijken zonder de app in te gaan.",
+        "alt": "Widget op het beginscherm"
+      }
+    ],
+    "finalCta": {
+      "title": "Ga aan de slag met aircal."
+    },
+    "footer": {
+      "supportHeading": "Ondersteuning",
+      "aboutHeading": "Over aircal",
+      "help": "Help",
+      "contact": "Contact",
+      "terms": "Servicevoorwaarden",
+      "privacy": "Privacybeleid",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Contact — aircal",
+        "description": "Contactgegevens en ondersteuning bij het gebruik van aircal."
+      },
+      "heading": "Contact",
+      "subheading": "Neem contact op",
+      "tocTitle": "Inhoud",
+      "sections": [
+        {
+          "heading": "Vragen over het gebruik van aircal",
+          "intro": {
+            "before": "Bekijk voordat je contact met ons opneemt eerst onze ",
+            "link": {
+              "text": "helppagina",
+              "href": "https://g-session.github.io/aircal-help/nl/"
+            },
+            "after": ". Voor andere vragen kun je ons via deze kanalen bereiken:"
+          },
+          "items": [
+            {
+              "label": "E-mail",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Vragen over Google Agenda",
+          "intro": "aircal is gekoppeld aan Google Agenda. Heb je vragen over synchronisatie of de weergave van afspraken, bekijk dan ook de Help van Google Agenda.",
+          "items": [
+            {
+              "label": "Help van Google Agenda",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Vragen over je apparaat",
+          "intro": "Voor vragen over de werking van iPhone, iPad, Mac of iCloud kun je terecht bij Apple Support. Voor vragen over Android kun je contact opnemen met Google Support.",
+          "items": [
+            {
+              "label": "Apple Support",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Google Support",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  },
+  "sv": {
+    "meta": {
+      "title": "aircal — Öppna mindre. Se mer.",
+      "description": "En kalender som gör det enkelt att få en snabb överblick över dina planer. Synkas med Google Kalender och samlar jobb och privatliv i en lugn vy."
+    },
+    "nav": {
+      "langSwitch": "Språk"
+    },
+    "hero": {
+      "tagline": "Öppna mindre. Se mer.",
+      "description": "En kalender som gör det enkelt att få en snabb överblick över dina planer,\nmed Google Kalender.",
+      "storeAriaApp": "Hämta i App Store",
+      "storeAriaGoogle": "Skaffa den på Google Play"
+    },
+    "store": {
+      "appStore": "Hämta i App Store",
+      "googlePlay": "Skaffa den på Google Play"
+    },
+    "features": [
+      {
+        "number": "01",
+        "title": "Lugn och tydlig",
+        "body": "En månadsvy som är lätt att överblicka, med en genomtänkt balans mellan information och luft. Svep mellan månader, se dina planer och lägg till händelser i ett smidigt flöde.",
+        "alt": "Månadsvy"
+      },
+      {
+        "number": "02",
+        "title": "Nära kopplad till Google Kalender",
+        "body": "Tvåvägssynkronisering i realtid samlar jobb och privatliv. Växla mellan flera konton och behåll samma vy på alla dina enheter.",
+        "alt": "Skärm för integration med Google Kalender"
+      },
+      {
+        "number": "03",
+        "title": "Dela planer med familj och vänner",
+        "body": "Se era planer i en och samma vy. aircal använder delningsfunktionerna i Google Kalender, så att familjekalendrar och gemensam redigering fungerar enkelt.",
+        "alt": "Skärm för delning av planer"
+      },
+      {
+        "number": "04",
+        "title": "På ditt sätt",
+        "body": "47 färgteman, mörkt läge, visning av helgdagar och inställningar för veckodagar och veckans första dag. Anpassa vyn utan att förlora enkelheten.",
+        "alt": "Färgteman"
+      },
+      {
+        "number": "05",
+        "title": "En snabb titt från hemskärmen",
+        "body": "Se vad som står på tur utan att öppna appen. Widgetar för dag, vecka och månad gör det enkelt att titta i kalendern utan att gå in i appen.",
+        "alt": "Widget på hemskärmen"
+      }
+    ],
+    "finalCta": {
+      "title": "Kom igång med aircal."
+    },
+    "footer": {
+      "supportHeading": "Support",
+      "aboutHeading": "Om aircal",
+      "help": "Hjälp",
+      "contact": "Kontakt",
+      "terms": "Användarvillkor",
+      "privacy": "Integritetspolicy",
+      "copyright": "© 2026 aircal"
+    },
+    "contact": {
+      "meta": {
+        "title": "Kontakt — aircal",
+        "description": "Kontaktuppgifter och support för användning av aircal."
+      },
+      "heading": "Kontakt",
+      "subheading": "Hör av dig",
+      "tocTitle": "Innehåll",
+      "sections": [
+        {
+          "heading": "Frågor om hur du använder aircal",
+          "intro": {
+            "before": "Innan du kontaktar oss får du gärna först läsa vår ",
+            "link": {
+              "text": "hjälp",
+              "href": "https://g-session.github.io/aircal-help/sv/"
+            },
+            "after": ". För andra frågor når du oss via följande kanaler:"
+          },
+          "items": [
+            {
+              "label": "E-post",
+              "value": "contact@nexus-inc.net",
+              "href": "mailto:contact@nexus-inc.net"
+            },
+            {
+              "label": "X",
+              "value": "@aircal_app",
+              "href": "https://x.com/aircal_app"
+            },
+            {
+              "label": "Instagram",
+              "value": "@aircal.app",
+              "href": "https://www.instagram.com/aircal.app/"
+            },
+            {
+              "label": "TikTok",
+              "value": "@aircal_calender_app",
+              "href": "https://www.tiktok.com/@aircal_calender_app"
+            }
+          ]
+        },
+        {
+          "heading": "Frågor om Google Kalender",
+          "intro": "aircal är kopplat till Google Kalender. Om du har frågor om synkronisering eller hur händelser visas kan du också läsa hjälpen för Google Kalender.",
+          "items": [
+            {
+              "label": "Hjälp för Google Kalender",
+              "value": "support.google.com/calendar",
+              "href": "https://support.google.com/calendar"
+            }
+          ]
+        },
+        {
+          "heading": "Frågor om din enhet",
+          "intro": "För frågor om hur iPhone, iPad, Mac eller iCloud fungerar kan du kontakta Apple-supporten. För frågor om Android kan du kontakta Googles support.",
+          "items": [
+            {
+              "label": "Apple-support",
+              "value": "support.apple.com",
+              "href": "https://support.apple.com"
+            },
+            {
+              "label": "Googles support",
+              "value": "support.google.com",
+              "href": "https://support.google.com"
+            }
+          ]
+        }
+      ]
+    }
+  }
+}
