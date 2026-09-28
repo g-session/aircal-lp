@@ -5,10 +5,21 @@ interface Props {
   body: string;
   image: string;
   alt: string;
+  imageWidth?: number;
+  imageHeight?: number;
   reverse?: boolean;
 }
 
-const { number, title, body, image, alt, reverse = false } = Astro.props;
+const {
+  number,
+  title,
+  body,
+  image,
+  alt,
+  imageWidth = 1284,
+  imageHeight = 2778,
+  reverse = false,
+} = Astro.props;
 ---
 
 <section class="feature">
@@ -22,7 +33,15 @@ const { number, title, body, image, alt, reverse = false } = Astro.props;
       <p class="body desc">{body}</p>
     </div>
     <div class="visual">
-      <img class="phone" src={image} alt={alt} loading="lazy" />
+      <img
+        class="phone"
+        src={image}
+        alt={alt}
+        width={imageWidth}
+        height={imageHeight}
+        loading="lazy"
+        decoding="async"
+      />
     </div>
   </div>
 </section>

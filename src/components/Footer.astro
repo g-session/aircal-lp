@@ -1,6 +1,6 @@
 ---
 import type { Locale } from '../i18n';
-import { getDict, socialLinks, externalUrls } from '../i18n';
+import { getDict, socialLinks, externalUrls, pathFor } from '../i18n';
 
 interface Props {
   locale: Locale;
@@ -9,8 +9,7 @@ interface Props {
 const { locale } = Astro.props;
 const dict = getDict(locale);
 const urls = externalUrls(locale);
-const base = import.meta.env.BASE_URL.replace(/\/$/, '');
-const contactPath = locale === 'ja' ? `${base}/contact/` : `${base}/${locale}/contact/`;
+const contactPath = pathFor(locale, 'contact');
 ---
 
 <footer class="footer">

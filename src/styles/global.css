@@ -14,6 +14,10 @@
   --gap-section: clamp(56px, 9vw, 96px);
   --font-jp: "Noto Sans JP", "Hiragino Sans", "Yu Gothic UI", sans-serif;
   --font-en: "Inter", -apple-system, BlinkMacSystemFont, "Segoe UI", sans-serif;
+  --font-ko: "Apple SD Gothic Neo", "Malgun Gothic", "Noto Sans KR", sans-serif;
+  --font-zh-simplified: "PingFang SC", "Microsoft YaHei", "Noto Sans CJK SC", "Source Han Sans SC", sans-serif;
+  --font-zh-traditional: "PingFang TC", "Microsoft JhengHei", "Noto Sans CJK TC", "Source Han Sans TC", sans-serif;
+  --font-th: "Thonburi", "Leelawadee UI", "Noto Sans Thai", sans-serif;
 }
 
 @media (prefers-color-scheme: dark) {
@@ -45,7 +49,14 @@ body {
   margin: 0;
   background: var(--bg);
   color: var(--fg);
-  font-family: var(--font-en), var(--font-jp);
+  font-family:
+    var(--font-en),
+    var(--font-jp),
+    var(--font-ko),
+    var(--font-zh-simplified),
+    var(--font-zh-traditional),
+    var(--font-th),
+    sans-serif;
   font-feature-settings: "palt" 1;
   line-height: 1.75;
   font-size: 16px;
@@ -53,6 +64,23 @@ body {
 
 :lang(ja) {
   font-family: var(--font-jp);
+}
+
+:lang(ko) {
+  font-family: var(--font-ko), var(--font-en), sans-serif;
+}
+
+:lang(zh) {
+  font-family: var(--font-zh-simplified), var(--font-en), sans-serif;
+}
+
+:lang(zh-Hant-TW),
+:lang(zh-Hant-HK) {
+  font-family: var(--font-zh-traditional), var(--font-en), sans-serif;
+}
+
+:lang(th) {
+  font-family: var(--font-th), var(--font-en), sans-serif;
 }
 
 img,

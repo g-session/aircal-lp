@@ -1,0 +1,1303 @@
+{
+  "source": "aircal-ASO-iPhone-iPad, Figma iOS exports prepared 2026-09-28",
+  "format": "WebP",
+  "quality": 88,
+  "files": [
+    {
+      "locale": "cs",
+      "file": "cs/01-month.webp",
+      "source": "cs/iPhone/02.png",
+      "sourceSha256": "b2ff1c2597f60530957cfcc15a13378f0cb5da1b326e4d1475a829ba3ed9fb9d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 102940
+    },
+    {
+      "locale": "cs",
+      "file": "cs/02-google.webp",
+      "source": "cs/iPhone/05.png",
+      "sourceSha256": "b2c541a6aa814cfcfb15ee24bb5609cb59254cbfde795fa5119c15ca5f817d57",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60692
+    },
+    {
+      "locale": "cs",
+      "file": "cs/03-share.webp",
+      "source": "cs/iPhone/04.png",
+      "sourceSha256": "e726ddc5bd7a77b6ad44a0e4afce1545e80c4bc26db8b95e2d6b6dcf30ea4577",
+      "width": 768,
+      "height": 1662,
+      "bytes": 46500
+    },
+    {
+      "locale": "cs",
+      "file": "cs/04-themes.webp",
+      "source": "cs/iPhone/06.png",
+      "sourceSha256": "a9a73c4ff1dcf12538aee29e8f9eaea30c9eae4ef8031aade19aef08f40b53ae",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83222
+    },
+    {
+      "locale": "cs",
+      "file": "cs/05-widget.webp",
+      "source": "cs/iPhone/03.png",
+      "sourceSha256": "e58d7d1fa5d58605c206fa22edf4c757243148d771024e66ce63b7d45830ec1f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67324
+    },
+    {
+      "locale": "cs",
+      "file": "cs/cover-left.webp",
+      "source": "cs/iPhone/01.png",
+      "sourceSha256": "4146c5d589ebd840da0b42ebb2ed64270fb25583b6376194ce4d73de8ca482ad",
+      "width": 768,
+      "height": 1662,
+      "bytes": 42032
+    },
+    {
+      "locale": "de",
+      "file": "de/01-month.webp",
+      "source": "de/iPhone/02.png",
+      "sourceSha256": "0104b63f80cdb0ef0f87d144a1d0409507c28b6698da030f4798b2c1fc95719d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 101238
+    },
+    {
+      "locale": "de",
+      "file": "de/02-google.webp",
+      "source": "de/iPhone/05.png",
+      "sourceSha256": "a6cb9f4dd530a701c66def6035e65618b14f76a9be994ebe5bf603352bbe37f2",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58322
+    },
+    {
+      "locale": "de",
+      "file": "de/03-share.webp",
+      "source": "de/iPhone/04.png",
+      "sourceSha256": "7f114ceef8e769729e670c8ff78a7f7120ee237ce2ed1cbc3aa3b8523955892a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 44954
+    },
+    {
+      "locale": "de",
+      "file": "de/04-themes.webp",
+      "source": "de/iPhone/06.png",
+      "sourceSha256": "d18c3b3d690426f10f564f8f7d3f9ae78223a6c1877b7b8767609cb459d07ace",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83428
+    },
+    {
+      "locale": "de",
+      "file": "de/05-widget.webp",
+      "source": "de/iPhone/03.png",
+      "sourceSha256": "94a12700566b8b0e7c5517516fd93eb87906d9c27bd8fdb498862ea140567b21",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67922
+    },
+    {
+      "locale": "de",
+      "file": "de/cover-left.webp",
+      "source": "de/iPhone/01.png",
+      "sourceSha256": "9f2b29c6b1215e8fe02caaf9ea2bfaa9712e570b99e7fd72e7fde8c686b48681",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41986
+    },
+    {
+      "locale": "en",
+      "file": "en/01-month.webp",
+      "source": "en/iPhone/02.png",
+      "sourceSha256": "a6b8dc54494cf471a731b8f3e4ecfb4140065a82dfdf080e9ce7572452633547",
+      "width": 768,
+      "height": 1662,
+      "bytes": 93802
+    },
+    {
+      "locale": "en",
+      "file": "en/02-google.webp",
+      "source": "en/iPhone/05.png",
+      "sourceSha256": "78a82d7daed81b802fca75eb0430bf5b1716d59bafa9772878683fbb3fa1b9b5",
+      "width": 768,
+      "height": 1662,
+      "bytes": 57604
+    },
+    {
+      "locale": "en",
+      "file": "en/03-share.webp",
+      "source": "en/iPhone/04.png",
+      "sourceSha256": "3f12ba0fdc191319f388b32a2d02b5fab36aa7d0b6ad3224f9988212b005301a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47914
+    },
+    {
+      "locale": "en",
+      "file": "en/04-themes.webp",
+      "source": "en/iPhone/06.png",
+      "sourceSha256": "25ea26caafdf83f873dec4dda7a80b197bfae0d6454bb879a5250de21d67afef",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86140
+    },
+    {
+      "locale": "en",
+      "file": "en/05-widget.webp",
+      "source": "en/iPhone/03.png",
+      "sourceSha256": "2487dfcfd56626ef6191bb16b3d9e7a1f35c37b901d07df8664267a82d06abb0",
+      "width": 768,
+      "height": 1662,
+      "bytes": 68172
+    },
+    {
+      "locale": "en",
+      "file": "en/cover-left.webp",
+      "source": "en/iPhone/01.png",
+      "sourceSha256": "591db517275517ad2fe4b126402dcd0192b73e2263b491c5b2c3545ab164ddf4",
+      "width": 768,
+      "height": 1662,
+      "bytes": 40030
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/01-month.webp",
+      "source": "en-AU/iPhone/02.png",
+      "sourceSha256": "316ef27f15287803a31bec5171b9f11981459ec8f87514c5fe1687cf840e41ee",
+      "width": 768,
+      "height": 1662,
+      "bytes": 93906
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/02-google.webp",
+      "source": "en-AU/iPhone/05.png",
+      "sourceSha256": "b05566f48babf57b521338e7538516fac1f0dcbd87d8c259de800fddc49633af",
+      "width": 768,
+      "height": 1662,
+      "bytes": 57606
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/03-share.webp",
+      "source": "en-AU/iPhone/04.png",
+      "sourceSha256": "89ad18d7b80c428fe839dec9ca2e5e4540546b3fee63e620f13e622d8e965e5d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47886
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/04-themes.webp",
+      "source": "en-AU/iPhone/06.png",
+      "sourceSha256": "5602c0bf41a16c37f818ed66aa1900a56a5d39151b82283cfbc6f5a9333204b8",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86072
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/05-widget.webp",
+      "source": "en-AU/iPhone/03.png",
+      "sourceSha256": "cf35b53288b2fbd9c005edcceed2cf4aa1984bc382af98509be50b9dfe362561",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67940
+    },
+    {
+      "locale": "en-AU",
+      "file": "en-AU/cover-left.webp",
+      "source": "en-AU/iPhone/01.png",
+      "sourceSha256": "2be8722a4326ad6219b0724aae8bbef561c14e6bf761184f21ae9c249b210da4",
+      "width": 768,
+      "height": 1662,
+      "bytes": 40074
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/01-month.webp",
+      "source": "en-CA/iPhone/02.png",
+      "sourceSha256": "72c1975989e04bcaa07021c90eb604f212da7f09e1cd41f8876d7226984b1b8c",
+      "width": 768,
+      "height": 1662,
+      "bytes": 93796
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/02-google.webp",
+      "source": "en-CA/iPhone/05.png",
+      "sourceSha256": "72646d139add908f3a1c682f369a829ec8a6235385072988deebdd0a0281913f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 57538
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/03-share.webp",
+      "source": "en-CA/iPhone/04.png",
+      "sourceSha256": "69b3589ff058c2b807459dd829a279d33b51b80c606098191dbf5dc9326d2da6",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47966
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/04-themes.webp",
+      "source": "en-CA/iPhone/06.png",
+      "sourceSha256": "f2abddee90af447e6a92e3c43e7ebabc07d606608461d9fa67c4738629c8d127",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86056
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/05-widget.webp",
+      "source": "en-CA/iPhone/03.png",
+      "sourceSha256": "4db6cbb440e18bec67831b0c1c145d303d50fe867aff413bb8851f1388dd1917",
+      "width": 768,
+      "height": 1662,
+      "bytes": 68014
+    },
+    {
+      "locale": "en-CA",
+      "file": "en-CA/cover-left.webp",
+      "source": "en-CA/iPhone/01.png",
+      "sourceSha256": "cf7a377c7e407880e1289d34dcdc3c5cce556902e89c1ca939603dcb2e9bfd1f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 39948
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/01-month.webp",
+      "source": "en-GB/iPhone/02.png",
+      "sourceSha256": "8ddf4ddea6e7640d212c284885d7bec4ff86d78596cc89eabf19151734b8785a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 93920
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/02-google.webp",
+      "source": "en-GB/iPhone/05.png",
+      "sourceSha256": "d8fcf23b790477a448641cc08d0ab72a7f4e7cd2b5c5bea8163093577108c3b3",
+      "width": 768,
+      "height": 1662,
+      "bytes": 57680
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/03-share.webp",
+      "source": "en-GB/iPhone/04.png",
+      "sourceSha256": "306289c11b8dd8cb40ed9ff0aaa9ef4790fb8af6cd67aa199e70c4a9d2bd5841",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47766
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/04-themes.webp",
+      "source": "en-GB/iPhone/06.png",
+      "sourceSha256": "ba88b85ef415d6c711335e2fd76130802cc1891ff83859618f6b9d86e5d15477",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86236
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/05-widget.webp",
+      "source": "en-GB/iPhone/03.png",
+      "sourceSha256": "b837d216149068177facb866e5b477e50759a89fc784758a6ae9d82db813147a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67884
+    },
+    {
+      "locale": "en-GB",
+      "file": "en-GB/cover-left.webp",
+      "source": "en-GB/iPhone/01.png",
+      "sourceSha256": "430cc079f0fc28a621b94752b0ceae8d3e9dac2833aa51f4aaa817d40e1913a8",
+      "width": 768,
+      "height": 1662,
+      "bytes": 39982
+    },
+    {
+      "locale": "es",
+      "file": "es/01-month.webp",
+      "source": "es/iPhone/02.png",
+      "sourceSha256": "64b1e5dfa6ee6453535d73613bb3ec176a79de508f2aec7affaaa8320f92b0bf",
+      "width": 768,
+      "height": 1662,
+      "bytes": 105804
+    },
+    {
+      "locale": "es",
+      "file": "es/02-google.webp",
+      "source": "es/iPhone/05.png",
+      "sourceSha256": "e345bfcdf102a1f3c003a80771e8518ab1b9f34a5bfc7785b92711f16f714055",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60492
+    },
+    {
+      "locale": "es",
+      "file": "es/03-share.webp",
+      "source": "es/iPhone/04.png",
+      "sourceSha256": "ef8bf36a2392fab38a5a25d147af4490ebe1ce68ea422d851d76c596a7098af7",
+      "width": 768,
+      "height": 1662,
+      "bytes": 49596
+    },
+    {
+      "locale": "es",
+      "file": "es/04-themes.webp",
+      "source": "es/iPhone/06.png",
+      "sourceSha256": "807c5a0632dedc718a474d17474b9156238b7c7ade214b0f8baebab95dbbe4bd",
+      "width": 768,
+      "height": 1662,
+      "bytes": 85972
+    },
+    {
+      "locale": "es",
+      "file": "es/05-widget.webp",
+      "source": "es/iPhone/03.png",
+      "sourceSha256": "5b7f6ab848a876c9d701ffefa55ebd17cbe939076d21bb5137b7c80732d76d85",
+      "width": 768,
+      "height": 1662,
+      "bytes": 69224
+    },
+    {
+      "locale": "es",
+      "file": "es/cover-left.webp",
+      "source": "es/iPhone/01.png",
+      "sourceSha256": "febbb9e411888defe6cba0d2f45ba4c39266eeea0e03918991f16037327ad280",
+      "width": 768,
+      "height": 1662,
+      "bytes": 43066
+    },
+    {
+      "locale": "fr",
+      "file": "fr/01-month.webp",
+      "source": "fr/iPhone/02.png",
+      "sourceSha256": "ac02bb97b6d00703b7078468af62b64f3bd59b2e638980dca19672e6d3aad56d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 105178
+    },
+    {
+      "locale": "fr",
+      "file": "fr/02-google.webp",
+      "source": "fr/iPhone/05.png",
+      "sourceSha256": "f8223f4095a16469fecd6684dd3eb5729448c68bf25f2bd607e29754b14eb90e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60632
+    },
+    {
+      "locale": "fr",
+      "file": "fr/03-share.webp",
+      "source": "fr/iPhone/04.png",
+      "sourceSha256": "361bd9701ce89a0312f25789e3ca67dd9a20ae487bf8b518d2dff2cd0dff4c5a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47514
+    },
+    {
+      "locale": "fr",
+      "file": "fr/04-themes.webp",
+      "source": "fr/iPhone/06.png",
+      "sourceSha256": "2296eb902197a62b6f52d0bf5c7fc1edf00b06ba33c32a317ed4adb54d22ed20",
+      "width": 768,
+      "height": 1662,
+      "bytes": 87368
+    },
+    {
+      "locale": "fr",
+      "file": "fr/05-widget.webp",
+      "source": "fr/iPhone/03.png",
+      "sourceSha256": "84bec590fe9eef82dd61a83976c4f157a47e54abdd5c88994a33138f21fcbf13",
+      "width": 768,
+      "height": 1662,
+      "bytes": 71836
+    },
+    {
+      "locale": "fr",
+      "file": "fr/cover-left.webp",
+      "source": "fr/iPhone/01.png",
+      "sourceSha256": "08e479082e6f2e6c212acb64d7065ff636f306eb479397788872a3fcf48c5314",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41288
+    },
+    {
+      "locale": "hu",
+      "file": "hu/01-month.webp",
+      "source": "hu/iPhone/02.png",
+      "sourceSha256": "b3b1856f7a34e481819d2c6c6d189e587324f87ff67b87bea968be6e40245e28",
+      "width": 768,
+      "height": 1662,
+      "bytes": 103188
+    },
+    {
+      "locale": "hu",
+      "file": "hu/02-google.webp",
+      "source": "hu/iPhone/05.png",
+      "sourceSha256": "98fd364a591257ef722c0376829a477689fe34cc3cb9b93d2f76883e5ddc3712",
+      "width": 768,
+      "height": 1662,
+      "bytes": 61696
+    },
+    {
+      "locale": "hu",
+      "file": "hu/03-share.webp",
+      "source": "hu/iPhone/04.png",
+      "sourceSha256": "4a1023c1b41217c81f51d018fb0a0c19870aff64c15d6ea64ec6f7a8a18f4cec",
+      "width": 768,
+      "height": 1662,
+      "bytes": 48498
+    },
+    {
+      "locale": "hu",
+      "file": "hu/04-themes.webp",
+      "source": "hu/iPhone/06.png",
+      "sourceSha256": "e3289ed111ff80e7493637dc41e5ed3043e788e35a6056cd46d8cfd91c7d2fd8",
+      "width": 768,
+      "height": 1662,
+      "bytes": 82818
+    },
+    {
+      "locale": "hu",
+      "file": "hu/05-widget.webp",
+      "source": "hu/iPhone/03.png",
+      "sourceSha256": "74f29f6cd6cb910164bdca76d5264f8dcb5219a8e22bb808d87a9121651d9984",
+      "width": 768,
+      "height": 1662,
+      "bytes": 72964
+    },
+    {
+      "locale": "hu",
+      "file": "hu/cover-left.webp",
+      "source": "hu/iPhone/01.png",
+      "sourceSha256": "86c19dcb550a909500644aa36b4159d40361b34a50b2ef56ff756c9357b34ff2",
+      "width": 768,
+      "height": 1662,
+      "bytes": 40632
+    },
+    {
+      "locale": "id",
+      "file": "id/01-month.webp",
+      "source": "id/iPhone/02.png",
+      "sourceSha256": "390114047fef84ff981f73a744fa8243322271047182840c035b06fe5ed40c20",
+      "width": 768,
+      "height": 1662,
+      "bytes": 103826
+    },
+    {
+      "locale": "id",
+      "file": "id/02-google.webp",
+      "source": "id/iPhone/05.png",
+      "sourceSha256": "5a05baf6ec695616b3a033552165f65ac6a923167c03d0b8b11cef65105ac074",
+      "width": 768,
+      "height": 1662,
+      "bytes": 59440
+    },
+    {
+      "locale": "id",
+      "file": "id/03-share.webp",
+      "source": "id/iPhone/04.png",
+      "sourceSha256": "0bffb28be7cc62f42ffe58e79e66233d55f5493bcc947444971e192b0282130a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 47784
+    },
+    {
+      "locale": "id",
+      "file": "id/04-themes.webp",
+      "source": "id/iPhone/06.png",
+      "sourceSha256": "3168eb74e974741309ed6547e066e779cafb1b79d359dfea5070908f1a263b42",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86694
+    },
+    {
+      "locale": "id",
+      "file": "id/05-widget.webp",
+      "source": "id/iPhone/03.png",
+      "sourceSha256": "d32d042ffdf9f86fa7bde6b09e50790b469799af23002918569ce5eb6b4d6342",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67782
+    },
+    {
+      "locale": "id",
+      "file": "id/cover-left.webp",
+      "source": "id/iPhone/01.png",
+      "sourceSha256": "55a685844bc4a2b10f3a0a7b1106f2d1107bda5020455711176e9a4ae5fe2e48",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41406
+    },
+    {
+      "locale": "it",
+      "file": "it/01-month.webp",
+      "source": "it/iPhone/02.png",
+      "sourceSha256": "be8b0db6a7dfb648dbffd591bcd330cf092840f5583609834da32806e399433a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 103156
+    },
+    {
+      "locale": "it",
+      "file": "it/02-google.webp",
+      "source": "it/iPhone/05.png",
+      "sourceSha256": "0e3be9bcaf034e945d73c9b689c982edb8c5e2ef5157cd4374e68a58f545189a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60442
+    },
+    {
+      "locale": "it",
+      "file": "it/03-share.webp",
+      "source": "it/iPhone/04.png",
+      "sourceSha256": "96d07863682c529c0e42e7731a74ce2cf84fdc12da51128f4c20030998dd7886",
+      "width": 768,
+      "height": 1662,
+      "bytes": 45618
+    },
+    {
+      "locale": "it",
+      "file": "it/04-themes.webp",
+      "source": "it/iPhone/06.png",
+      "sourceSha256": "9c3f9574caa542cb8c84f4bb2858fefa0530db7eb0c588a492f06f47ec36e46f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83812
+    },
+    {
+      "locale": "it",
+      "file": "it/05-widget.webp",
+      "source": "it/iPhone/03.png",
+      "sourceSha256": "39a6505dfb0c294e70f88d604a90bd3247cf16e0266ecda3c53c68eaf504ca83",
+      "width": 768,
+      "height": 1662,
+      "bytes": 69934
+    },
+    {
+      "locale": "it",
+      "file": "it/cover-left.webp",
+      "source": "it/iPhone/01.png",
+      "sourceSha256": "b082fd1245c73c2aef021993557ffc0e1625a0bfb0834a0a4f5b6da0673118ad",
+      "width": 768,
+      "height": 1662,
+      "bytes": 42682
+    },
+    {
+      "locale": "ko",
+      "file": "ko/01-month.webp",
+      "source": "ko/iPhone/02.png",
+      "sourceSha256": "aaa82f661c9cc26c9bcfcfd6d9f46f77c4350f6aa5e77f0c7421109af1dfc452",
+      "width": 768,
+      "height": 1662,
+      "bytes": 95334
+    },
+    {
+      "locale": "ko",
+      "file": "ko/02-google.webp",
+      "source": "ko/iPhone/05.png",
+      "sourceSha256": "069972369eadaee801118f17b5a2a6bdc4abf9fb495161c89c598d522e893ef3",
+      "width": 768,
+      "height": 1662,
+      "bytes": 55402
+    },
+    {
+      "locale": "ko",
+      "file": "ko/03-share.webp",
+      "source": "ko/iPhone/04.png",
+      "sourceSha256": "11bf2efe6197df123406d31dd514858a9f23118315d0511b8f155fdfec8b224b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41076
+    },
+    {
+      "locale": "ko",
+      "file": "ko/04-themes.webp",
+      "source": "ko/iPhone/06.png",
+      "sourceSha256": "116dd07211e17f8e6417b6e39302edc6eb20e755e1aebb8a8c8e3cc714a63a58",
+      "width": 768,
+      "height": 1662,
+      "bytes": 80266
+    },
+    {
+      "locale": "ko",
+      "file": "ko/05-widget.webp",
+      "source": "ko/iPhone/03.png",
+      "sourceSha256": "9442fba12d2ef793f338439b4dac816230452b68e33fdee1ce51759c1b830c63",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60934
+    },
+    {
+      "locale": "ko",
+      "file": "ko/cover-left.webp",
+      "source": "ko/iPhone/01.png",
+      "sourceSha256": "b7b8a88fdbb4a5f37f91c7d172fd32c473f1159f5e4f7a72f9a4639260b9b2fa",
+      "width": 768,
+      "height": 1662,
+      "bytes": 35514
+    },
+    {
+      "locale": "ms",
+      "file": "ms/01-month.webp",
+      "source": "ms/iPhone/02.png",
+      "sourceSha256": "e589de8749b08dc64587164efec1e432442641470f2016760312cff67e0b8b5c",
+      "width": 768,
+      "height": 1662,
+      "bytes": 106074
+    },
+    {
+      "locale": "ms",
+      "file": "ms/02-google.webp",
+      "source": "ms/iPhone/05.png",
+      "sourceSha256": "d497064985a02f58de58ab9ae17899671c49b4bedfab806ae06ba0b4d779dd4b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60848
+    },
+    {
+      "locale": "ms",
+      "file": "ms/03-share.webp",
+      "source": "ms/iPhone/04.png",
+      "sourceSha256": "2ce05ef4d041f90e5fe9c05d1d20e41ceb349350acd51ae3e8b5157450169bc7",
+      "width": 768,
+      "height": 1662,
+      "bytes": 46180
+    },
+    {
+      "locale": "ms",
+      "file": "ms/04-themes.webp",
+      "source": "ms/iPhone/06.png",
+      "sourceSha256": "0b09dc13d40b08c0bfba86119284e26244fda179a6f4b58e06dc8866e047844d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 86888
+    },
+    {
+      "locale": "ms",
+      "file": "ms/05-widget.webp",
+      "source": "ms/iPhone/03.png",
+      "sourceSha256": "5478f7a63f4817f48666080fc567331b7f4394d4a98cc66c34893cee703e2af1",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67936
+    },
+    {
+      "locale": "ms",
+      "file": "ms/cover-left.webp",
+      "source": "ms/iPhone/01.png",
+      "sourceSha256": "7a55b5a5fcf248fda35eeb77d97a08e49056137e955204f6f859a3b33ae299c9",
+      "width": 768,
+      "height": 1662,
+      "bytes": 42212
+    },
+    {
+      "locale": "nb",
+      "file": "nb/01-month.webp",
+      "source": "nb/iPhone/02.png",
+      "sourceSha256": "f741fc4d566416b2009983b814f1e22a2c7532b86e522fb6292e532d48629de8",
+      "width": 768,
+      "height": 1662,
+      "bytes": 99484
+    },
+    {
+      "locale": "nb",
+      "file": "nb/02-google.webp",
+      "source": "nb/iPhone/05.png",
+      "sourceSha256": "7ab843de8aaa1558520e32db1f28d97edbd668c05bc726b6034f4574e728faa4",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58756
+    },
+    {
+      "locale": "nb",
+      "file": "nb/03-share.webp",
+      "source": "nb/iPhone/04.png",
+      "sourceSha256": "cef11e4ed21fb6b3c4df950151c440a25da54668b378764623864fd1723886fb",
+      "width": 768,
+      "height": 1662,
+      "bytes": 44518
+    },
+    {
+      "locale": "nb",
+      "file": "nb/04-themes.webp",
+      "source": "nb/iPhone/06.png",
+      "sourceSha256": "ba10cd5c9aac0b9ca36d69059e82dbddd0094dfaafdaaa7fdf57aee174190c48",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83280
+    },
+    {
+      "locale": "nb",
+      "file": "nb/05-widget.webp",
+      "source": "nb/iPhone/03.png",
+      "sourceSha256": "99fbc72b01772d99ab9ce29b02235ce1c33f0f3edceaa0d395941bc70a2382ac",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67976
+    },
+    {
+      "locale": "nb",
+      "file": "nb/cover-left.webp",
+      "source": "nb/iPhone/01.png",
+      "sourceSha256": "adb9f8262449389dd931058441c53569b56c2ccdeb1784573655b7c5228d7545",
+      "width": 768,
+      "height": 1662,
+      "bytes": 40128
+    },
+    {
+      "locale": "nl",
+      "file": "nl/01-month.webp",
+      "source": "nl/iPhone/02.png",
+      "sourceSha256": "070ea4fb1d8970520aa3687beb9e70447331f816c47920267d56031d67169c1f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 105082
+    },
+    {
+      "locale": "nl",
+      "file": "nl/02-google.webp",
+      "source": "nl/iPhone/05.png",
+      "sourceSha256": "0e6660d1e52d7f21bd2ef3944bcc44ac64270915234d21fa22e8461207e1b12e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 62572
+    },
+    {
+      "locale": "nl",
+      "file": "nl/03-share.webp",
+      "source": "nl/iPhone/04.png",
+      "sourceSha256": "8bf8be88c065ef2f40e4b1b9fecf0cf8840021af3740947ffdef5bb8efd1e0f9",
+      "width": 768,
+      "height": 1662,
+      "bytes": 44108
+    },
+    {
+      "locale": "nl",
+      "file": "nl/04-themes.webp",
+      "source": "nl/iPhone/06.png",
+      "sourceSha256": "debca9c9c5a772437e839e91439c4661d5e18baffef8d9de6e636347b656c580",
+      "width": 768,
+      "height": 1662,
+      "bytes": 84238
+    },
+    {
+      "locale": "nl",
+      "file": "nl/05-widget.webp",
+      "source": "nl/iPhone/03.png",
+      "sourceSha256": "2dc1660861cabb94e8054406fca64425bb38d25de67c7bc94bf48ec9e82f0b55",
+      "width": 768,
+      "height": 1662,
+      "bytes": 70156
+    },
+    {
+      "locale": "nl",
+      "file": "nl/cover-left.webp",
+      "source": "nl/iPhone/01.png",
+      "sourceSha256": "d3682abedf2cdca2c7a177ef4edb085cc3739a7277487a254241947cd52665ac",
+      "width": 768,
+      "height": 1662,
+      "bytes": 43300
+    },
+    {
+      "locale": "pl",
+      "file": "pl/01-month.webp",
+      "source": "pl/iPhone/02.png",
+      "sourceSha256": "a26b2a7d2bbab4e2d99c7d7f4930d274493a60f176e82a228f021792e60df7b8",
+      "width": 768,
+      "height": 1662,
+      "bytes": 100912
+    },
+    {
+      "locale": "pl",
+      "file": "pl/02-google.webp",
+      "source": "pl/iPhone/05.png",
+      "sourceSha256": "1d3f962844945aa53ac1bd6ea8f601dc4aabae73a40f2ef8a51fd3d8ac66f2af",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58332
+    },
+    {
+      "locale": "pl",
+      "file": "pl/03-share.webp",
+      "source": "pl/iPhone/04.png",
+      "sourceSha256": "45486ddb9f62c66f431b32877b4494bfbfbcb187603a1441842c7f0dbd9b0ede",
+      "width": 768,
+      "height": 1662,
+      "bytes": 48312
+    },
+    {
+      "locale": "pl",
+      "file": "pl/04-themes.webp",
+      "source": "pl/iPhone/06.png",
+      "sourceSha256": "797821ef8adb1e8e11b94000e69816807a83deca9e9d93c63052971ce1a5c430",
+      "width": 768,
+      "height": 1662,
+      "bytes": 84798
+    },
+    {
+      "locale": "pl",
+      "file": "pl/05-widget.webp",
+      "source": "pl/iPhone/03.png",
+      "sourceSha256": "4bb52175ef3ed913fd04818c418dda3143a9a91034ea16e4c2ed24defb642e22",
+      "width": 768,
+      "height": 1662,
+      "bytes": 71666
+    },
+    {
+      "locale": "pl",
+      "file": "pl/cover-left.webp",
+      "source": "pl/iPhone/01.png",
+      "sourceSha256": "997cd46a3a7ed09fdc8c277aee4b236954cde92b5da5dde3ebead7634f53ce3e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 43230
+    },
+    {
+      "locale": "pt",
+      "file": "pt/01-month.webp",
+      "source": "pt/iPhone/02.png",
+      "sourceSha256": "26aa6eefa32570ef8607bcd8ca6185fe58582bf61b2ba595392626393a65c918",
+      "width": 768,
+      "height": 1662,
+      "bytes": 107492
+    },
+    {
+      "locale": "pt",
+      "file": "pt/02-google.webp",
+      "source": "pt/iPhone/05.png",
+      "sourceSha256": "059be8d127e3fafc698f1e34286430323a2a8a35b39834dc002003683afdb557",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60656
+    },
+    {
+      "locale": "pt",
+      "file": "pt/03-share.webp",
+      "source": "pt/iPhone/04.png",
+      "sourceSha256": "404ad1193afd2a6f324dd6934c69d47e7abf19b0fe1949c55607c8c175bb2c3b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 48314
+    },
+    {
+      "locale": "pt",
+      "file": "pt/04-themes.webp",
+      "source": "pt/iPhone/06.png",
+      "sourceSha256": "805074113bf931475558464eae957e877ec30eabf6f17bd7cd56662ffa4e53d5",
+      "width": 768,
+      "height": 1662,
+      "bytes": 87838
+    },
+    {
+      "locale": "pt",
+      "file": "pt/05-widget.webp",
+      "source": "pt/iPhone/03.png",
+      "sourceSha256": "f64ca1a86129ab34da9938376ca6afb04e285edbd8f6ccef1753fb7287662662",
+      "width": 768,
+      "height": 1662,
+      "bytes": 68302
+    },
+    {
+      "locale": "pt",
+      "file": "pt/cover-left.webp",
+      "source": "pt/iPhone/01.png",
+      "sourceSha256": "843c21deed9dd551e0ad6c7b788c694d588d67274fef75443a3dbcc9536a22b1",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41802
+    },
+    {
+      "locale": "ru",
+      "file": "ru/01-month.webp",
+      "source": "ru/iPhone/02.png",
+      "sourceSha256": "bb6ab8bd735816ab3063533929f98540af09ef99dfb4225546ca1edc2a32bc5f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 101488
+    },
+    {
+      "locale": "ru",
+      "file": "ru/02-google.webp",
+      "source": "ru/iPhone/05.png",
+      "sourceSha256": "2003d83f62f78867ea048f7ec83f5b603ca29c1ea9904f916224f248a7f676ee",
+      "width": 768,
+      "height": 1662,
+      "bytes": 59000
+    },
+    {
+      "locale": "ru",
+      "file": "ru/03-share.webp",
+      "source": "ru/iPhone/04.png",
+      "sourceSha256": "dccc0c4a965d4eab88bd385398edfd9e2e453ace095f158e53ea4606b7ee612b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 46488
+    },
+    {
+      "locale": "ru",
+      "file": "ru/04-themes.webp",
+      "source": "ru/iPhone/06.png",
+      "sourceSha256": "5cfd3de7fd6eddbaf52d7fa592bf8037882828166305926a55f9c5a7dc3dcaf7",
+      "width": 768,
+      "height": 1662,
+      "bytes": 82206
+    },
+    {
+      "locale": "ru",
+      "file": "ru/05-widget.webp",
+      "source": "ru/iPhone/03.png",
+      "sourceSha256": "0193624d520da635e0a2c455773a23135d927a44c62271202ffbbc52e185cfd4",
+      "width": 768,
+      "height": 1662,
+      "bytes": 68180
+    },
+    {
+      "locale": "ru",
+      "file": "ru/cover-left.webp",
+      "source": "ru/iPhone/01.png",
+      "sourceSha256": "27a2e8d0ccd2876c36de0296e715b750bfdfaaf4a3c655fb98e129a4cda70968",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41236
+    },
+    {
+      "locale": "sv",
+      "file": "sv/01-month.webp",
+      "source": "sv/iPhone/02.png",
+      "sourceSha256": "3bf57a20d7a5bd3f94307ee30cd64fd158129c639eab21e2e85d075d37408e2e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 101590
+    },
+    {
+      "locale": "sv",
+      "file": "sv/02-google.webp",
+      "source": "sv/iPhone/05.png",
+      "sourceSha256": "ac093aee3bfcabbd2f20110fe52b536014074e5a6ab92bedad8bab74d068705e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58686
+    },
+    {
+      "locale": "sv",
+      "file": "sv/03-share.webp",
+      "source": "sv/iPhone/04.png",
+      "sourceSha256": "69db7eb8ef613c514697b8fe923c306c4c375faed4d0547631239ea09c575f9b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 45850
+    },
+    {
+      "locale": "sv",
+      "file": "sv/04-themes.webp",
+      "source": "sv/iPhone/06.png",
+      "sourceSha256": "681fddd3ae7280f298d646d46bd9ae7cfec90e3e1420cfe995f93e179fd9114c",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83214
+    },
+    {
+      "locale": "sv",
+      "file": "sv/05-widget.webp",
+      "source": "sv/iPhone/03.png",
+      "sourceSha256": "7c51eaa59e381c3cdeaf714b35fc480c20896e14aebab36f9bfbff7f66982fb4",
+      "width": 768,
+      "height": 1662,
+      "bytes": 66700
+    },
+    {
+      "locale": "sv",
+      "file": "sv/cover-left.webp",
+      "source": "sv/iPhone/01.png",
+      "sourceSha256": "0a04e305a21dc5a98c97f5b1340ff6b89324b4780bbf9ec738dae8d9c57774a1",
+      "width": 768,
+      "height": 1662,
+      "bytes": 42370
+    },
+    {
+      "locale": "th",
+      "file": "th/01-month.webp",
+      "source": "th/iPhone/02.png",
+      "sourceSha256": "613ec9bc21b5bf897bceb6117f842df6d2b3c08268bad9c3105d7e1a7258eafc",
+      "width": 768,
+      "height": 1662,
+      "bytes": 102762
+    },
+    {
+      "locale": "th",
+      "file": "th/02-google.webp",
+      "source": "th/iPhone/05.png",
+      "sourceSha256": "38ab1a89097c9ecadd1b4d1d3cf7969b3a1fff9552fd1373230ff9c72607f1cf",
+      "width": 768,
+      "height": 1662,
+      "bytes": 56830
+    },
+    {
+      "locale": "th",
+      "file": "th/03-share.webp",
+      "source": "th/iPhone/04.png",
+      "sourceSha256": "d491e32abd23944fb9991e72b63d41de09f20e3f16f4b6be9abc7b34138809bf",
+      "width": 768,
+      "height": 1662,
+      "bytes": 43232
+    },
+    {
+      "locale": "th",
+      "file": "th/04-themes.webp",
+      "source": "th/iPhone/06.png",
+      "sourceSha256": "24e227d39d0f99edb4982128313845b8f5c65adc56860b693042271e2284ef32",
+      "width": 768,
+      "height": 1662,
+      "bytes": 82752
+    },
+    {
+      "locale": "th",
+      "file": "th/05-widget.webp",
+      "source": "th/iPhone/03.png",
+      "sourceSha256": "8999cd19ee4fef5ee92577b386e6706db84635d0bbf080cb1de047a03b3f770f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58734
+    },
+    {
+      "locale": "th",
+      "file": "th/cover-left.webp",
+      "source": "th/iPhone/01.png",
+      "sourceSha256": "ef5e0ff83fc27777ff304e17df65678f15be17c704e565ca0ea82e053068ad3f",
+      "width": 768,
+      "height": 1662,
+      "bytes": 39332
+    },
+    {
+      "locale": "vi",
+      "file": "vi/01-month.webp",
+      "source": "vi/iPhone/02.png",
+      "sourceSha256": "657d2f86328e16e52105e9d4c6aa613e031e4d7056a412d174fa705118f5a0fb",
+      "width": 768,
+      "height": 1662,
+      "bytes": 102004
+    },
+    {
+      "locale": "vi",
+      "file": "vi/02-google.webp",
+      "source": "vi/iPhone/05.png",
+      "sourceSha256": "2e2e84b781a153d0e0d889af1aa860708fbaab047854cd3c6270424e024051fd",
+      "width": 768,
+      "height": 1662,
+      "bytes": 58750
+    },
+    {
+      "locale": "vi",
+      "file": "vi/03-share.webp",
+      "source": "vi/iPhone/04.png",
+      "sourceSha256": "06f19c4488700bb4f52a0cfca8178388f55f100b6751a36f15de7128bfc4b82b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 46390
+    },
+    {
+      "locale": "vi",
+      "file": "vi/04-themes.webp",
+      "source": "vi/iPhone/06.png",
+      "sourceSha256": "954da4042b3da6550f42cb838aec41c8f17bdc2a63c779d1a0b2d6f6aa57bd21",
+      "width": 768,
+      "height": 1662,
+      "bytes": 85912
+    },
+    {
+      "locale": "vi",
+      "file": "vi/05-widget.webp",
+      "source": "vi/iPhone/03.png",
+      "sourceSha256": "d2e298494c483523ccc4b3802ba9ebe31db6573971449860b52814ed57dd0181",
+      "width": 768,
+      "height": 1662,
+      "bytes": 67964
+    },
+    {
+      "locale": "vi",
+      "file": "vi/cover-left.webp",
+      "source": "vi/iPhone/01.png",
+      "sourceSha256": "940cddfe2af6c63bf970cdb3a6fb128c412eb50a9eeef9bfde991560238afbf3",
+      "width": 768,
+      "height": 1662,
+      "bytes": 40156
+    },
+    {
+      "locale": "zh",
+      "file": "zh/01-month.webp",
+      "source": "zh/iPhone/02.png",
+      "sourceSha256": "5df71765ed3df61998548763ab25e40815859ae1700717875d14f7cf5b4ab60e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 99888
+    },
+    {
+      "locale": "zh",
+      "file": "zh/02-google.webp",
+      "source": "zh/iPhone/05.png",
+      "sourceSha256": "daa98f19675faf8d035717f991e02e800e49408c0c3312bb4055dae5bab26726",
+      "width": 768,
+      "height": 1662,
+      "bytes": 56634
+    },
+    {
+      "locale": "zh",
+      "file": "zh/03-share.webp",
+      "source": "zh/iPhone/04.png",
+      "sourceSha256": "32740466c2187317db2f4904e8df44cd114180b86ce33f105bc857ab94695f19",
+      "width": 768,
+      "height": 1662,
+      "bytes": 39906
+    },
+    {
+      "locale": "zh",
+      "file": "zh/04-themes.webp",
+      "source": "zh/iPhone/06.png",
+      "sourceSha256": "d0739afc5bc156f2e0633ce2f003ea9237ffae8873b3252d334c9f44d133a06b",
+      "width": 768,
+      "height": 1662,
+      "bytes": 82432
+    },
+    {
+      "locale": "zh",
+      "file": "zh/05-widget.webp",
+      "source": "zh/iPhone/03.png",
+      "sourceSha256": "9d2069e723793d8603677465fd0a1d0ee4882fa614a1a54feb8474417f14b1ce",
+      "width": 768,
+      "height": 1662,
+      "bytes": 62080
+    },
+    {
+      "locale": "zh",
+      "file": "zh/cover-left.webp",
+      "source": "zh/iPhone/01.png",
+      "sourceSha256": "77f0a20b889426580d4f07ad8c907d9c83cec3336cb220e8c3e32b2859301c1d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 37648
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/01-month.webp",
+      "source": "zh-Hant-HK/iPhone/02.png",
+      "sourceSha256": "a777cff749cf86d51182b49225bb85b975f44e9a0151d05b6e8a60bcb1fc292a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 101262
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/02-google.webp",
+      "source": "zh-Hant-HK/iPhone/05.png",
+      "sourceSha256": "07d8b8760a7f6c1f8b829c7cbb427a8680ca22dd31268d65f638b8fb12be18bc",
+      "width": 768,
+      "height": 1662,
+      "bytes": 56890
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/03-share.webp",
+      "source": "zh-Hant-HK/iPhone/04.png",
+      "sourceSha256": "9a2170eb8c9aa719208eb850b2b445e0ecd971b5244dc955b0fe6503e90ad57d",
+      "width": 768,
+      "height": 1662,
+      "bytes": 42602
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/04-themes.webp",
+      "source": "zh-Hant-HK/iPhone/06.png",
+      "sourceSha256": "f92217461d5f366180482cf2aa4b174e3d7664f2a1afa805270bf498252fe627",
+      "width": 768,
+      "height": 1662,
+      "bytes": 83246
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/05-widget.webp",
+      "source": "zh-Hant-HK/iPhone/03.png",
+      "sourceSha256": "abb44a66f5fd7618483c5b7754fb6f636d0d28815169858e072abb3bb9ed38e2",
+      "width": 768,
+      "height": 1662,
+      "bytes": 60560
+    },
+    {
+      "locale": "zh-Hant-HK",
+      "file": "zh-Hant-HK/cover-left.webp",
+      "source": "zh-Hant-HK/iPhone/01.png",
+      "sourceSha256": "6c5f0fe5547de6379f782984dbe36655b7d6edf89bc09f47bd5512393b2a9a7c",
+      "width": 768,
+      "height": 1662,
+      "bytes": 37700
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/01-month.webp",
+      "source": "zh-Hant-TW/iPhone/02.png",
+      "sourceSha256": "4b9c1945022dc62627ae1d6f61e00ac5b8efa07c35670d4ed2b0d9d52885f968",
+      "width": 768,
+      "height": 1662,
+      "bytes": 95032
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/02-google.webp",
+      "source": "zh-Hant-TW/iPhone/05.png",
+      "sourceSha256": "dded79d0499482ded399836eb72c9fb5a97aa17b9b23f40caf6d7e75dd8bd51e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 57160
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/03-share.webp",
+      "source": "zh-Hant-TW/iPhone/04.png",
+      "sourceSha256": "92a743bc21c7dc0430437294e821fe67e79f56a08da6e885ff0f2d4d2ec41103",
+      "width": 768,
+      "height": 1662,
+      "bytes": 41762
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/04-themes.webp",
+      "source": "zh-Hant-TW/iPhone/06.png",
+      "sourceSha256": "12f37f2a616d4ef1dfd519d34eb930d1b524a3e54d7c7a4d85c7826b4b3d849a",
+      "width": 768,
+      "height": 1662,
+      "bytes": 81922
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/05-widget.webp",
+      "source": "zh-Hant-TW/iPhone/03.png",
+      "sourceSha256": "873dfe10033aa80ef1bbe1b3bf53c46204408c7934c25a5914ab1f11763b262c",
+      "width": 768,
+      "height": 1662,
+      "bytes": 59276
+    },
+    {
+      "locale": "zh-Hant-TW",
+      "file": "zh-Hant-TW/cover-left.webp",
+      "source": "zh-Hant-TW/iPhone/01.png",
+      "sourceSha256": "2b043d6d43fa7b8c4f63f724fa742edce8e078f1c62260d23817b3472d51c27e",
+      "width": 768,
+      "height": 1662,
+      "bytes": 38810
+    }
+  ]
+}
